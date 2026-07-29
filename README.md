@@ -4,9 +4,9 @@ Bem-vindo ao repositório oficial de distribuições e instaladores do **AI Brid
 
 ---
 
-## 📥 Download da Última Versão: `v2.0.2`
+## 📥 Download da Última Versão: `v2.0.3`
 
-- 📦 **Instalador Oficial para Windows**: [Baixar AI-Bridge-Setup-v2.0.2.exe](https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.0.2.exe)
+- 📦 **Instalador Oficial para Windows**: [Baixar AI-Bridge-Setup-v2.0.3.exe](https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.0.3.exe)
 
 *(Nota: Para garantir a correta configuração dos serviços e atalhos, utilize exclusivamente o instalador oficial acima).*
 
@@ -14,7 +14,7 @@ Bem-vindo ao repositório oficial de distribuições e instaladores do **AI Brid
 
 ## 💻 Instruções de Instalação no Windows
 
-1. Baixe o instalador [`AI-Bridge-Setup-v2.0.2.exe`](https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.0.2.exe).
+1. Baixe o instalador [`AI-Bridge-Setup-v2.0.3.exe`](https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.0.3.exe).
 2. Execute o arquivo baixado como **Administrador**.
 3. Siga o assistente de instalação para concluir a configuração do AI Bridge e do serviço de auto-atualizações em segundo plano.
 4. Inicie o sistema através do atalho criado na Área de Trabalho ou menu Iniciar.
@@ -26,8 +26,8 @@ Bem-vindo ao repositório oficial de distribuições e instaladores do **AI Brid
 Para visualizar o histórico completo de notas de release, correções e novas funcionalidades, acesse:
 📄 [Visualizar UPDATES.md (Histórico Completo)](UPDATES.md)
 
-### 🌟 Notas do Release v2.0.2:
-Release v2.0.2 - Incluindo certificado digital AIBridgeDevCert.crt nos assets de download da release
+### 🌟 Notas do Release v2.0.3:
+Release v2.0.3 - Interface Grafica Wails v2 no app principal e atualizador, correcao de terminal em background e icones oficiais nos executaveis e instalador
 
 ---
 

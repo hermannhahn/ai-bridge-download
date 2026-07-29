@@ -5,6 +5,23 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.0.3
+* **Release CLI (PATCH):**
+  - Release v2.0.3 - Interface Grafica Wails v2 no app principal e atualizador, correcao de terminal em background e icones oficiais nos executaveis e instalador
+
+---
+
+## Release - v2.0.3
+* **Correções e Interface Gráfica (GUI):**
+  - Implementação da interface Wails v2 no aplicativo principal (`ai-bridge.exe`) impedindo abertura de janela de terminal.
+  - Desenvolvimento de interface gráfica interativa para o auto-atualizador (`updater.exe`) com barra de progresso e estatísticas de versão.
+  - Adicionadas flags `-ldflags="-w -s -H windowsgui"` em todas as compilações para Windows em `cli/cli.js`.
+  - Incorporação do ícone oficial da logo do AI Bridge (`neuraltools.png`) nos recursos nativos do Windows (`.syso`) para `ai-bridge.exe` e `updater.exe`.
+  - Validação do Inno Setup Installer (`setup.iss`) com ícone personalizado (`SetupIconFile`) para garantia de assistente gráfico de instalação.
+
+---
+
+
 ## Release - v2.0.2
 * **Release CLI (PATCH):**
   - Release v2.0.2 - Incluindo certificado digital AIBridgeDevCert.crt nos assets de download da release
