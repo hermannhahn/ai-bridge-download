@@ -5,6 +5,20 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.0.11
+* **Release CLI (PATCH):**
+  - Release v2.0.11 - Adiciona flag -tags desktop na compilacao Go do Wails v2 para eliminar caixa de dialogo de aviso de build stubs
+
+---
+
+## Release - v2.0.11
+* **Correção das Build Tags do Wails v2 (`-tags desktop`):**
+  - Adicionada a flag `-tags desktop` na compilação Go dos executáveis (`ai-bridge.exe` e `updater.exe`).
+  - Eliminado a mensagem/diálogo de aviso de stubs do Wails ao iniciar a aplicação.
+
+---
+
+
 ## Release - v2.0.10
 * **Release CLI (PATCH):**
   - Release v2.0.10 - User-Agent Mozilla/5.0 para downloads do GitHub e pausa de janela em caso de excecoes
