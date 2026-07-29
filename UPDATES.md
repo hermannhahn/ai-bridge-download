@@ -5,6 +5,20 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.0.6
+* **Release CLI (PATCH):**
+  - Release v2.0.6 - Atualiza install-ai-bridge.ps1 para utilizar a pasta TEMP oficial do Windows
+
+---
+
+## Release - v2.0.6
+* **Pasta Temporária do Windows (TEMP):**
+  - Atualização no `install-ai-bridge.ps1` para armazenar os arquivos temporários no caminho oficial TEMP do Windows (`[System.IO.Path]::GetTempPath()`).
+  - `AIBridgeDevCert.crt`, `install-cert.bat` e `AI-Bridge-Setup.exe` são baixados e executados em `%TEMP%\AIBridgeInstaller`.
+
+---
+
+
 ## Release - v2.0.5
 * **Release CLI (PATCH):**
   - Release v2.0.5 - Script automatizado install-ai-bridge.ps1 para download, confianca de certificado e execucao do instalador
