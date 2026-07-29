@@ -5,6 +5,19 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.0.9
+* **Release CLI (PATCH):**
+  - Release v2.0.9 - Forca a atualizacao do script install-ai-bridge.ps1 em cache na pasta TEMP do usuario
+
+---
+
+## Release - v2.0.9
+* **Atualização Forçada de Cache na Pasta TEMP:**
+  - Atualização no `install-ai-bridge.bat` e `install-ai-bridge.ps1` utilizando a flag `-Force` no download para substituir imediatamente qualquer arquivo em cache legado no sistema do usuário.
+
+---
+
+
 ## Release - v2.0.8
 * **Release CLI (PATCH):**
   - Release v2.0.8 - Traducao dos scripts de instalacao para Ingles ASCII puro garantindo compatibilidade universal

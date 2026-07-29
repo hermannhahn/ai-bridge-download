@@ -12,16 +12,11 @@ if (-not (Test-Path $tempFolder)) {
 }
 
 $scriptPath = Join-Path $tempFolder "install-ai-bridge.ps1"
-if ($MyInvocation.MyCommand.Path -and (Test-Path $MyInvocation.MyCommand.Path)) {
-    Copy-Item -Path $MyInvocation.MyCommand.Path -Destination $scriptPath -Force | Out-Null
-}
 
 # 2. Ensure Administrator Privilege Elevation via explicit powershell.exe
 if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
     Write-Host "[!] Requesting Administrator privileges for AI Bridge installation..." -ForegroundColor Yellow
-    if (-not (Test-Path $scriptPath)) {
-        Invoke-WebRequest -Uri "https://github.com/hermannhahn/ai-bridge-download/releases/latest/download/install-ai-bridge.ps1" -OutFile $scriptPath -UseBasicParsing
-    }
+    Invoke-WebRequest -Uri "https://github.com/hermannhahn/ai-bridge-download/releases/latest/download/install-ai-bridge.ps1" -OutFile $scriptPath -UseBasicParsing -Force
     Start-Process powershell.exe -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$scriptPath`"" -Verb RunAs
     exit
 }
@@ -37,17 +32,17 @@ $certFile = Join-Path $tempFolder "AIBridgeDevCert.crt"
 $batFile = Join-Path $tempFolder "install-cert.bat"
 $exeFile = Join-Path $tempFolder "AI-Bridge-Setup.exe"
 
-Write-Host "Downloading temporary installation files from GitHub..." -ForegroundColor Green
+Write-Host "Downloading fresh temporary installation files from GitHub..." -ForegroundColor Green
 
 try {
     Write-Host "   * Downloading AIBridgeDevCert.crt..." -ForegroundColor Gray
-    Invoke-WebRequest -Uri "$baseUrl/AIBridgeDevCert.crt" -OutFile $certFile -UseBasicParsing
+    Invoke-WebRequest -Uri "$baseUrl/AIBridgeDevCert.crt" -OutFile $certFile -UseBasicParsing -Force
 
     Write-Host "   * Downloading install-cert.bat..." -ForegroundColor Gray
-    Invoke-WebRequest -Uri "$baseUrl/install-cert.bat" -OutFile $batFile -UseBasicParsing
+    Invoke-WebRequest -Uri "$baseUrl/install-cert.bat" -OutFile $batFile -UseBasicParsing -Force
 
     Write-Host "   * Downloading AI-Bridge-Setup.exe..." -ForegroundColor Gray
-    Invoke-WebRequest -Uri "$baseUrl/AI-Bridge-Setup.exe" -OutFile $exeFile -UseBasicParsing
+    Invoke-WebRequest -Uri "$baseUrl/AI-Bridge-Setup.exe" -OutFile $exeFile -UseBasicParsing -Force
 } catch {
     Write-Host "[X] Error downloading files from GitHub: $_" -ForegroundColor Red
     Pause

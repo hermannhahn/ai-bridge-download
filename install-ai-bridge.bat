@@ -13,13 +13,10 @@ echo.
 set TEMP_DIR=%TEMP%\AIBridgeInstaller
 if not exist "%TEMP_DIR%" mkdir "%TEMP_DIR%"
 
-set PS1_FILE=%~dp0install-ai-bridge.ps1
-if not exist "%PS1_FILE%" set PS1_FILE=%TEMP_DIR%\install-ai-bridge.ps1
+set PS1_FILE=%TEMP_DIR%\install-ai-bridge.ps1
 
-if not exist "%PS1_FILE%" (
-    echo Downloading installation script from GitHub...
-    powershell -NoProfile -ExecutionPolicy Bypass -Command "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Invoke-WebRequest -Uri 'https://github.com/hermannhahn/ai-bridge-download/releases/latest/download/install-ai-bridge.ps1' -OutFile '%PS1_FILE%' -UseBasicParsing"
-)
+echo Downloading fresh installation script from GitHub...
+powershell -NoProfile -ExecutionPolicy Bypass -Command "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Invoke-WebRequest -Uri 'https://github.com/hermannhahn/ai-bridge-download/releases/latest/download/install-ai-bridge.ps1' -OutFile '%PS1_FILE%' -UseBasicParsing"
 
 echo Executing script in PowerShell...
 powershell -NoProfile -ExecutionPolicy Bypass -File "%PS1_FILE%"
