@@ -2,8 +2,23 @@
 
 Neste arquivo constam as melhorias, correções e novas funcionalidades implementadas no **AI BRIDGE**.
 
+## Release - v2.0.13
+* **Gerenciamento de Token de Acesso ai-brain & Sincronização Dinâmica de IP Público:**
+  - Aba de Configurações reestruturada para exibir exclusivamente o campo do Token de Acesso do `ai-brain` (64 caracteres) com alternância de visibilidade (mostrar/ocultar).
+  - Removidos os campos legados de edição de banco de dados, porta e URLs do Ollama/WAHA, protegendo as configurações internas do sistema.
+  - Criado o serviço `BrainSyncService` em Go (`internal/services/brain_sync.go`) para detecção do IP público da máquina através de múltiplos provedores redundantes.
+  - Implementado envio automático via POST para `https://ai-brain.ddns.net/api/ai-bridge/update-url` com a URL `http://<IP_PUBLICO>:<PORTA>` e token do usuário.
+  - Implementada Goroutine em background para detecção contínua de alterações no IP público e reenvio automático.
+  - Movidos todos os arquivos residuais legados em Python e Docker (`app.py`, `Dockerfile`, `docker-compose.yml`, `init.sql`, `install.bat`, `install.sh`, `__pycache__`, `old/`) para o repositório `../old-ai-bridge`.
+
 ---
 
+
+## Release - v2.0.13
+* **Release CLI (PATCH):**
+  - Gerenciamento de token do ai-brain, atualizacao automatica de IP publico e remocao de arquivos legacy
+
+---
 
 ## Release - v2.0.12
 * **Release CLI (PATCH):**
