@@ -12,6 +12,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.1.9
+* **Release CLI (PATCH):**
+  - Fix: exibe apenas AI Bridge na lista de aplicativos e painel do Windows sem o numero da versao ao lado do nome
+
+---
+
+
 ## Release - v2.1.8
 * **Release CLI (PATCH):**
   - Fix: execucao oculta de janelas de script e finalizacao limpa do instalador sem autostart
