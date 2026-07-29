@@ -5,6 +5,20 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.0.8
+* **Release CLI (PATCH):**
+  - Release v2.0.8 - Traducao dos scripts de instalacao para Ingles ASCII puro garantindo compatibilidade universal
+
+---
+
+## Release - v2.0.8
+* **Compatibilidade Universal (Inglês ASCII):**
+  - Tradução de todas as mensagens e logs de console dos scripts (`install-ai-bridge.ps1`, `install-ai-bridge.bat`, `install-cert.bat`) para Inglês.
+  - Eliminação de qualquer caractere acentuado ou multibyte, garantindo 100% de compatibilidade e prevenção de erros de parser em qualquer codificação de terminal Windows (PowerShell 5.1/7.x).
+
+---
+
+
 ## Release - v2.0.7
 * **Release CLI (PATCH):**
   - Release v2.0.7 - Criacao do launcher install-ai-bridge.bat para execucao direta no PowerShell sem abrir no Bloco de Notas

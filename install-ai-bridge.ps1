@@ -1,9 +1,9 @@
 # ==============================================================================
-# AI Bridge - Script de Instalação Automatizada (install-ai-bridge.ps1)
+# AI Bridge - Automated Installation Script (install-ai-bridge.ps1)
 # ==============================================================================
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
-# 1. Definir e garantir pasta temporária oficial do Windows
+# 1. Define and ensure official Windows temporary directory
 $winTemp = [System.IO.Path]::GetTempPath()
 $tempFolder = Join-Path $winTemp "AIBridgeInstaller"
 
@@ -16,9 +16,9 @@ if ($MyInvocation.MyCommand.Path -and (Test-Path $MyInvocation.MyCommand.Path)) 
     Copy-Item -Path $MyInvocation.MyCommand.Path -Destination $scriptPath -Force | Out-Null
 }
 
-# 2. Garantir Elevação de Privilégios de Administrador via powershell.exe explícito
+# 2. Ensure Administrator Privilege Elevation via explicit powershell.exe
 if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
-    Write-Host "🔐 Elevando privilégios de Administrador para instalação do AI Bridge..." -ForegroundColor Yellow
+    Write-Host "[!] Requesting Administrator privileges for AI Bridge installation..." -ForegroundColor Yellow
     if (-not (Test-Path $scriptPath)) {
         Invoke-WebRequest -Uri "https://github.com/hermannhahn/ai-bridge-download/releases/latest/download/install-ai-bridge.ps1" -OutFile $scriptPath -UseBasicParsing
     }
@@ -27,42 +27,42 @@ if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
 }
 
 Write-Host "======================================================================" -ForegroundColor Cyan
-Write-Host "🚀 AI BRIDGE - INSTALADOR AUTOMATIZADO" -ForegroundColor Cyan
+Write-Host "AI BRIDGE - AUTOMATED INSTALLER" -ForegroundColor Cyan
 Write-Host "======================================================================" -ForegroundColor Cyan
 Write-Host ""
-Write-Host "📁 Pasta temporária de download: $tempFolder" -ForegroundColor Gray
+Write-Host "Temporary download folder: $tempFolder" -ForegroundColor Gray
 
 $baseUrl = "https://github.com/hermannhahn/ai-bridge-download/releases/latest/download"
 $certFile = Join-Path $tempFolder "AIBridgeDevCert.crt"
 $batFile = Join-Path $tempFolder "install-cert.bat"
 $exeFile = Join-Path $tempFolder "AI-Bridge-Setup.exe"
 
-Write-Host "📥 Baixando arquivos temporários para a pasta TEMP do Windows..." -ForegroundColor Green
+Write-Host "Downloading temporary installation files from GitHub..." -ForegroundColor Green
 
 try {
-    Write-Host "   • Baixando AIBridgeDevCert.crt..." -ForegroundColor Gray
+    Write-Host "   * Downloading AIBridgeDevCert.crt..." -ForegroundColor Gray
     Invoke-WebRequest -Uri "$baseUrl/AIBridgeDevCert.crt" -OutFile $certFile -UseBasicParsing
 
-    Write-Host "   • Baixando install-cert.bat..." -ForegroundColor Gray
+    Write-Host "   * Downloading install-cert.bat..." -ForegroundColor Gray
     Invoke-WebRequest -Uri "$baseUrl/install-cert.bat" -OutFile $batFile -UseBasicParsing
 
-    Write-Host "   • Baixando AI-Bridge-Setup.exe..." -ForegroundColor Gray
+    Write-Host "   * Downloading AI-Bridge-Setup.exe..." -ForegroundColor Gray
     Invoke-WebRequest -Uri "$baseUrl/AI-Bridge-Setup.exe" -OutFile $exeFile -UseBasicParsing
 } catch {
-    Write-Host "❌ Erro ao baixar arquivos temporários do GitHub: $_" -ForegroundColor Red
+    Write-Host "[X] Error downloading files from GitHub: $_" -ForegroundColor Red
     Pause
     exit 1
 }
 
-# 3. Executar o install-cert.bat a partir da pasta TEMP
+# 3. Execute install-cert.bat from TEMP directory
 Write-Host ""
-Write-Host "🔐 Instalando certificado digital nas autoridades confiáveis do Windows..." -ForegroundColor Yellow
+Write-Host "Installing digital certificate into Windows Trusted Authorities..." -ForegroundColor Yellow
 $proc = Start-Process -FilePath $batFile -WorkingDirectory $tempFolder -Wait -PassThru
 
-# 4. Iniciar o instalador oficial a partir da pasta TEMP
+# 4. Launch official installer from TEMP directory
 Write-Host ""
-Write-Host "🚀 Iniciando o instalador do AI Bridge a partir da pasta TEMP..." -ForegroundColor Green
+Write-Host "Launching AI Bridge Setup..." -ForegroundColor Green
 Start-Process -FilePath $exeFile -WorkingDirectory $tempFolder
 
 Write-Host ""
-Write-Host "✔ Processo de download temporário e instalação concluído com sucesso!" -ForegroundColor Cyan
+Write-Host "[V] Temporary download and installation setup completed successfully!" -ForegroundColor Cyan
