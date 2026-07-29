@@ -12,6 +12,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.2.0
+* **Release CLI (MINOR):**
+  - Ajustes visuais na interface GUI (versao dinamica, nomes amigaveis dos servicos sem endpoints HTTP) e suporte a System Tray Icon para minimizar para a bandeja.
+
+---
+
+
 ## Release - v2.1.9
 * **Release CLI (PATCH):**
   - Fix: exibe apenas AI Bridge na lista de aplicativos e painel do Windows sem o numero da versao ao lado do nome
