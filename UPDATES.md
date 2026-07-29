@@ -5,6 +5,20 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.0.10
+* **Release CLI (PATCH):**
+  - Release v2.0.10 - User-Agent Mozilla/5.0 para downloads do GitHub e pausa de janela em caso de excecoes
+
+---
+
+## Release - v2.0.10
+* **Prevenção de Bloqueio HTTP 403 e Tratamento de Erros:**
+  - Adicionado cabeçalho `User-Agent: Mozilla/5.0` nos downloads via `System.Net.WebClient` para impedir bloqueios HTTP 403 das APIs/Releases do GitHub.
+  - Adicionada pausa interativa de erro (`Read-Host` / `pause`) impedindo o fechamento imediato da janela de terminal caso ocorra qualquer exceção na rede.
+
+---
+
+
 ## Release - v2.0.9
 * **Release CLI (PATCH):**
   - Release v2.0.9 - Forca a atualizacao do script install-ai-bridge.ps1 em cache na pasta TEMP do usuario

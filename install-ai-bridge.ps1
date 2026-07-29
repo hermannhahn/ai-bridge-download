@@ -1,7 +1,9 @@
 # ==============================================================================
 # AI Bridge - Automated Installation Script (install-ai-bridge.ps1)
 # ==============================================================================
-[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 -bor [Net.SecurityProtocolType]::Tls13
+
+$ProgressPreference = 'SilentlyContinue'
 
 # 1. Define and ensure official Windows temporary directory
 $winTemp = [System.IO.Path]::GetTempPath()
@@ -13,10 +15,25 @@ if (-not (Test-Path $tempFolder)) {
 
 $scriptPath = Join-Path $tempFolder "install-ai-bridge.ps1"
 
+# Helper function for reliable file download with User-Agent
+function Download-FileWithUserAgent {
+    param (
+        [string]$Url,
+        [string]$OutputFile
+    )
+    $webClient = New-Object System.Net.WebClient
+    $webClient.Headers.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64)")
+    $webClient.DownloadFile($Url, $OutputFile)
+}
+
 # 2. Ensure Administrator Privilege Elevation via explicit powershell.exe
 if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
     Write-Host "[!] Requesting Administrator privileges for AI Bridge installation..." -ForegroundColor Yellow
-    Invoke-WebRequest -Uri "https://github.com/hermannhahn/ai-bridge-download/releases/latest/download/install-ai-bridge.ps1" -OutFile $scriptPath -UseBasicParsing -Force
+    try {
+        Download-FileWithUserAgent -Url "https://github.com/hermannhahn/ai-bridge-download/releases/latest/download/install-ai-bridge.ps1" -OutputFile $scriptPath
+    } catch {
+        # Silent fallback if elevated script already exists
+    }
     Start-Process powershell.exe -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$scriptPath`"" -Verb RunAs
     exit
 }
@@ -36,16 +53,19 @@ Write-Host "Downloading fresh temporary installation files from GitHub..." -Fore
 
 try {
     Write-Host "   * Downloading AIBridgeDevCert.crt..." -ForegroundColor Gray
-    Invoke-WebRequest -Uri "$baseUrl/AIBridgeDevCert.crt" -OutFile $certFile -UseBasicParsing -Force
+    Download-FileWithUserAgent -Url "$baseUrl/AIBridgeDevCert.crt" -OutputFile $certFile
 
     Write-Host "   * Downloading install-cert.bat..." -ForegroundColor Gray
-    Invoke-WebRequest -Uri "$baseUrl/install-cert.bat" -OutFile $batFile -UseBasicParsing -Force
+    Download-FileWithUserAgent -Url "$baseUrl/install-cert.bat" -OutputFile $batFile
 
     Write-Host "   * Downloading AI-Bridge-Setup.exe..." -ForegroundColor Gray
-    Invoke-WebRequest -Uri "$baseUrl/AI-Bridge-Setup.exe" -OutFile $exeFile -UseBasicParsing -Force
+    Download-FileWithUserAgent -Url "$baseUrl/AI-Bridge-Setup.exe" -OutputFile $exeFile
 } catch {
-    Write-Host "[X] Error downloading files from GitHub: $_" -ForegroundColor Red
-    Pause
+    Write-Host ""
+    Write-Host "[X] ERROR downloading files from GitHub: $_" -ForegroundColor Red
+    Write-Host "URL: $baseUrl" -ForegroundColor Red
+    Write-Host ""
+    Read-Host "Press ENTER to exit..."
     exit 1
 }
 
