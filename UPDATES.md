@@ -5,6 +5,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.0.4
+* **Release CLI (PATCH):**
+  - Release v2.0.4 - Script de automacao install-cert.bat para instalacao do certificado em Root e TrustedPublisher e liberacao do Windows SmartScreen
+
+---
+
+
 ## Release - v2.0.3
 * **Release CLI (PATCH):**
   - Release v2.0.3 - Interface Grafica Wails v2 no app principal e atualizador, correcao de terminal em background e icones oficiais nos executaveis e instalador

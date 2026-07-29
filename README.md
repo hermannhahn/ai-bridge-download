@@ -4,20 +4,29 @@ Bem-vindo ao repositório oficial de distribuições e instaladores do **AI Brid
 
 ---
 
-## 📥 Download da Última Versão: `v2.0.3`
+## 📥 Download da Última Versão: `v2.0.4`
 
-- 📦 **Instalador Oficial para Windows**: [Baixar AI-Bridge-Setup-v2.0.3.exe](https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.0.3.exe)
-
-*(Nota: Para garantir a correta configuração dos serviços e atalhos, utilize exclusivamente o instalador oficial acima).*
+- 📦 **Instalador Oficial para Windows**: [Baixar AI-Bridge-Setup-v2.0.4.exe](https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.0.4.exe)
+- 🔐 **Script de Confiança do Certificado**: [Baixar install-cert.bat](https://github.com/hermannhahn/ai-bridge-download/raw/main/install-cert.bat)
+- 📄 **Certificado Digital**: [Baixar AIBridgeDevCert.crt](https://github.com/hermannhahn/ai-bridge-download/raw/main/AIBridgeDevCert.crt)
 
 ---
 
-## 💻 Instruções de Instalação no Windows
+## 💻 Instruções de Instalação e Liberação do Windows SmartScreen
 
-1. Baixe o instalador [`AI-Bridge-Setup-v2.0.3.exe`](https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.0.3.exe).
-2. Execute o arquivo baixado como **Administrador**.
-3. Siga o assistente de instalação para concluir a configuração do AI Bridge e do serviço de auto-atualizações em segundo plano.
-4. Inicie o sistema através do atalho criado na Área de Trabalho ou menu Iniciar.
+### Opção 1: Execução Direta (Mais Rápida)
+1. Baixe o instalador [`AI-Bridge-Setup-v2.0.4.exe`](https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.0.4.exe).
+2. Execute o instalador. Se a tela do **Windows Defender SmartScreen** aparecer:
+   - Clique em **"Mais informações"** (*More info*).
+   - Clique no botão **"Executar assim mesmo"** (*Run anyway*).
+
+---
+
+### Opção 2: Instalação do Certificado de Desenvolvimento (Remove Todos os Avisos)
+Para registrar o certificado de código nas duas autoridades confiáveis do Windows (*Trusted Root* e *Trusted Publisher*):
+1. Baixe os arquivos [`AIBridgeDevCert.crt`](https://github.com/hermannhahn/ai-bridge-download/raw/main/AIBridgeDevCert.crt) e [`install-cert.bat`](https://github.com/hermannhahn/ai-bridge-download/raw/main/install-cert.bat) na mesma pasta.
+2. Clique com o botão direito em **`install-cert.bat`** e escolha **"Executar como Administrador"**.
+3. O script importará o certificado nas duas lojas de certificados do Windows automaticamente.
 
 ---
 
@@ -26,8 +35,8 @@ Bem-vindo ao repositório oficial de distribuições e instaladores do **AI Brid
 Para visualizar o histórico completo de notas de release, correções e novas funcionalidades, acesse:
 📄 [Visualizar UPDATES.md (Histórico Completo)](UPDATES.md)
 
-### 🌟 Notas do Release v2.0.3:
-Release v2.0.3 - Interface Grafica Wails v2 no app principal e atualizador, correcao de terminal em background e icones oficiais nos executaveis e instalador
+### 🌟 Notas do Release v2.0.4:
+Release v2.0.4 - Script de automacao install-cert.bat para instalacao do certificado em Root e TrustedPublisher e liberacao do Windows SmartScreen
 
 ---
 
