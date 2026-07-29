@@ -14,9 +14,10 @@ set TEMP_DIR=%TEMP%\AIBridgeInstaller
 if not exist "%TEMP_DIR%" mkdir "%TEMP_DIR%"
 
 set PS1_FILE=%TEMP_DIR%\install-ai-bridge.ps1
+set ICON_FILE=%TEMP_DIR%\icon.ico
 
-echo Downloading fresh installation script from GitHub...
-powershell -NoProfile -ExecutionPolicy Bypass -Command "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 -bor [Net.SecurityProtocolType]::Tls13; $wc = New-Object System.Net.WebClient; $wc.Headers.Add('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'); $wc.DownloadFile('https://github.com/hermannhahn/ai-bridge-download/releases/latest/download/install-ai-bridge.ps1', '%PS1_FILE%')"
+echo Downloading icon and installation script from GitHub...
+powershell -NoProfile -ExecutionPolicy Bypass -Command "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 -bor [Net.SecurityProtocolType]::Tls13; $wc = New-Object System.Net.WebClient; $wc.Headers.Add('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'); $wc.DownloadFile('https://github.com/hermannhahn/ai-bridge-download/releases/latest/download/install-ai-bridge.ps1', '%PS1_FILE%'); try { $wc.DownloadFile('https://raw.githubusercontent.com/hermannhahn/ai-bridge/main/build/icon.ico', '%ICON_FILE%') } catch {}"
 
 if not exist "%PS1_FILE%" (
     echo.
@@ -36,3 +37,4 @@ if %errorLevel% neq 0 (
     pause
     exit /b %errorLevel%
 )
+

@@ -2,6 +2,22 @@
 
 Neste arquivo constam as melhorias, correções e novas funcionalidades implementadas no **AI BRIDGE**.
 
+## Release - v2.0.14
+* **Personalização do Instalador Inno Setup e Suporte Multi-Idioma (8 Idiomas):**
+  - Instalador `.exe` configurado como assistente standard (`DisableDirPage=no`, `DisableProgramGroupPage=no`): solicita e sugere o diretório de instalação, permite selecionar/ocultar a pasta do Menu Iniciar e criar atalhos na Área de Trabalho.
+  - Suporte completo a 8 idiomas no assistente de instalação e mensagens de desinstalação via `[CustomMessages]` (Português Brasil, Inglês, Espanhol, Francês, Alemão, Chinês Simplificado, Russo e Português Portugal).
+  - Criado o launcher executável nativo Windows com o ícone oficial do AI Bridge incorporado aos recursos do binário (`cmd/installer-launcher/main.go` -> `install-ai-bridge.exe`).
+  - Atualizado `install-ai-bridge.bat` para realizar o download do ícone oficial e executar o script de instalação.
+
+---
+
+
+## Release - v2.1.0
+* **Release CLI (MINOR):**
+  - Personalização do instalador Inno Setup com wizard padrão, suporte multilíngue em 8 idiomas e launcher executável com ícone incorporado
+
+---
+
 ## Release - v2.0.13
 * **Gerenciamento de Token de Acesso ai-brain & Sincronização Dinâmica de IP Público:**
   - Aba de Configurações reestruturada para exibir exclusivamente o campo do Token de Acesso do `ai-brain` (64 caracteres) com alternância de visibilidade (mostrar/ocultar).
