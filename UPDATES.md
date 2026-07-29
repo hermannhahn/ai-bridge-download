@@ -5,6 +5,20 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.0.12
+* **Release CLI (PATCH):**
+  - Release v2.0.12 - Adiciona a tag oficial production no go build do Wails v2 eliminando a janela de erro de stubs
+
+---
+
+## Release - v2.0.12
+* **Correção Definitiva das Build Tags Wails v2 (`-tags production`):**
+  - Adicionada a tag oficial do Wails v2 `-tags production` na compilação Go dos executáveis (`ai-bridge.exe` e `updater.exe`).
+  - Corrigido o disparo do diálogo de stubs do Wails (`app_default_windows.go`), garantindo que a aplicação abra diretamente o painel desktop WebView2.
+
+---
+
+
 ## Release - v2.0.11
 * **Release CLI (PATCH):**
   - Release v2.0.11 - Adiciona flag -tags desktop na compilacao Go do Wails v2 para eliminar caixa de dialogo de aviso de build stubs
