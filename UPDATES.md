@@ -12,6 +12,41 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.1.5
+* **Release CLI (PATCH):**
+  - Fix: compilacao do instalador Inno Setup nativo no Windows com assistente interativo e atalhos
+
+---
+
+
+## Release - v2.1.4
+* **Release CLI (PATCH):**
+  - Fix: compilacao do instalador Inno Setup nativo no Windows com assistente interativo e atalhos
+
+---
+
+
+## Release - v2.1.3
+* **Release CLI (PATCH):**
+  - Fix: compilacao do instalador Inno Setup nativo no Windows com assistente interativo e atalhos
+
+---
+
+
+## Release - v2.1.2
+* **Release CLI (PATCH):**
+  - Fix: compilacao do instalador Inno Setup nativo no Windows com assistente interativo e atalhos
+
+---
+
+
+## Release - v2.1.1
+* **Release CLI (PATCH):**
+  - Fix: compilacao do instalador Inno Setup nativo no Windows com assistente interativo e atalhos
+
+---
+
+
 ## Release - v2.1.0
 * **Release CLI (MINOR):**
   - Personalização do instalador Inno Setup com wizard padrão, suporte multilíngue em 8 idiomas e launcher executável com ícone incorporado
