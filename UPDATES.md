@@ -5,6 +5,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.0.2
+* **Release CLI (PATCH):**
+  - Release v2.0.2 - Incluindo certificado digital AIBridgeDevCert.crt nos assets de download da release
+
+---
+
+
 ## Release - v2.0.1
 * **Release CLI (PATCH):**
   - Teste de automacao de release v2.0.1 com GitHub Release e executavel anexo
@@ -22,6 +29,7 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
   - Script Inno Setup para geração de instalador completo para Windows (`AI-Bridge-Setup-v2.0.0.exe`).
   - Skill de publicação automatizada para o repositório de lançamentos (`https://github.com/hermannhahn/ai-bridge-download.git`).
   - Suporte à criação de GitHub Releases com tag `latest` e instalador `.exe` anexo no repositório de download.
+  - Automação de geração de certificado digital autoassinado em `certs/` e assinatura automática de executáveis `.exe` via `./dev-cli build` e `./dev-cli cert:generate`.
 
 ---
 
