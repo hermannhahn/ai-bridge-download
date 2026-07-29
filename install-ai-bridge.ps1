@@ -34,7 +34,7 @@ if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
     } catch {
         # Silent fallback if elevated script already exists
     }
-    Start-Process powershell.exe -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$scriptPath`"" -Verb RunAs
+    Start-Process powershell.exe -ArgumentList "-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File `"$scriptPath`"" -Verb RunAs
     exit
 }
 
@@ -70,14 +70,9 @@ try {
 }
 
 # 3. Execute install-cert.bat from TEMP directory to register certificate for Setup and Installed Executables
-Write-Host ""
-Write-Host "Installing digital certificate into Windows Trusted Authorities..." -ForegroundColor Yellow
-$proc = Start-Process -FilePath $batFile -ArgumentList "/silent" -WorkingDirectory $tempFolder -Wait -PassThru
+$proc = Start-Process -FilePath $batFile -ArgumentList "/silent" -WorkingDirectory $tempFolder -WindowStyle Hidden -Wait -PassThru
 
 # 4. Launch official Inno Setup installer wizard from TEMP directory
-Write-Host ""
-Write-Host "Launching AI Bridge Setup Wizard..." -ForegroundColor Green
 $setupProc = Start-Process -FilePath $exeFile -WorkingDirectory $tempFolder -Wait -PassThru
 
-Write-Host ""
-Write-Host "[V] AI Bridge installation completed successfully!" -ForegroundColor Cyan
+exit 0

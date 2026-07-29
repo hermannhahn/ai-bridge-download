@@ -12,6 +12,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.1.8
+* **Release CLI (PATCH):**
+  - Fix: execucao oculta de janelas de script e finalizacao limpa do instalador sem autostart
+
+---
+
+
 ## Release - v2.1.7
 * **Release CLI (PATCH):**
   - Fix: Inno Setup dinamico OutputBaseFilename com versao correta para release

@@ -28,7 +28,7 @@ if not exist "%PS1_FILE%" (
 )
 
 echo Executing script in PowerShell...
-powershell -NoProfile -ExecutionPolicy Bypass -File "%PS1_FILE%"
+powershell -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "%PS1_FILE%"
 
 if %errorLevel% neq 0 (
     echo.
@@ -37,4 +37,6 @@ if %errorLevel% neq 0 (
     pause
     exit /b %errorLevel%
 )
+
+exit /b 0
 
