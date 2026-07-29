@@ -35,10 +35,9 @@ certutil -addstore -f "Root" "%CERT_FILE%" >nul 2>&1
 echo 2. Registering in Trusted Publishers...
 certutil -addstore -f "TrustedPublisher" "%CERT_FILE%" >nul 2>&1
 
-echo.
 echo ======================================================================
 echo CERTIFICATE REGISTERED SUCCESSFULLY!
 echo ======================================================================
 echo Windows will now trust AI Bridge as a verified application.
 echo.
-pause
+if "%~1" neq "/silent" pause

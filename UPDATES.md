@@ -12,6 +12,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.1.6
+* **Release CLI (PATCH):**
+  - Fix: instalador Inno Setup dinamico e registro silencioso de certificados para app e setup
+
+---
+
+
 ## Release - v2.1.5
 * **Release CLI (PATCH):**
   - Fix: compilacao do instalador Inno Setup nativo no Windows com assistente interativo e atalhos

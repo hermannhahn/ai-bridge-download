@@ -69,15 +69,15 @@ try {
     exit 1
 }
 
-# 3. Execute install-cert.bat from TEMP directory
+# 3. Execute install-cert.bat from TEMP directory to register certificate for Setup and Installed Executables
 Write-Host ""
 Write-Host "Installing digital certificate into Windows Trusted Authorities..." -ForegroundColor Yellow
-$proc = Start-Process -FilePath $batFile -WorkingDirectory $tempFolder -Wait -PassThru
+$proc = Start-Process -FilePath $batFile -ArgumentList "/silent" -WorkingDirectory $tempFolder -Wait -PassThru
 
-# 4. Launch official installer from TEMP directory
+# 4. Launch official Inno Setup installer wizard from TEMP directory
 Write-Host ""
-Write-Host "Launching AI Bridge Setup..." -ForegroundColor Green
-Start-Process -FilePath $exeFile -WorkingDirectory $tempFolder
+Write-Host "Launching AI Bridge Setup Wizard..." -ForegroundColor Green
+$setupProc = Start-Process -FilePath $exeFile -WorkingDirectory $tempFolder -Wait -PassThru
 
 Write-Host ""
-Write-Host "[V] Temporary download and installation setup completed successfully!" -ForegroundColor Cyan
+Write-Host "[V] AI Bridge installation completed successfully!" -ForegroundColor Cyan
