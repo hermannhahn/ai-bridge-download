@@ -5,6 +5,21 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.0.5
+* **Release CLI (PATCH):**
+  - Release v2.0.5 - Script automatizado install-ai-bridge.ps1 para download, confianca de certificado e execucao do instalador
+
+---
+
+## Release - v2.0.5
+* **Instalação Automatizada (PowerShell):**
+  - Criação do script `install-ai-bridge.ps1` para download automático do instalador, certificado e batch de instalação.
+  - Execução com elevação de permissões de Administrador, importação dos certificados em Root e TrustedPublisher, e disparo do instalador oficial.
+  - Atualizado o painel do `ai-device-server` disponibilizando um único link direto para o `install-ai-bridge.ps1`.
+
+---
+
+
 ## Release - v2.0.4
 * **Release CLI (PATCH):**
   - Release v2.0.4 - Script de automacao install-cert.bat para instalacao do certificado em Root e TrustedPublisher e liberacao do Windows SmartScreen
