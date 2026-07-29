@@ -3,26 +3,7 @@
 # ==============================================================================
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
-# 1. Garantir Privilégios de Administrador
-if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
-    Write-Host "🔐 Elevando privilégios de Administrador para instalação do AI Bridge..." -ForegroundColor Yellow
-    $scriptPath = $MyInvocation.MyCommand.Path
-    if ($scriptPath) {
-        Start-Process powershell.exe -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$scriptPath`"" -Verb RunAs
-    } else {
-        $tempScript = Join-Path ([System.IO.Path]::GetTempPath()) "install-ai-bridge-runner.ps1"
-        Invoke-WebRequest -Uri "https://github.com/hermannhahn/ai-bridge-download/releases/latest/download/install-ai-bridge.ps1" -OutFile $tempScript -UseBasicParsing
-        Start-Process powershell.exe -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$tempScript`"" -Verb RunAs
-    }
-    exit
-}
-
-Write-Host "======================================================================" -ForegroundColor Cyan
-Write-Host "🚀 AI BRIDGE - INSTALADOR AUTOMATIZADO" -ForegroundColor Cyan
-Write-Host "======================================================================" -ForegroundColor Cyan
-Write-Host ""
-
-# 2. Definir e garantir pasta temporária oficial do Windows
+# 1. Definir e garantir pasta temporária oficial do Windows
 $winTemp = [System.IO.Path]::GetTempPath()
 $tempFolder = Join-Path $winTemp "AIBridgeInstaller"
 
@@ -30,6 +11,25 @@ if (-not (Test-Path $tempFolder)) {
     New-Item -Path $tempFolder -ItemType Directory -Force | Out-Null
 }
 
+$scriptPath = Join-Path $tempFolder "install-ai-bridge.ps1"
+if ($MyInvocation.MyCommand.Path -and (Test-Path $MyInvocation.MyCommand.Path)) {
+    Copy-Item -Path $MyInvocation.MyCommand.Path -Destination $scriptPath -Force | Out-Null
+}
+
+# 2. Garantir Elevação de Privilégios de Administrador via powershell.exe explícito
+if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
+    Write-Host "🔐 Elevando privilégios de Administrador para instalação do AI Bridge..." -ForegroundColor Yellow
+    if (-not (Test-Path $scriptPath)) {
+        Invoke-WebRequest -Uri "https://github.com/hermannhahn/ai-bridge-download/releases/latest/download/install-ai-bridge.ps1" -OutFile $scriptPath -UseBasicParsing
+    }
+    Start-Process powershell.exe -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$scriptPath`"" -Verb RunAs
+    exit
+}
+
+Write-Host "======================================================================" -ForegroundColor Cyan
+Write-Host "🚀 AI BRIDGE - INSTALADOR AUTOMATIZADO" -ForegroundColor Cyan
+Write-Host "======================================================================" -ForegroundColor Cyan
+Write-Host ""
 Write-Host "📁 Pasta temporária de download: $tempFolder" -ForegroundColor Gray
 
 $baseUrl = "https://github.com/hermannhahn/ai-bridge-download/releases/latest/download"

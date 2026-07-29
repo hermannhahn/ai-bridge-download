@@ -5,6 +5,21 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.0.7
+* **Release CLI (PATCH):**
+  - Release v2.0.7 - Criacao do launcher install-ai-bridge.bat para execucao direta no PowerShell sem abrir no Bloco de Notas
+
+---
+
+## Release - v2.0.7
+* **Correção de Associação no Windows (Launcher Batch):**
+  - Criação do launcher `install-ai-bridge.bat` que dispara o PowerShell diretamente com `-ExecutionPolicy Bypass`.
+  - Impede que o arquivo `.ps1` seja aberto no Bloco de Notas (Notepad) ao dar duplo clique no Windows Explorer.
+  - Atualização do painel no `ai-device-server` direcionando o download para o `install-ai-bridge.bat`.
+
+---
+
+
 ## Release - v2.0.6
 * **Release CLI (PATCH):**
   - Release v2.0.6 - Atualiza install-ai-bridge.ps1 para utilizar a pasta TEMP oficial do Windows
