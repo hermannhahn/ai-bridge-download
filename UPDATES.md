@@ -12,6 +12,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.1.7
+* **Release CLI (PATCH):**
+  - Fix: Inno Setup dinamico OutputBaseFilename com versao correta para release
+
+---
+
+
 ## Release - v2.1.6
 * **Release CLI (PATCH):**
   - Fix: instalador Inno Setup dinamico e registro silencioso de certificados para app e setup
