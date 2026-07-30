@@ -36,6 +36,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.14
+* **Release CLI (PATCH):**
+  - Ajuste do botao X de esconder aplicacao inserido no HTML do cabe?alho de acoes
+
+---
+
+
 ## Release - v2.3.13
 * **Release CLI (PATCH):**
   - Ajuste de transparencia total da Splash Screen (removido fundo escuro da janela Wails e do loader)
