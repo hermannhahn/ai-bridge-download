@@ -12,6 +12,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.2.2
+* **Release CLI (PATCH):**
+  - feat: adicionar suporte a dominio/hostname personalizado e ajustes na interface do AI-BRAIN
+
+---
+
+
 ## Release - v2.2.1
 * **Release CLI (PATCH):**
   - Adicionada opcao marcada para executar o AI Bridge ao concluir a instalacao no assistente Inno Setup.
