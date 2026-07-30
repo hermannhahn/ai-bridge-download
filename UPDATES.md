@@ -36,6 +36,20 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.12
+* **Release CLI (PATCH):**
+  - Ajustes de interface: botao X frameless no canto superior direito, fundo verde no feedback de salvar token e splash screen 100% transparente com auto-hide do feedback
+
+---
+
+
+## Release - v2.3.11
+* **Release CLI (PATCH):**
+  - Ajustes de interface: botao X frameless no canto superior direito, fundo verde no feedback de salvar token e splash screen 100% transparente com auto-hide do feedback
+
+---
+
+
 ## Release - v2.3.10
 * **Release CLI (PATCH):**
   - Transição da sincronização de IP público via HTTP para comunicação via WebSocket persistente outbound sem necessidade de portas públicas ou firewall.
