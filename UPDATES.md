@@ -36,6 +36,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.13
+* **Release CLI (PATCH):**
+  - Ajuste de transparencia total da Splash Screen (removido fundo escuro da janela Wails e do loader)
+
+---
+
+
 ## Release - v2.3.12
 * **Release CLI (PATCH):**
   - Ajustes de interface: botao X frameless no canto superior direito, fundo verde no feedback de salvar token e splash screen 100% transparente com auto-hide do feedback
