@@ -3,6 +3,11 @@
 Neste arquivo constam as melhorias, correções e novas funcionalidades implementadas no **AI BRIDGE**.
 
 ## Release - v2.0.14
+* **Migração para Comunicação WebSocket Persistente (ai-bridge ↔ ai-brain):**
+  - Substituição do envio de URL e detecção de IP público via POST por um canal WebSocket persistente outbound (`wss://ai-brain.ddns.net/ws/ai-bridge`).
+  - Total eliminação da necessidade de abertura de portas TCP, DDNS e liberação de regras em firewalls de roteadores na máquina do usuário.
+  - Refatoração do serviço `BrainSyncService` em Go (`internal/services/brain_sync.go`) utilizando `gorilla/websocket`, pings periódicos de heartbeat a cada 25 segundos e reconexão automática resiliente.
+  - Interface gráfica simplificada com remoção do campo de IP/Domínio customizado e indicação de status do canal WebSocket em tempo real.
 * **Configuração de Ambiente no VS Code (.vscode):**
   - Criados os arquivos de configuração [settings.json](file:///C:/Users/herma/Workspace/ai-bridge/.vscode/settings.json), [tasks.json](file:///C:/Users/herma/Workspace/ai-bridge/.vscode/tasks.json), [launch.json](file:///C:/Users/herma/Workspace/ai-bridge/.vscode/launch.json) e [extensions.json](file:///C:/Users/herma/Workspace/ai-bridge/.vscode/extensions.json) na pasta `.vscode`.
   - Integradas tarefas da CLI do projeto (`dev:test`, `dev:build`, `dev:publish`) e perfis de depuração das aplicações Go do projeto.
@@ -27,6 +32,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 * **Correções no Gerenciamento de Versão e Auto-Updater:**
   - Corrigida versão padrão de fallback em `cmd/ai-bridge/main.go` e `index.html` de v2.3.0 para v2.3.3.
   - Ajustado o acionamento do `updater.exe` para não fechar a aplicação principal ao apenas abrir a tela de atualizações, encerrando o aplicativo e iniciando o instalador apenas quando o usuário confirmar e clicar no botão **Atualizar Agora** dentro da aplicação do atualizador.
+
+---
+
+
+## Release - v2.3.10
+* **Release CLI (PATCH):**
+  - Transição da sincronização de IP público via HTTP para comunicação via WebSocket persistente outbound sem necessidade de portas públicas ou firewall.
 
 ---
 
