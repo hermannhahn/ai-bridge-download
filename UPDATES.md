@@ -31,6 +31,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.9
+* **Release CLI (PATCH):**
+  - feat: adicionado botao de fechar janela para bandeja e alterado publisher para AI-BRAIN Solutions
+
+---
+
+
 ## Release - v2.3.8
 * **Release CLI (PATCH):**
   - fix: ajustes nos cards de status dos servi?os e correcao no auto-reabrir do updater
