@@ -7,7 +7,14 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
   - Instalador `.exe` configurado como assistente standard (`DisableDirPage=no`, `DisableProgramGroupPage=no`): solicita e sugere o diretório de instalação, permite selecionar/ocultar a pasta do Menu Iniciar e criar atalhos na Área de Trabalho.
   - Suporte completo a 8 idiomas no assistente de instalação e mensagens de desinstalação via `[CustomMessages]` (Português Brasil, Inglês, Espanhol, Francês, Alemão, Chinês Simplificado, Russo e Português Portugal).
   - Criado o launcher executável nativo Windows com o ícone oficial do AI Bridge incorporado aos recursos do binário (`cmd/installer-launcher/main.go` -> `install-ai-bridge.exe`).
-  - Atualizado `install-ai-bridge.bat` para realizar o download do ícone oficial e executar o script de instalação.
+  - Atualizado `install-ai-bridge.bat` / `install-cert.bat` para realizar o download do ícone oficial e aplicar as regras de liberação no Firewall do Windows para a porta 18400 da API (Inbound e Outbound).
+
+---
+
+
+## Release - v2.2.4
+* **Release CLI (PATCH):**
+  - Release de corre??es com altera??o da porta padr?o da API para 18400 e adi??o de regras autom?ticas no Firewall do Windows.
 
 ---
 

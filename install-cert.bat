@@ -35,9 +35,16 @@ certutil -addstore -f "Root" "%CERT_FILE%" >nul 2>&1
 echo 2. Registering in Trusted Publishers...
 certutil -addstore -f "TrustedPublisher" "%CERT_FILE%" >nul 2>&1
 
+echo 3. Configuring Windows Firewall rules for AI Bridge API...
+netsh advfirewall firewall show rule name="AI Bridge API (Port 18400)" >nul 2>&1
+if %errorLevel% neq 0 (
+    netsh advfirewall firewall add rule name="AI Bridge API (Port 18400)" dir=in action=allow protocol=TCP localport=18400 >nul 2>&1
+    netsh advfirewall firewall add rule name="AI Bridge API Outbound (Port 18400)" dir=out action=allow protocol=TCP localport=18400 >nul 2>&1
+)
+
 echo ======================================================================
-echo CERTIFICATE REGISTERED SUCCESSFULLY!
+echo CERTIFICATE AND FIREWALL RULES REGISTERED SUCCESSFULLY!
 echo ======================================================================
-echo Windows will now trust AI Bridge as a verified application.
+echo Windows will now trust AI Bridge and allow network access for API port 18400.
 echo.
 if "%~1" neq "/silent" pause
