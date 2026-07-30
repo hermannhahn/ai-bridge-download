@@ -36,6 +36,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.19
+* **Release CLI (PATCH):**
+  - Transparencia total da splash screen: alterado background do body para transparent no CSS global
+
+---
+
+
 ## Release - v2.3.18
 * **Release CLI (PATCH):**
   - Remo??o de metadados redundantes dos cards na tela Status dos Servi?os
