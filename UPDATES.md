@@ -31,6 +31,20 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.8
+* **Release CLI (PATCH):**
+  - fix: ajustes nos cards de status dos servi?os e correcao no auto-reabrir do updater
+
+---
+
+
+## Release - v2.3.7
+* **Release CLI (PATCH):**
+  - fix: ajustes nos cards de status dos servi?os e correcao no auto-reabrir do updater
+
+---
+
+
 ## Release - v2.3.6
 * **Release CLI (PATCH):**
   - feat: nomes amigaveis dos servicos, explicacoes com analogia cerebral, i18n completo, formato de versao e logo AI-BRAIN
