@@ -3,10 +3,18 @@
 Neste arquivo constam as melhorias, correções e novas funcionalidades implementadas no **AI BRIDGE**.
 
 ## Release - v2.0.14
-* **Tela de Abertura (Splash Screen) Transparente & Animação de Carregamento de Módulos:**
-  - Criada tela de abertura transparente (overlay glassmorphic com `backdrop-filter: blur`) exibida na inicialização do aplicativo.
+* **Ajuste de Identidade Visual (AI-BRIDGE) & Ícone Nativo na Barra de Título (Topbar):**
+  - Alterado o título da marca no canto superior esquerdo da sidebar de `AI-BRAIN` para **`AI-BRIDGE`**.
+  - Garantida a exibição do ícone nativo oficial da aplicação incorporado no executável (`icon.syso` / `icon.ico`) ao lado do título na barra de janela padrão do Windows.
+* **Formatação de Versão & Branding do AI DEVICE SERVER:**
+  - Alterada a tag no canto superior esquerdo da sidebar para o padrão **VERSION vX.X.X**.
+  - Corrigida a resolução dinâmica da versão do sistema via `App.GetVersion()` e `config.LoadVersionJson()`, eliminando travamento estático em versões antigas.
+  - Atualizado o canto inferior direito (footer) com a logo e nome oficial do projeto parceiro **AI-DEVICE SERVER**.
+* **Tela de Abertura (Splash Screen) Nativa Independente Frameless:**
+  - Janela nativa flutuante sem bordas e sem barras de título (frameless 520x360), abrindo antes da aplicação principal.
   - Apresenta a logo do **AI-BRAIN** em tamanho médio com animação flutuante e o texto **BRIDGE** alinhado à direita em negrito azul neon.
-  - Animação de carregamento com mensagens divertidas e tempo mínimo total de 6,7 segundos, ajustando o tempo de permanência de acordo com o peso de cada módulo (PostgreSQL Vector, Ollama, WhatsApp, Auto-Updater, FastMCP/IoT).
+  - Fundo escuro fosco transparente de alto contraste (`rgba(15, 23, 42, 0.88)` com `backdrop-filter: blur(20px)`), garantindo leitura perfeita das mensagens de carregamento mesmo sobre papéis de parede brancos ou muito claros.
+  - Animação de carregamento com mensagens divertidas e tempo mínimo calibrado de acordo com o peso de cada módulo (PostgreSQL Vector, Ollama, WhatsApp, Auto-Updater, FastMCP/IoT), abrindo a janela principal (1280x800) ao finalizar.
 * **Personalização do Instalador Inno Setup e Suporte Multi-Idioma (8 Idiomas):**
   - Instalador `.exe` configurado como assistente standard (`DisableDirPage=no`, `DisableProgramGroupPage=no`): solicita e sugere o diretório de instalação, permite selecionar/ocultar a pasta do Menu Iniciar e criar atalhos na Área de Trabalho.
   - Suporte completo a 8 idiomas no assistente de instalação e mensagens de desinstalação via `[CustomMessages]` (Português Brasil, Inglês, Espanhol, Francês, Alemão, Chinês Simplificado, Russo e Português Portugal).
@@ -16,6 +24,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
   - O botão **Atualizar Sistema** permanece oculto e passa a ser exibido dinamicamente apenas quando uma nova versão for identificada.
   - Ao clicar no botão de atualização, é exibida a confirmação mostrando a **Versão Atual** e a **Nova Versão**.
   - Após a confirmação, o AI Bridge encerra seu processo principal e abre a janela compacta do `updater.exe` exibindo a barra de progresso do download/instalação e relançando o aplicativo automaticamente ao finalizar.
+
+---
+
+
+## Release - v2.3.1
+* **Release CLI (PATCH):**
+  - fix: release patch v2.3.1 com ajustes de marca AI-BRIDGE e icone oficial na barra de titulo
 
 ---
 
