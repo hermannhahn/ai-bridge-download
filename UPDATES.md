@@ -36,6 +36,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.20
+* **Release CLI (PATCH):**
+  - Ajuste na transparencia nativa da Splash: desativado WindowIsTranslucent do Wails que aplicava o efeito Mica azulado do Windows 11
+
+---
+
+
 ## Release - v2.3.19
 * **Release CLI (PATCH):**
   - Transparencia total da splash screen: alterado background do body para transparent no CSS global
