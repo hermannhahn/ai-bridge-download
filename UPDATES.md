@@ -36,6 +36,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.18
+* **Release CLI (PATCH):**
+  - Remo??o de metadados redundantes dos cards na tela Status dos Servi?os
+
+---
+
+
 ## Release - v2.3.17
 * **Release CLI (PATCH):**
   - Remo??o dos bot?es de a??o dos cards da tela Status dos Servi?os
