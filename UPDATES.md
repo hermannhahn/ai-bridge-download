@@ -3,6 +3,9 @@
 Neste arquivo constam as melhorias, correções e novas funcionalidades implementadas no **AI BRIDGE**.
 
 ## Release - v2.0.14
+* **Configuração de Ambiente no VS Code (.vscode):**
+  - Criados os arquivos de configuração [settings.json](file:///C:/Users/herma/Workspace/ai-bridge/.vscode/settings.json), [tasks.json](file:///C:/Users/herma/Workspace/ai-bridge/.vscode/tasks.json), [launch.json](file:///C:/Users/herma/Workspace/ai-bridge/.vscode/launch.json) e [extensions.json](file:///C:/Users/herma/Workspace/ai-bridge/.vscode/extensions.json) na pasta `.vscode`.
+  - Integradas tarefas da CLI do projeto (`dev:test`, `dev:build`, `dev:publish`) e perfis de depuração das aplicações Go do projeto.
 * **Ajuste de Identidade Visual (AI-BRIDGE) & Ícone Nativo na Barra de Título (Topbar):**
   - Alterado o título da marca no canto superior esquerdo da sidebar de `AI-BRAIN` para **`AI-BRIDGE`**.
   - Garantida a exibição do ícone nativo oficial da aplicação incorporado no executável (`icon.syso` / `icon.ico`) ao lado do título na barra de janela padrão do Windows.
@@ -24,6 +27,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 * **Correções no Gerenciamento de Versão e Auto-Updater:**
   - Corrigida versão padrão de fallback em `cmd/ai-bridge/main.go` e `index.html` de v2.3.0 para v2.3.3.
   - Ajustado o acionamento do `updater.exe` para não fechar a aplicação principal ao apenas abrir a tela de atualizações, encerrando o aplicativo e iniciando o instalador apenas quando o usuário confirmar e clicar no botão **Atualizar Agora** dentro da aplicação do atualizador.
+
+---
+
+
+## Release - v2.3.6
+* **Release CLI (PATCH):**
+  - feat: nomes amigaveis dos servicos, explicacoes com analogia cerebral, i18n completo, formato de versao e logo AI-BRAIN
 
 ---
 
