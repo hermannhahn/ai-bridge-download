@@ -36,6 +36,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.16
+* **Release CLI (PATCH):**
+  - Fix no build do dev-cli: sincronizacao automatica da pasta frontend para a pasta de embed Go garantindo inclusao do botao X e transparencia total
+
+---
+
+
 ## Release - v2.3.15
 * **Release CLI (PATCH):**
   - Ajuste definitivo do botao X no cabe?alho HTML e transparencia total da janela de inicializa??o
