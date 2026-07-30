@@ -12,6 +12,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.2.1
+* **Release CLI (PATCH):**
+  - Adicionada opcao marcada para executar o AI Bridge ao concluir a instalacao no assistente Inno Setup.
+
+---
+
+
 ## Release - v2.2.0
 * **Release CLI (MINOR):**
   - Ajustes visuais na interface GUI (versao dinamica, nomes amigaveis dos servicos sem endpoints HTTP) e suporte a System Tray Icon para minimizar para a bandeja.
