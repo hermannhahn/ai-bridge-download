@@ -28,6 +28,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.5
+* **Release CLI (PATCH):**
+  - fix: corre??es na serializa??o de vers?o do updater e fallback v2.3.4
+
+---
+
+
 ## Release - v2.3.4
 * **Release CLI (PATCH):**
   - fix: corre??es no gerenciamento de vers?o v2.3.3 e fluxo do auto-updater
