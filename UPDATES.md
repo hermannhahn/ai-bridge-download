@@ -36,6 +36,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.22
+* **Release CLI (PATCH):**
+  - Ajuste visual final da Splash Screen: preenchimento total 100% com a cor oficial da aplicacao (var--bg-dark) sem bordas internas ou quadrados duplos
+
+---
+
+
 ## Release - v2.3.21
 * **Release CLI (PATCH):**
   - Design refinado da Splash Screen: cartao escuro com efeito glassmorphism e bordas arredondadas sem fundo retangular preto
