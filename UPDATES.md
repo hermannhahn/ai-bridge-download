@@ -6,10 +6,10 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 * **Ajuste de Identidade Visual (AI-BRIDGE) & Ícone Nativo na Barra de Título (Topbar):**
   - Alterado o título da marca no canto superior esquerdo da sidebar de `AI-BRAIN` para **`AI-BRIDGE`**.
   - Garantida a exibição do ícone nativo oficial da aplicação incorporado no executável (`icon.syso` / `icon.ico`) ao lado do título na barra de janela padrão do Windows.
-* **Formatação de Versão & Branding do AI DEVICE SERVER:**
+* **Formatação de Versão & Branding do AI-BRAIN:**
   - Alterada a tag no canto superior esquerdo da sidebar para o padrão **VERSION vX.X.X**.
   - Corrigida a resolução dinâmica da versão do sistema via `App.GetVersion()` e `config.LoadVersionJson()`, eliminando travamento estático em versões antigas.
-  - Atualizado o canto inferior direito (footer) com a logo e nome oficial do projeto parceiro **AI-DEVICE SERVER**.
+  - Atualizado o canto inferior direito (footer) com a logo e nome oficial do projeto parceiro **AI-BRAIN**.
 * **Tela de Abertura (Splash Screen) Nativa Independente Frameless:**
   - Janela nativa flutuante sem bordas e sem barras de título (frameless 520x360), abrindo antes da aplicação principal.
   - Apresenta a logo do **AI-BRAIN** em tamanho médio com animação flutuante e o texto **BRIDGE** alinhado à direita em negrito azul neon.
@@ -21,9 +21,16 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
   - Criado o launcher executável nativo Windows com o ícone oficial do AI Bridge incorporado aos recursos do binário (`cmd/installer-launcher/main.go` -> `install-ai-bridge.exe`).
   - Atualizado `install-ai-bridge.bat` / `install-cert.bat` para realizar a remoção preventiva de certificados anteriores (`certutil -delstore`), download do ícone oficial e aplicar as regras de liberação `ai-bridge-api` no Firewall do Windows para a porta 18400 da API (Inbound e Outbound).
   - Verificação periódica de atualizações executada a cada 6 horas em background no Go e na interface gráfica.
-  - O botão **Atualizar Sistema** permanece oculto e passa a ser exibido dinamicamente apenas quando uma nova versão for identificada.
-  - Ao clicar no botão de atualização, é exibido um modal customizado integrado à interface com a marca **AI-BRIDGE** no cabeçalho (eliminando o título nativo do navegador `wails.localhost diz`), detalhando a versão atual e a nova versão disponível.
-  - Após a confirmação no modal, o AI Bridge encerra seu processo principal e abre a janela compacta do `updater.exe` exibindo a barra de progresso do download/instalação e relançando o aplicativo automaticamente ao finalizar.
+* **Correções no Gerenciamento de Versão e Auto-Updater:**
+  - Corrigida versão padrão de fallback em `cmd/ai-bridge/main.go` e `index.html` de v2.3.0 para v2.3.3.
+  - Ajustado o acionamento do `updater.exe` para não fechar a aplicação principal ao apenas abrir a tela de atualizações, encerrando o aplicativo e iniciando o instalador apenas quando o usuário confirmar e clicar no botão **Atualizar Agora** dentro da aplicação do atualizador.
+
+---
+
+
+## Release - v2.3.4
+* **Release CLI (PATCH):**
+  - fix: corre??es no gerenciamento de vers?o v2.3.3 e fluxo do auto-updater
 
 ---
 
@@ -250,7 +257,7 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 * **Correção de Associação no Windows (Launcher Batch):**
   - Criação do launcher `install-ai-bridge.bat` que dispara o PowerShell diretamente com `-ExecutionPolicy Bypass`.
   - Impede que o arquivo `.ps1` seja aberto no Bloco de Notas (Notepad) ao dar duplo clique no Windows Explorer.
-  - Atualização do painel no `ai-device-server` direcionando o download para o `install-ai-bridge.bat`.
+  - Atualização do painel no `ai-brain` direcionando o download para o `install-ai-bridge.bat`.
 
 ---
 
@@ -279,7 +286,7 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 * **Instalação Automatizada (PowerShell):**
   - Criação do script `install-ai-bridge.ps1` para download automático do instalador, certificado e batch de instalação.
   - Execução com elevação de permissões de Administrador, importação dos certificados em Root e TrustedPublisher, e disparo do instalador oficial.
-  - Atualizado o painel do `ai-device-server` disponibilizando um único link direto para o `install-ai-bridge.ps1`.
+  - Atualizado o painel do `ai-brain` disponibilizando um único link direto para o `install-ai-bridge.ps1`.
 
 ---
 
