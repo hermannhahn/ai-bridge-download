@@ -36,6 +36,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.15
+* **Release CLI (PATCH):**
+  - Ajuste definitivo do botao X no cabe?alho HTML e transparencia total da janela de inicializa??o
+
+---
+
+
 ## Release - v2.3.14
 * **Release CLI (PATCH):**
   - Ajuste do botao X de esconder aplicacao inserido no HTML do cabe?alho de acoes
