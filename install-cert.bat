@@ -29,17 +29,23 @@ if not exist "%CERT_FILE%" (
     exit /b 1
 )
 
-echo 1. Registering in Trusted Root Certification Authorities...
+echo 1. Cleaning previous AI Bridge certificates from Windows store...
+certutil -delstore "Root" "AIBridgeDevCert" >nul 2>&1
+certutil -delstore "TrustedPublisher" "AIBridgeDevCert" >nul 2>&1
+certutil -delstore "Root" "AI Bridge Dev" >nul 2>&1
+certutil -delstore "TrustedPublisher" "AI Bridge Dev" >nul 2>&1
+
+echo 2. Registering in Trusted Root Certification Authorities...
 certutil -addstore -f "Root" "%CERT_FILE%" >nul 2>&1
 
-echo 2. Registering in Trusted Publishers...
+echo 3. Registering in Trusted Publishers...
 certutil -addstore -f "TrustedPublisher" "%CERT_FILE%" >nul 2>&1
 
-echo 3. Configuring Windows Firewall rules for AI Bridge API...
-netsh advfirewall firewall show rule name="AI Bridge API (Port 18400)" >nul 2>&1
+echo 4. Configuring Windows Firewall rules for AI Bridge API...
+netsh advfirewall firewall show rule name="ai-bridge-api" >nul 2>&1
 if %errorLevel% neq 0 (
-    netsh advfirewall firewall add rule name="AI Bridge API (Port 18400)" dir=in action=allow protocol=TCP localport=18400 >nul 2>&1
-    netsh advfirewall firewall add rule name="AI Bridge API Outbound (Port 18400)" dir=out action=allow protocol=TCP localport=18400 >nul 2>&1
+    netsh advfirewall firewall add rule name="ai-bridge-api" dir=in action=allow protocol=TCP localport=18400 >nul 2>&1
+    netsh advfirewall firewall add rule name="ai-bridge-api-outbound" dir=out action=allow protocol=TCP localport=18400 >nul 2>&1
 )
 
 echo ======================================================================

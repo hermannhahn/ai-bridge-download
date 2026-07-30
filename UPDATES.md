@@ -19,11 +19,18 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
   - Instalador `.exe` configurado como assistente standard (`DisableDirPage=no`, `DisableProgramGroupPage=no`): solicita e sugere o diretório de instalação, permite selecionar/ocultar a pasta do Menu Iniciar e criar atalhos na Área de Trabalho.
   - Suporte completo a 8 idiomas no assistente de instalação e mensagens de desinstalação via `[CustomMessages]` (Português Brasil, Inglês, Espanhol, Francês, Alemão, Chinês Simplificado, Russo e Português Portugal).
   - Criado o launcher executável nativo Windows com o ícone oficial do AI Bridge incorporado aos recursos do binário (`cmd/installer-launcher/main.go` -> `install-ai-bridge.exe`).
-  - Atualizado `install-ai-bridge.bat` / `install-cert.bat` para realizar o download do ícone oficial e aplicar as regras de liberação no Firewall do Windows para a porta 18400 da API (Inbound e Outbound).
+  - Atualizado `install-ai-bridge.bat` / `install-cert.bat` para realizar a remoção preventiva de certificados anteriores (`certutil -delstore`), download do ícone oficial e aplicar as regras de liberação `ai-bridge-api` no Firewall do Windows para a porta 18400 da API (Inbound e Outbound).
   - Verificação periódica de atualizações executada a cada 6 horas em background no Go e na interface gráfica.
   - O botão **Atualizar Sistema** permanece oculto e passa a ser exibido dinamicamente apenas quando uma nova versão for identificada.
-  - Ao clicar no botão de atualização, é exibida a confirmação mostrando a **Versão Atual** e a **Nova Versão**.
-  - Após a confirmação, o AI Bridge encerra seu processo principal e abre a janela compacta do `updater.exe` exibindo a barra de progresso do download/instalação e relançando o aplicativo automaticamente ao finalizar.
+  - Ao clicar no botão de atualização, é exibido um modal customizado integrado à interface com a marca **AI-BRIDGE** no cabeçalho (eliminando o título nativo do navegador `wails.localhost diz`), detalhando a versão atual e a nova versão disponível.
+  - Após a confirmação no modal, o AI Bridge encerra seu processo principal e abre a janela compacta do `updater.exe` exibindo a barra de progresso do download/instalação e relançando o aplicativo automaticamente ao finalizar.
+
+---
+
+
+## Release - v2.3.3
+* **Release CLI (PATCH):**
+  - fix: modal customizado AI-BRIDGE, fluxo de auto-atualizacao e limpeza preventiva de certificados no Windows
 
 ---
 
