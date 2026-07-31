@@ -36,6 +36,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.37
+* **Release CLI (PATCH):**
+  - fix(services): renomeia memory-server para ai-bridge-services com nomes amigaveis nos containers (ai-bridge-vector, ai-bridge-rag, ai-bridge-whatsapp) e embute os arquivos do docker-compose no binario - resolve erro 'pasta memory-server nao encontrada' em instalacoes em Program Files
+
+---
+
+
 ## Release - v2.3.36
 * **Release CLI (PATCH):**
   - fix(gui): oculta janelas de console ao executar docker a partir da GUI - evita prompts piscando no polling de status dos servicos
