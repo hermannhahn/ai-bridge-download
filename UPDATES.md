@@ -36,6 +36,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.24
+* **Release CLI (PATCH):**
+  - Restauracao exata do estilo visual e configuracoes da Splash Screen idencicos a versao v2.3.18
+
+---
+
+
 ## Release - v2.3.23
 * **Release CLI (PATCH):**
   - Remocao total de qualquer cor de fundo na Splash Screen: background transparent !important sem molduras ou cartoes escuros
