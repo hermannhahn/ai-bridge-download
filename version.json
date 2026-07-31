@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.47",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.47.exe",
-    "notes": "release: v2.3.47 - Corre??o de persist?ncia de mem?ria de longo prazo (SaveChatMessage/add_chat_message) e elimina??o de NoneType em search_notes"
+    "version": "2.3.48",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.48.exe",
+    "notes": "release: v2.3.48 - Implementa??o de busca h?brida de notas (vetorial + ILIKE) e compatibiliza??o do campo agent_name em sess?es"
 }
