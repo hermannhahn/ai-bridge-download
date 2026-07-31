@@ -36,6 +36,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.26
+* **Release CLI (PATCH):**
+  - fix(websocket): implementar execucao de acoes de banco e whatsapp via websocket no ai-bridge
+
+---
+
+
 ## Release - v2.3.25
 * **Release CLI (PATCH):**
   - Aviso de conclusao e reabertura da aplicacao no atualizador
