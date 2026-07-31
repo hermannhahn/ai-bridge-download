@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.58",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.58.exe",
-    "notes": "Correcoes no ciclo de atualizacao e desinstalacao: o desinstalador agora para, remove os containers dos servicos e limpa as imagens no Docker do usuario; ao fechar o aplicativo, os containers sao parados antes de sair com um aviso ao usuario; corrigida a geracao do changelog nas CLIs (ai-bridge e ai-brain) — as alteracoes agora sao comitadas antes de listar os commits acumulados, entao o changelog da publicacao passa a ser exibido corretamente no painel."
+    "version": "2.3.59",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.59.exe",
+    "notes": "Correcoes na tela Services Status e na instalacao dos containers: o PostgreSQL agora e validado com pg_isready dentro do container (antes usava checagem HTTP, que o postgres nao fala — a instalacao falhava sempre no postgres e parava os demais servicos); as memorias e notas voltam a ser exibidas (reconexao automatica ao banco quando ele fica pronto apos o app iniciar); e os valores dinamicos (latencia, memorias, notas, modelo embed, QR Code e tools) atualizam em paralelo a cada 15 segundos, independente do estado dos containers."
 }

@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.59
+### 📣 Apresentação da Atualização
+
+Correcoes na tela Services Status e na instalacao dos containers: o PostgreSQL agora e validado com pg_isready dentro do container (antes usava checagem HTTP, que o postgres nao fala — a instalacao falhava sempre no postgres e parava os demais servicos); as memorias e notas voltam a ser exibidas (reconexao automatica ao banco quando ele fica pronto apos o app iniciar); e os valores dinamicos (latencia, memorias, notas, modelo embed, QR Code e tools) atualizam em paralelo a cada 15 segundos, independente do estado dos containers.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- Correcoes na tela Services Status e na instalacao dos containers: o PostgreSQL agora e validado com pg_isready dentro do container (antes usava checagem HTTP, que o postgres nao fala — a instalacao falhava sempre no postgres e parava os demais servicos); as memorias e notas voltam a ser exibidas (reconexao automatica ao banco quando ele fica pronto apos o app iniciar); e os valores dinamicos (latencia, memorias, notas, modelo embed, QR Code e tools) atualizam em paralelo a cada 15 segundos, independente do estado dos containers. (`950c3d6`)
+
+
+---
+
+
 ## Release - v2.3.58
 ### 📣 Apresentação da Atualização
 
