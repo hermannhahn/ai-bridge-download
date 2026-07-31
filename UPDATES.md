@@ -3,6 +3,19 @@
 ---
 
 
+## Release - v2.3.56
+### 📣 Apresentação da Atualização
+
+Correcao do QR Code no painel do ai-brain: o WAHA v3 mudou a API (rota GET /api/{session}/auth/qr devolvendo os bytes do PNG com Accept image/png) e o ai-bridge agora usa a rota correta, fazendo o QR de pareamento aparecer no painel. O atualizador agora tambem atualiza os containers dos servicos apos a atualizacao do aplicativo (docker compose pull + up -d), garantindo que os containers do usuario recebam novas imagens e configuracoes (dados preservados nos bind mounts do AppData).
+
+### 📋 Changelog da Versão
+
+Nenhum commit acumulado desde a última release (alterações descritas na apresentação).
+
+
+---
+
+
 ## Release - v2.3.55
 ### 📣 Apresentação da Atualização
 
