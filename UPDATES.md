@@ -36,6 +36,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.45
+* **Release CLI (PATCH):**
+  - fix(db): inicializa arrays como slice vazio [] em vez de nil para evitar json null (NoneType)
+
+---
+
+
 ## Release - v2.3.44
 * **Release CLI (PATCH):**
   - fix(api): cobertura completa de 100% das rotas HTTP REST e actions WebSocket para notas, memorias e whatsapp

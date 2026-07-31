@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.44",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.44.exe",
-    "notes": "fix(api): cobertura completa de 100% das rotas HTTP REST e actions WebSocket para notas, memorias e whatsapp"
+    "version": "2.3.45",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.45.exe",
+    "notes": "fix(db): inicializa arrays como slice vazio [] em vez de nil para evitar json null (NoneType)"
 }
