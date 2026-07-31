@@ -3,6 +3,19 @@
 ---
 
 
+## Release - v2.3.57
+### 📣 Apresentação da Atualização
+
+Correcao do auto-updater: o instalador (Inno Setup 6) fechava por padrao (CloseApplications) o updater.exe em execucao durante a instalacao, encerrando o atualizador antes de exibir o aviso de conclusao e reabrir o aplicativo — agora o instalador fecha apenas o ai-bridge.exe (CloseApplicationsFilter) e o updater sobrevive para concluir o fluxo. O aplicativo tambem passou a atualizar os containers dos servicos na inicializacao (docker compose pull + up -d em background) quando os servicos ja estao instalados, garantindo que os containers do usuario recebam novas imagens e configuracoes mesmo quando a atualizacao veio de um updater antigo sem essa logica.
+
+### 📋 Changelog da Versão
+
+Nenhum commit acumulado desde a última release (alterações descritas na apresentação).
+
+
+---
+
+
 ## Release - v2.3.56
 ### 📣 Apresentação da Atualização
 
