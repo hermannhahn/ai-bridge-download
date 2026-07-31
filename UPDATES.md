@@ -36,6 +36,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.41
+* **Release CLI (PATCH):**
+  - fix(communication): release patch com correcoes de comunicacao RAG e memoria de longo prazo
+
+---
+
+
 ## Release - v2.3.40
 * **Release CLI (PATCH):**
   - feat(gui): spinner e progresso em tempo real na instalacao dos servicos (etapas: docker, download, health) com polling de GetInstallProgress; botao Instalar some quando o container existe e botões Iniciar/Parar/Reiniciar aparecem conforme o estado
