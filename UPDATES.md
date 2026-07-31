@@ -36,6 +36,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.38
+* **Release CLI (PATCH):**
+  - feat(docker): inicia o Docker Desktop automaticamente na abertura da aplicacao (splash screen) e aguarda o engine ficar pronto (ate 90s) antes de instalar servicos - corrige erro 'Docker engine inativo' ao clicar em Instalar com o Docker Desktop fechado
+
+---
+
+
 ## Release - v2.3.37
 * **Release CLI (PATCH):**
   - fix(services): renomeia memory-server para ai-bridge-services com nomes amigaveis nos containers (ai-bridge-vector, ai-bridge-rag, ai-bridge-whatsapp) e embute os arquivos do docker-compose no binario - resolve erro 'pasta memory-server nao encontrada' em instalacoes em Program Files
