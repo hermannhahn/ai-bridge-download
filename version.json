@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.42",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.42.exe",
-    "notes": "fix(updater): adiciona User-Agent header, timeout e URL explicita de download no version.json"
+    "version": "2.3.43",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.43.exe",
+    "notes": "fix(memory): suporte a busca de longo prazo (search_long_term_memories e search_by_field) via WS e HTTP REST"
 }

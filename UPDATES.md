@@ -36,6 +36,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.43
+* **Release CLI (PATCH):**
+  - fix(memory): suporte a busca de longo prazo (search_long_term_memories e search_by_field) via WS e HTTP REST
+
+---
+
+
 ## Release - v2.3.42
 * **Release CLI (PATCH):**
   - fix(updater): adiciona User-Agent header, timeout e URL explicita de download no version.json
