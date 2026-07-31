@@ -36,6 +36,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.36
+* **Release CLI (PATCH):**
+  - fix(gui): oculta janelas de console ao executar docker a partir da GUI - evita prompts piscando no polling de status dos servicos
+
+---
+
+
 ## Release - v2.3.35
 * **Release CLI (PATCH):**
   - feat(services): instalacao individual dos servicos postgres, ollama e waha via Docker com botoes nos cards (Instalar/Iniciar/Parar/Reiniciar), portas aleatorias para evitar conflitos, webhook do WhatsApp repassado via WebSocket ao ai-brain e sincronizacao automatica do config.json
