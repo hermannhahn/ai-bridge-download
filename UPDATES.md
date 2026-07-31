@@ -2,6 +2,22 @@
 
 Neste arquivo constam as melhorias, correções e novas funcionalidades implementadas no **AI BRIDGE**.
 
+## Release - v2.3.51
+* **Persistência dos dados dos containers no AppData do usuário:**
+  - Os dados persistentes dos serviços (PostgreSQL, Ollama e WAHA/WhatsApp) passam a ser montados como **bind mounts** em `%AppData%\AI Bridge\data\{postgres,ollama,openwa}` em vez de volumes nomeados do Docker.
+  - Ao reinstalar os containers ou a aplicação (com a opção "manter os dados" no desinstalador), o banco de dados, os modelos do Ollama e as sessões do WhatsApp são preservados na pasta AppData do ai-bridge.
+  - Instalações novas já gravam direto no AppData. Instalações existentes com volumes nomeados antigos devem migrar os dados manualmente (parar containers, copiar o volume para a pasta `data`, recriar com o novo compose).
+  - A variável `APP_DATA_DIR` é definida automaticamente nas chamadas `docker compose`, apontando para `%AppData%\AI Bridge\data` (barras normalizadas para Docker Desktop).
+
+---
+
+
+## Release - v2.3.51
+* **Release CLI (PATCH):**
+  - fix(services): dados persistentes dos containers (postgres, ollama e waha) agora gravados via bind mounts na pasta de dados do AppData do usuario - banco de dados e configuracoes preservados ao reinstalar containers ou o aplicativo
+
+---
+
 ## Release - v2.0.14
 * **Migração para Comunicação WebSocket Persistente (ai-bridge ↔ ai-brain):**
   - Substituição do envio de URL e detecção de IP público via POST por um canal WebSocket persistente outbound (`wss://ai-brain.ddns.net/ws/ai-bridge`).
