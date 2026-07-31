@@ -12,6 +12,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.52
+* **Release CLI (PATCH):**
+  - fix(api): autenticacao da API local do ai-bridge agora usa somente a token do usuario (brain_token), eliminando o api_token_secret fixo compartilhado entre instalacoes - sem token configurada, as rotas protegidas sao rejeitadas (default deny)
+
+---
+
+
 ## Release - v2.3.51
 * **Release CLI (PATCH):**
   - fix(services): dados persistentes dos containers (postgres, ollama e waha) agora gravados via bind mounts na pasta de dados do AppData do usuario - banco de dados e configuracoes preservados ao reinstalar containers ou o aplicativo

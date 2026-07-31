@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.51",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.51.exe",
-    "notes": "fix(services): dados persistentes dos containers (postgres, ollama e waha) agora gravados via bind mounts na pasta de dados do AppData do usuario - banco de dados e configuracoes preservados ao reinstalar containers ou o aplicativo"
+    "version": "2.3.52",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.52.exe",
+    "notes": "fix(api): autenticacao da API local do ai-bridge agora usa somente a token do usuario (brain_token), eliminando o api_token_secret fixo compartilhado entre instalacoes - sem token configurada, as rotas protegidas sao rejeitadas (default deny)"
 }
