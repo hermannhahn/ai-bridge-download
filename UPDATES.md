@@ -36,6 +36,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.23
+* **Release CLI (PATCH):**
+  - Remocao total de qualquer cor de fundo na Splash Screen: background transparent !important sem molduras ou cartoes escuros
+
+---
+
+
 ## Release - v2.3.22
 * **Release CLI (PATCH):**
   - Ajuste visual final da Splash Screen: preenchimento total 100% com a cor oficial da aplicacao (var--bg-dark) sem bordas internas ou quadrados duplos
