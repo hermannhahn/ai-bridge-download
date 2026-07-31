@@ -36,6 +36,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.34
+* **Release CLI (PATCH):**
+  - fix(publish): assinatura de codigo com /fd sha256 - corrige executaveis nao assinados na v2.3.33
+
+---
+
+
 ## Release - v2.3.33
 * **Release CLI (PATCH):**
   - Reversão do sqlite+ollama embedd - retorno ao uso de PostgreSQL, Ollama e WAHA externos, restaurando a estabilidade da v2.3.31
