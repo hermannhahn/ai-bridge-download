@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.49",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.49.exe",
-    "notes": "release: v2.3.49 - Corre??o definitiva do recall no search_notes removendo restri??o excludente de agent_id"
+    "version": "2.3.50",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.50.exe",
+    "notes": "release: v2.3.50 - Atualiza??o completa das documenta??es t?cnicas em docs/ (matriz de rotas e arquitetura websocket)"
 }

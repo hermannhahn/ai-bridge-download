@@ -36,6 +36,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.50
+* **Release CLI (PATCH):**
+  - release: v2.3.50 - Atualiza??o completa das documenta??es t?cnicas em docs/ (matriz de rotas e arquitetura websocket)
+
+---
+
+
 ## Release - v2.3.49
 * **Release CLI (PATCH):**
   - release: v2.3.49 - Corre??o definitiva do recall no search_notes removendo restri??o excludente de agent_id
