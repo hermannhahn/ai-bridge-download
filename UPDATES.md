@@ -36,6 +36,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.39
+* **Release CLI (PATCH):**
+  - fix(docker): localiza o Docker Desktop dinamicamente (via docker CLI no PATH + locais comuns de instalacao) em vez de caminho hardcoded - corrige erro 'O Windows nao pode encontrar C:\Program' em instalacoes fora do caminho padrao
+
+---
+
+
 ## Release - v2.3.38
 * **Release CLI (PATCH):**
   - feat(docker): inicia o Docker Desktop automaticamente na abertura da aplicacao (splash screen) e aguarda o engine ficar pronto (ate 90s) antes de instalar servicos - corrige erro 'Docker engine inativo' ao clicar em Instalar com o Docker Desktop fechado
