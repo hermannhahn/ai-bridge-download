@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.52",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.52.exe",
-    "notes": "fix(api): autenticacao da API local do ai-bridge agora usa somente a token do usuario (brain_token), eliminando o api_token_secret fixo compartilhado entre instalacoes - sem token configurada, as rotas protegidas sao rejeitadas (default deny)"
+    "version": "2.3.53",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.53.exe",
+    "notes": "**Resumo:** O painel ganhou a secao Atualizacoes do AI-Bridge na aba AI-Bridge, recebendo as notas de atualizacao publicadas pela CLI do projeto ai-bridge, e o changelog do AI-BRAIN agora apresenta a mensagem da versao seguida do changelog de commits."
 }
