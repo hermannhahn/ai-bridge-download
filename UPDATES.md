@@ -36,6 +36,27 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.31
+* **Release CLI (PATCH):**
+  - fix: SaveBrainSettings/SaveBrainToken - tratamento de erro no save do config.json, erro era engolido silenciosamente impedindo persistencia do token
+
+---
+
+
+## Release - v2.3.30
+* **Release CLI (PATCH):**
+  - release: v2.3.30 - fix(config): persistencia de token em AppData/AI Bridge
+
+---
+
+
+## Release - v2.3.29
+* **Release CLI (PATCH):**
+  - fix(config): persistir config.json em AppData de usuario para garantir salvamento do token
+
+---
+
+
 ## Release - v2.3.27
 * **Release CLI (PATCH):**
   - fix(websocket): adicionar suporte completo a acoes de notas e memorias no ai-bridge
