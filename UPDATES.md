@@ -36,6 +36,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.47
+* **Release CLI (PATCH):**
+  - release: v2.3.47 - Corre??o de persist?ncia de mem?ria de longo prazo (SaveChatMessage/add_chat_message) e elimina??o de NoneType em search_notes
+
+---
+
+
 ## Release - v2.3.46
 * **Release CLI (PATCH):**
   - fix(updater): adiciona cache-busting timestamp e headers no-cache na checagem de versao remota
