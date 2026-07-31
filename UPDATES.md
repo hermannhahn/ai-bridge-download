@@ -2,63 +2,6 @@
 
 Neste arquivo constam as melhorias, correções e novas funcionalidades implementadas no **AI BRIDGE**.
 
-## Release - v2.4.0 (Banco Embutido SQLite + Runtimes Standalone)
-
-* **Banco de dados embutido (SQLite) — fim da dependência de PostgreSQL:**
-  - Removida a dependência de `PostgreSQL` externo. O AI Bridge agora utiliza **SQLite embutido** (driver `modernc.org/sqlite`, Go puro, sem CGO), armazenado em `%AppData%\AI Bridge\data\ai-bridge.db`.
-  - A aplicação funciona em qualquer PC **sem instalar nada**: o banco é criado automaticamente na primeira execução.
-  - Substituído `internal/db/postgres.go` por `internal/db/sqlite.go` com o mesmo contrato de métodos (notas, categorias, mais acessados, dias, sessões de longo prazo, mensagens de chat).
-  - Busca vetorial (RAG) por similaridade de cosseno calculada em Go, com **fallback automático para busca textual** por palavra-chave quando o Ollama estiver offline.
-  - Erros de inicialização do banco agora são exibidos (não são mais engolidos silenciosamente).
-* **Ações WebSocket completas no `brain_sync.go`:**
-  - Implementadas as ações que estavam faltando: `load_notes`, `list_note_days`, `search_long_term_memories`, `search_long_term_memories_by`, `delete_long_term_memory`, `get_chat_history` e `add_chat_message`.
-  - `list_long_term_memories` e `get_long_term_memory` agora consultam o banco real (antes retornavam listas vazias fixas).
-  - `whatsapp_status` agora verifica o WAHA de verdade (antes retornava "connected" fixo).
-* **Runtimes embutidos (standalone):**
-  - Novo pacote `internal/embed`: gerencia o ciclo de vida do **Ollama** e do **WAHA** como subprocessos da aplicação.
-  - **Ollama**: se não estiver rodando na máquina, o app localiza `runtime\ollama\ollama.exe` e o inicia automaticamente; na primeira execução, baixa o runtime portátil do GitHub e o modelo `nomic-embed-text` sem instalação no PC.
-  - **WAHA**: se não estiver rodando, o app inicia `runtime\waha\start.bat` (Node.js portátil + WAHA Core), preparado pelo script `scripts/setup-runtime.ps1`.
-  - Encerramento limpo dos subprocessos ao sair da aplicação.
-* **Instalador e preparação do runtime:**
-  - Criado `scripts/setup-runtime.ps1` que prepara a pasta `runtime/` (Ollama + Node.js portátil + WAHA Core) para o build standalone.
-  - `installer/setup.iss` inclui a pasta `runtime\*` no instalador quando preparada (`#if FileExists`).
-
-## Release - v2.4.1 (Botão "Instalar WhatsApp" — WAHA automatizado no card de status)
-
-* **Instalação automatizada do WhatsApp direto do painel:**
-  - No card **WhatsApp** da aba *Status dos Serviços* foi adicionado o botão **"Instalar WhatsApp"**.
-  - O botão executa em segundo plano o instalador do WAHA embutido (`internal/embed/waha_installer.go`) com barra de progresso no próprio card.
-  - Etapas automatizadas: download do Node.js portátil → download do WAHA Core (codeload, sem precisar de git) → `npm install` + `npm run build` → garantia do Chromium (engine webjs) → geração de `runtime/waha/.env` + `start.bat` → início automático do serviço.
-* **Configuração padrão criada automaticamente (baseada no docker-compose antigo do projeto):**
-  - `WHATSAPP_API_KEY` gerada aleatoriamente (salva em `config.json` para reuso).
-  - Dashboard e Swagger com usuário `admin` e senha gerada (também persistida).
-  - Webhook padrão `WHATSAPP_HOOK_URL=http://localhost:<porta_api>/api/webhooks/whatsapp` com eventos `message`.
-  - `WAHA_FILES_URL_RAW=false` e `WHATSAPP_HOOK_MEDIA=true`.
-  - Sessão padrão `default` na porta `3000`.
-* **QR Code na ponta:**
-  - Botão **"Abrir QR Code"** (visível quando o WAHA está online) abre `http://localhost:3000/api/default/qr` no navegador para pareamento com o celular.
-  - Ao concluir a instalação, o card atualiza automaticamente o status dos serviços (Online/Offline) em tempo real.
-* **Métodos Wails expostos:** `InstallWhatsApp()`, `GetWhatsAppInstallStatus()`, `GetWhatsAppQRURL()` e `OpenWhatsAppQR()`.
-* **Webhooks do WhatsApp agora fluem pelo WebSocket (não mais API direta):**
-  - O WAHA roda localmente e envia os eventos de mensagem para a **API local do ai-bridge** (`POST /api/webhooks/whatsapp`, nova rota no `internal/api/server.go`).
-  - O ai-bridge **repassa o evento ao ai-brain pelo canal WebSocket persistente** (novo método `SendEvent` no `BrainSyncService`, ação push `whatsapp_webhook` sem `request_id`).
-  - No ai-brain, o `ws_bridge_manager` agora distingue respostas de requisições (`request_id`) de **eventos push espontâneos**; a ação `whatsapp_webhook` entra na mesma pipeline do webhook HTTP (`_process_whatsapp_event` em `bots.py`), incluindo transcrição de áudio e resposta automática.
-  - Resultado: **nenhuma porta precisa ser aberta** — o WAHA fala só com o ai-bridge em localhost e o ai-bridge usa a conexão WebSocket outbound que já existe com o ai-brain.
-* **Instalação de dependências do Windows automatizada:**
-  - O instalador verifica e instala o **Visual C++ Redistributable** (exigido pelo Chromium/engine webjs) quando ausente, com fallback para elevação via UAC.
-  - **Docker não é necessário**: o WAHA Core roda como aplicação Node.js direta (baixada, compilada e iniciada pelo próprio instalador).
-  - Mesma lógica adicionada ao `scripts/setup-runtime.ps1`.
-
----
-
-
-## Release - v2.3.32
-* **Release CLI (PATCH):**
-  - added embedded sqlite ollama and auto installer config waha connector
-
----
-
-
 ## Release - v2.0.14
 * **Migração para Comunicação WebSocket Persistente (ai-bridge ↔ ai-brain):**
   - Substituição do envio de URL e detecção de IP público via POST por um canal WebSocket persistente outbound (`wss://ai-brain.ddns.net/ws/ai-bridge`).
@@ -89,6 +32,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 * **Correções no Gerenciamento de Versão e Auto-Updater:**
   - Corrigida versão padrão de fallback em `cmd/ai-bridge/main.go` e `index.html` de v2.3.0 para v2.3.3.
   - Ajustado o acionamento do `updater.exe` para não fechar a aplicação principal ao apenas abrir a tela de atualizações, encerrando o aplicativo e iniciando o instalador apenas quando o usuário confirmar e clicar no botão **Atualizar Agora** dentro da aplicação do atualizador.
+
+---
+
+
+## Release - v2.3.33
+* **Release CLI (PATCH):**
+  - Reversão do sqlite+ollama embedd - retorno ao uso de PostgreSQL, Ollama e WAHA externos, restaurando a estabilidade da v2.3.31
 
 ---
 
