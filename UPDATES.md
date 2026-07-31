@@ -36,6 +36,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.46
+* **Release CLI (PATCH):**
+  - fix(updater): adiciona cache-busting timestamp e headers no-cache na checagem de versao remota
+
+---
+
+
 ## Release - v2.3.45
 * **Release CLI (PATCH):**
   - fix(db): inicializa arrays como slice vazio [] em vez de nil para evitar json null (NoneType)
