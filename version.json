@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.43",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.43.exe",
-    "notes": "fix(memory): suporte a busca de longo prazo (search_long_term_memories e search_by_field) via WS e HTTP REST"
+    "version": "2.3.44",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.44.exe",
+    "notes": "fix(api): cobertura completa de 100% das rotas HTTP REST e actions WebSocket para notas, memorias e whatsapp"
 }
