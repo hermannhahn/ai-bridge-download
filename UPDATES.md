@@ -36,6 +36,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.49
+* **Release CLI (PATCH):**
+  - release: v2.3.49 - Corre??o definitiva do recall no search_notes removendo restri??o excludente de agent_id
+
+---
+
+
 ## Release - v2.3.48
 * **Release CLI (PATCH):**
   - release: v2.3.48 - Implementa??o de busca h?brida de notas (vetorial + ILIKE) e compatibiliza??o do campo agent_name em sess?es

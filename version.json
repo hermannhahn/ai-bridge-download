@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.48",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.48.exe",
-    "notes": "release: v2.3.48 - Implementa??o de busca h?brida de notas (vetorial + ILIKE) e compatibiliza??o do campo agent_name em sess?es"
+    "version": "2.3.49",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.49.exe",
+    "notes": "release: v2.3.49 - Corre??o definitiva do recall no search_notes removendo restri??o excludente de agent_id"
 }
