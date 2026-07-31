@@ -36,6 +36,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.25
+* **Release CLI (PATCH):**
+  - Aviso de conclusao e reabertura da aplicacao no atualizador
+
+---
+
+
 ## Release - v2.3.24
 * **Release CLI (PATCH):**
   - Restauracao exata do estilo visual e configuracoes da Splash Screen idencicos a versao v2.3.18
