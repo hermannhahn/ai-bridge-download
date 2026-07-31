@@ -3,6 +3,19 @@
 ---
 
 
+## Release - v2.3.55
+### 📣 Apresentação da Atualização
+
+Fix QR Code no painel do servidor ai-brain: o ai-bridge agora responde a acao whatsapp_qr via WebSocket, buscando a imagem do QR no WAHA (GET /api/sessions/{session}/qr), e o whatsapp_status retorna o estado real da sessao (WORKING/CONNECTED) em vez do mock; o endpoint qr-image do ai-brain passou a decodificar o base64 e devolver a imagem PNG, corrigindo o QR code quebrado no painel.
+
+### 📋 Changelog da Versão
+
+Nenhum commit acumulado desde a última release (alterações descritas na apresentação).
+
+
+---
+
+
 ## Release - v2.3.54
 ### 📣 Apresentação da Atualização
 
