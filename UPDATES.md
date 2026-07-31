@@ -36,6 +36,13 @@ Neste arquivo constam as melhorias, correções e novas funcionalidades implemen
 ---
 
 
+## Release - v2.3.40
+* **Release CLI (PATCH):**
+  - feat(gui): spinner e progresso em tempo real na instalacao dos servicos (etapas: docker, download, health) com polling de GetInstallProgress; botao Instalar some quando o container existe e botões Iniciar/Parar/Reiniciar aparecem conforme o estado
+
+---
+
+
 ## Release - v2.3.39
 * **Release CLI (PATCH):**
   - fix(docker): localiza o Docker Desktop dinamicamente (via docker CLI no PATH + locais comuns de instalacao) em vez de caminho hardcoded - corrige erro 'O Windows nao pode encontrar C:\Program' em instalacoes fora do caminho padrao

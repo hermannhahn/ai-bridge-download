@@ -4,11 +4,11 @@ Bem-vindo ao repositório oficial de distribuições e instaladores do **AI Brid
 
 ---
 
-## 📥 Download da Última Versão: `v2.3.39`
+## 📥 Download da Última Versão: `v2.3.40`
 
 - ⚡ **Instalador Automatizado Windows (Recomendado)**: [Baixar install-ai-bridge.bat](https://github.com/hermannhahn/ai-bridge-download/raw/main/install-ai-bridge.bat)
 - 📄 **Script PowerShell**: [Baixar install-ai-bridge.ps1](https://github.com/hermannhahn/ai-bridge-download/raw/main/install-ai-bridge.ps1)
-- 📦 **Instalador Executável Direto**: [Baixar AI-Bridge-Setup-v2.3.39.exe](https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.39.exe)
+- 📦 **Instalador Executável Direto**: [Baixar AI-Bridge-Setup-v2.3.40.exe](https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.40.exe)
 - 🔐 **Script de Certificado**: [Baixar install-cert.bat](https://github.com/hermannhahn/ai-bridge-download/raw/main/install-cert.bat)
 - 📄 **Certificado Digital**: [Baixar AIBridgeDevCert.crt](https://github.com/hermannhahn/ai-bridge-download/raw/main/AIBridgeDevCert.crt)
 
@@ -25,7 +25,7 @@ Bem-vindo ao repositório oficial de distribuições e instaladores do **AI Brid
 ## 💻 Instruções de Instalação e Liberação do Windows SmartScreen
 
 ### Opção 1: Execução Direta (Mais Rápida)
-1. Baixe o instalador [`AI-Bridge-Setup-v2.3.39.exe`](https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.39.exe).
+1. Baixe o instalador [`AI-Bridge-Setup-v2.3.40.exe`](https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.40.exe).
 2. Execute o instalador. Se a tela do **Windows Defender SmartScreen** aparecer:
    - Clique em **"Mais informações"** (*More info*).
    - Clique no botão **"Executar assim mesmo"** (*Run anyway*).
@@ -45,8 +45,8 @@ Para registrar o certificado de código nas duas autoridades confiáveis do Wind
 Para visualizar o histórico completo de notas de release, correções e novas funcionalidades, acesse:
 📄 [Visualizar UPDATES.md (Histórico Completo)](UPDATES.md)
 
-### 🌟 Notas do Release v2.3.39:
-fix(docker): localiza o Docker Desktop dinamicamente (via docker CLI no PATH + locais comuns de instalacao) em vez de caminho hardcoded - corrige erro 'O Windows nao pode encontrar C:\Program' em instalacoes fora do caminho padrao
+### 🌟 Notas do Release v2.3.40:
+feat(gui): spinner e progresso em tempo real na instalacao dos servicos (etapas: docker, download, health) com polling de GetInstallProgress; botao Instalar some quando o container existe e botões Iniciar/Parar/Reiniciar aparecem conforme o estado
 
 ---
 
