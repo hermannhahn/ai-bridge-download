@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.61",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.61.exe",
-    "notes": "**Resumo:** Correção na atualização automática do AI Bridge — a atualização podia falhar no meio do processo e agora é concluída com muito mais confiabilidade, além de gerar um log de diagnóstico caso algo dê errado."
+    "version": "2.3.62",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.62.exe",
+    "notes": "**Resumo:** Esta atualiza??o corrige a busca de anota??es, a mem?ria de longo prazo e a inje??o de contexto RAG no AI Bridge, garantindo a recupera??o perfeita do hist?rico do assistente."
 }

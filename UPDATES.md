@@ -3,6 +3,25 @@
 ---
 
 
+## Release - v2.3.62
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta atualiza??o corrige a busca de anota??es, a mem?ria de longo prazo e a inje??o de contexto RAG no AI Bridge, garantindo a recupera??o perfeita do hist?rico do assistente.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.62 (`a0d408c`)
+
+#### 🐛 Correções
+- correcao de scan de tags TEXT[], cast de interval no postgres e filtros de data em memorias/rag (`81bba03`)
+
+
+---
+
+
 ## Release - v2.3.61
 ### 📣 Apresentação da Atualização
 
