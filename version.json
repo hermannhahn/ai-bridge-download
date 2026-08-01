@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.64",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.64.exe",
-    "notes": "**Resumo:** Esta atualiza??o traz a busca aprimorada multi-palavras para mem?rias de longo prazo e garante o funcionamento correto da inje??o RAG."
+    "version": "2.3.65",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.65.exe",
+    "notes": "**Resumo:** Esta atualiza??o implementa o suporte a buscas por palavras compostas no RAG de mensagens de chat, permitindo resgatar conversas de sess?es anteriores mesmo sem embedding pr?-calculado."
 }

@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.65
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta atualiza??o implementa o suporte a buscas por palavras compostas no RAG de mensagens de chat, permitindo resgatar conversas de sess?es anteriores mesmo sem embedding pr?-calculado.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.65 (`573c748`)
+
+
+---
+
+
 ## Release - v2.3.64
 ### 📣 Apresentação da Atualização
 
