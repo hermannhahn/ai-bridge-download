@@ -3,6 +3,25 @@
 ---
 
 
+## Release - v2.3.63
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta atualiza??o traz melhorias na persist?ncia de anota??es e na busca vetorial RAG do AI Bridge, priorizando a mem?ria de conversas passadas e tratando anota??es como bloco de notas secund?rio.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.63 (`61a263a`)
+
+#### 🐛 Correções
+- persistencia de anotacoes com fallback de tags e busca vetorial prioritaria de LTM no RAG (`6a12cdf`)
+
+
+---
+
+
 ## Release - v2.3.62
 ### 📣 Apresentação da Atualização
 

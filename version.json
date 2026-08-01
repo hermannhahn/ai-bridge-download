@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.62",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.62.exe",
-    "notes": "**Resumo:** Esta atualiza??o corrige a busca de anota??es, a mem?ria de longo prazo e a inje??o de contexto RAG no AI Bridge, garantindo a recupera??o perfeita do hist?rico do assistente."
+    "version": "2.3.63",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.63.exe",
+    "notes": "**Resumo:** Esta atualiza??o traz melhorias na persist?ncia de anota??es e na busca vetorial RAG do AI Bridge, priorizando a mem?ria de conversas passadas e tratando anota??es como bloco de notas secund?rio."
 }
