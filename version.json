@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.78",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.78.exe",
-    "notes": "**Resumo:** Recria??o e atualiza??o dos containers dos servi?os integrada ao modal do Auto-Updater com status em tempo real."
+    "version": "2.3.79",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.79.exe",
+    "notes": "**Resumo:** Release v2.3.79 para valida??o do novo modal interativo de atualiza??o de containers Docker em tempo real."
 }

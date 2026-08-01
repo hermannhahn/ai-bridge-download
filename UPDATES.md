@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.79
+### 📣 Apresentação da Atualização
+
+**Resumo:** Release v2.3.79 para valida??o do novo modal interativo de atualiza??o de containers Docker em tempo real.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.79 (`2f43d23`)
+
+
+---
+
+
 ## Release - v2.3.78
 ### 📣 Apresentação da Atualização
 
