@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.73
+### 📣 Apresentação da Atualização
+
+**Resumo:** Corre??o cr?tica na busca de mensagens no PostgreSQL quando o vetor de embedding n?o est? presente.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.73 (`ca3087f`)
+
+
+---
+
+
 ## Release - v2.3.72
 ### 📣 Apresentação da Atualização
 

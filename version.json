@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.72",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.72.exe",
-    "notes": "**Resumo:** Arquitetura de Fila Sequencial Ass?ncrona para grava??o e vetoriza??o de mensagens sem concorr?ncia no Ollama."
+    "version": "2.3.73",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.73.exe",
+    "notes": "**Resumo:** Corre??o cr?tica na busca de mensagens no PostgreSQL quando o vetor de embedding n?o est? presente."
 }
