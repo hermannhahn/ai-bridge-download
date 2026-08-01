@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.80
+### 📣 Apresentação da Atualização
+
+**Resumo:** Remo??o da recria??o for?ada autom?tica de containers durante a inicializa??o normal do aplicativo.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.80 (`277d1e5`)
+
+
+---
+
+
 ## Release - v2.3.79
 ### 📣 Apresentação da Atualização
 
