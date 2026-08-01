@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.77",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.77.exe",
-    "notes": "**Resumo:** Corre??o na migra??o do modelo Ollama para all-minilm e recria??o for?ada de containers Docker nas atualiza??es."
+    "version": "2.3.78",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.78.exe",
+    "notes": "**Resumo:** Recria??o e atualiza??o dos containers dos servi?os integrada ao modal do Auto-Updater com status em tempo real."
 }

@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.78
+### 📣 Apresentação da Atualização
+
+**Resumo:** Recria??o e atualiza??o dos containers dos servi?os integrada ao modal do Auto-Updater com status em tempo real.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.78 (`430aa80`)
+
+
+---
+
+
 ## Release - v2.3.77
 ### 📣 Apresentação da Atualização
 
