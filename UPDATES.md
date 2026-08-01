@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.72
+### 📣 Apresentação da Atualização
+
+**Resumo:** Arquitetura de Fila Sequencial Ass?ncrona para grava??o e vetoriza??o de mensagens sem concorr?ncia no Ollama.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.72 (`846cf56`)
+
+
+---
+
+
 ## Release - v2.3.71
 ### 📣 Apresentação da Atualização
 
