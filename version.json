@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.76",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.76.exe",
-    "notes": "**Resumo:** Corre??o no tempo limite do cliente HTTP do Ollama (60s) e intelig?ncia na busca de palavras-chave no PostgreSQL."
+    "version": "2.3.77",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.77.exe",
+    "notes": "**Resumo:** Corre??o na migra??o do modelo Ollama para all-minilm e recria??o for?ada de containers Docker nas atualiza??es."
 }

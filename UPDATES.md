@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.77
+### 📣 Apresentação da Atualização
+
+**Resumo:** Corre??o na migra??o do modelo Ollama para all-minilm e recria??o for?ada de containers Docker nas atualiza??es.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.77 (`ea5174c`)
+
+
+---
+
+
 ## Release - v2.3.76
 ### 📣 Apresentação da Atualização
 
