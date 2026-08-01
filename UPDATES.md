@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.75
+### 📣 Apresentação da Atualização
+
+**Resumo:** Busca vetorial s?ncrona garantida com Ollama (at? 30s) para garantir 100% de precis?o sem?ntica no RAG do AI Bridge Desktop.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.75 (`fa0712f`)
+
+
+---
+
+
 ## Release - v2.3.74
 ### 📣 Apresentação da Atualização
 

@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.74",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.74.exe",
-    "notes": "**Resumo:** Otimiza??o ultrarr?pida do tempo de resposta da busca RAG no AI Bridge Desktop (m?ximo 2.5s)."
+    "version": "2.3.75",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.75.exe",
+    "notes": "**Resumo:** Busca vetorial s?ncrona garantida com Ollama (at? 30s) para garantir 100% de precis?o sem?ntica no RAG do AI Bridge Desktop."
 }
