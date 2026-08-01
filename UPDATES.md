@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.69
+### 📣 Apresentação da Atualização
+
+**Resumo:** Garantia de migra??o din?mica de schema no banco de dados do AI Bridge Desktop e sincroniza??o autom?tica de containers Docker.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.69 (`1784804`)
+
+
+---
+
+
 ## Release - v2.3.68
 ### 📣 Apresentação da Atualização
 

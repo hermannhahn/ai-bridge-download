@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.68",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.68.exe",
-    "notes": "**Resumo:** Otimiza??o na intelig?ncia de busca por palavras-chave na mem?ria de longo prazo do AI Bridge Desktop, suportando pesquisas com pontua??o (como Vetor/Hermann/RAG), barras e pesquisas sem filtro."
+    "version": "2.3.69",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.69.exe",
+    "notes": "**Resumo:** Garantia de migra??o din?mica de schema no banco de dados do AI Bridge Desktop e sincroniza??o autom?tica de containers Docker."
 }
