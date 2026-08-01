@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.68
+### 📣 Apresentação da Atualização
+
+**Resumo:** Otimiza??o na intelig?ncia de busca por palavras-chave na mem?ria de longo prazo do AI Bridge Desktop, suportando pesquisas com pontua??o (como Vetor/Hermann/RAG), barras e pesquisas sem filtro.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.68 (`d7fe666`)
+
+
+---
+
+
 ## Release - v2.3.67
 ### 📣 Apresentação da Atualização
 
