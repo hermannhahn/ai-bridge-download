@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.81",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.81.exe",
-    "notes": "**Resumo:** Esta versão resolve um problema que impedia o assistente de acessar suas memórias e o histórico de conversas durante as interações de voz e texto."
+    "version": "2.3.82",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.82.exe",
+    "notes": "**Resumo:** Esta versão deixa a atualização automática mais segura: o aplicativo agora espera ser fechado por completo antes de instalar a nova versão, evitando falhas no meio do processo."
 }

@@ -3,6 +3,25 @@
 ---
 
 
+## Release - v2.3.82
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta versão deixa a atualização automática mais segura: o aplicativo agora espera ser fechado por completo antes de instalar a nova versão, evitando falhas no meio do processo.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.82 (`cf4e655`)
+
+#### 🐛 Correções
+- updater aguarda processo ai-bridge terminar antes de instalar + ReopenApp em modo GUI + remove Run entry do setup.iss (`189b286`)
+
+
+---
+
+
 ## Release - v2.3.81
 ### 📣 Apresentação da Atualização
 
