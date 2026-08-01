@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.74
+### 📣 Apresentação da Atualização
+
+**Resumo:** Otimiza??o ultrarr?pida do tempo de resposta da busca RAG no AI Bridge Desktop (m?ximo 2.5s).
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.74 (`dfbd530`)
+
+
+---
+
+
 ## Release - v2.3.73
 ### 📣 Apresentação da Atualização
 
