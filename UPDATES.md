@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.64
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta atualiza??o traz a busca aprimorada multi-palavras para mem?rias de longo prazo e garante o funcionamento correto da inje??o RAG.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.64 (`ee95562`)
+
+
+---
+
+
 ## Release - v2.3.63
 ### 📣 Apresentação da Atualização
 
