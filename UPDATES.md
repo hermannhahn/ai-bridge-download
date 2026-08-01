@@ -3,6 +3,26 @@
 ---
 
 
+## Release - v2.3.81
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta versão resolve um problema que impedia o assistente de acessar suas memórias e o histórico de conversas durante as interações de voz e texto.
+
+### 📋 Changelog da Versão
+
+**Total:** 3 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.81 (`bbe0471`)
+
+#### 🐛 Correções
+- sessões de memória via WebSocket com contagem de mensagens e metadata atualizado (`52a4889`)
+- ChatSession enriquecido com interaction_count e end_time via subquery LEFT JOIN (`33542f7`)
+
+
+---
+
+
 ## Release - v2.3.80
 ### 📣 Apresentação da Atualização
 

@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.80",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.80.exe",
-    "notes": "**Resumo:** Remo??o da recria??o for?ada autom?tica de containers durante a inicializa??o normal do aplicativo."
+    "version": "2.3.81",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.81.exe",
+    "notes": "**Resumo:** Esta versão resolve um problema que impedia o assistente de acessar suas memórias e o histórico de conversas durante as interações de voz e texto."
 }
