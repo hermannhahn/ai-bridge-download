@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.69",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.69.exe",
-    "notes": "**Resumo:** Garantia de migra??o din?mica de schema no banco de dados do AI Bridge Desktop e sincroniza??o autom?tica de containers Docker."
+    "version": "2.3.70",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.70.exe",
+    "notes": "**Resumo:** Otimiza??o nos tempos de resposta da gera??o de embeddings Ollama no RAG do AI Bridge Desktop."
 }

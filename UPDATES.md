@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.70
+### 📣 Apresentação da Atualização
+
+**Resumo:** Otimiza??o nos tempos de resposta da gera??o de embeddings Ollama no RAG do AI Bridge Desktop.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.70 (`c87db1e`)
+
+
+---
+
+
 ## Release - v2.3.69
 ### 📣 Apresentação da Atualização
 
