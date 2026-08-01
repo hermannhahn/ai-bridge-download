@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.67
+### 📣 Apresentação da Atualização
+
+**Resumo:** Corre??o na busca de mem?rias por ID de sess?o no AI Bridge Desktop, adicionando suporte a prefixos curtos (ex: 289b6d63) e ampliando o tempo limite de embedding RAG para 10s.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.67 (`bcab0a1`)
+
+
+---
+
+
 ## Release - v2.3.65
 ### 📣 Apresentação da Atualização
 

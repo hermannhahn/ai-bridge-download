@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.65",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.65.exe",
-    "notes": "**Resumo:** Esta atualiza??o implementa o suporte a buscas por palavras compostas no RAG de mensagens de chat, permitindo resgatar conversas de sess?es anteriores mesmo sem embedding pr?-calculado."
+    "version": "2.3.67",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.67.exe",
+    "notes": "**Resumo:** Corre??o na busca de mem?rias por ID de sess?o no AI Bridge Desktop, adicionando suporte a prefixos curtos (ex: 289b6d63) e ampliando o tempo limite de embedding RAG para 10s."
 }
