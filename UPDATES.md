@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.76
+### 📣 Apresentação da Atualização
+
+**Resumo:** Corre??o no tempo limite do cliente HTTP do Ollama (60s) e intelig?ncia na busca de palavras-chave no PostgreSQL.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.76 (`ecb3aa3`)
+
+
+---
+
+
 ## Release - v2.3.75
 ### 📣 Apresentação da Atualização
 
