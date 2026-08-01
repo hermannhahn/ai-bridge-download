@@ -3,6 +3,25 @@
 ---
 
 
+## Release - v2.3.83
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta versão corrige a inicialização dos serviços locais (banco de memórias, IA local e WhatsApp) ao abrir o aplicativo: os containers agora sobem automaticamente junto com o AI Bridge, sem precisar instalá-los manualmente.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.83 (`c430ad7`)
+
+#### 🐛 Correções
+- inicializa containers dos serviços ao abrir a aplicação (docker compose up sem atualizador automático) (`03478f4`)
+
+
+---
+
+
 ## Release - v2.3.82
 ### 📣 Apresentação da Atualização
 
