@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.71
+### 📣 Apresentação da Atualização
+
+**Resumo:** Ajuste fino nos limites de tempo do Ollama para grava??o e busca de mem?rias vetoriais em hardware modesto.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.71 (`5f93c86`)
+
+
+---
+
+
 ## Release - v2.3.70
 ### 📣 Apresentação da Atualização
 
