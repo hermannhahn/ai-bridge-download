@@ -3,6 +3,25 @@
 ---
 
 
+## Release - v2.3.60
+### 📣 Apresentação da Atualização
+
+**Resumo:** Correção no painel de atualizações para exibir o histórico de alterações de forma limpa e sem duplicações.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.60 (`88a059f`)
+
+#### 🐛 Correções
+- corrigir duplicacao do texto de apresentacao no changelog da versao nas clis e instrucoes (`58625d3`)
+
+
+---
+
+
 ## Release - v2.3.59
 ### 📣 Apresentação da Atualização
 
