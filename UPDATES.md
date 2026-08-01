@@ -3,6 +3,26 @@
 ---
 
 
+## Release - v2.3.61
+### 📣 Apresentação da Atualização
+
+**Resumo:** Correção na atualização automática do AI Bridge — a atualização podia falhar no meio do processo e agora é concluída com muito mais confiabilidade, além de gerar um log de diagnóstico caso algo dê errado.
+
+### 📋 Changelog da Versão
+
+**Total:** 3 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.61 (`a641b64`)
+
+#### 🐛 Correções
+- instalador fecha o updater antigo durante a transicao (exit code 5) (`e5c4dfd`)
+- auto-updater falhava com exit status 5 ao tentar atualizar (updater.exe em uso pelo proprio processo) (`1351202`)
+
+
+---
+
+
 ## Release - v2.3.60
 ### 📣 Apresentação da Atualização
 
