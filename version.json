@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.83",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.83.exe",
-    "notes": "**Resumo:** Esta versão corrige a inicialização dos serviços locais (banco de memórias, IA local e WhatsApp) ao abrir o aplicativo: os containers agora sobem automaticamente junto com o AI Bridge, sem precisar instalá-los manualmente."
+    "version": "2.3.84",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.84.exe",
+    "notes": "**Resumo:** Esta versão ajusta o processo de atualização automática: depois que a instalação é concluída, o aplicativo não é mais reaberto sozinho — o atualizador aguarda você confirmar o fim da atualização para abrir o AI Bridge."
 }

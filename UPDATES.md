@@ -3,6 +3,28 @@
 ---
 
 
+## Release - v2.3.84
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta versão ajusta o processo de atualização automática: depois que a instalação é concluída, o aplicativo não é mais reaberto sozinho — o atualizador aguarda você confirmar o fim da atualização para abrir o AI Bridge.
+
+### 📋 Changelog da Versão
+
+**Total:** 3 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.84 (`4668185`)
+
+#### 🐛 Correções
+- updater não reabre a aplicação automaticamente — aguarda o clique em OK no modal de conclusão (`57d7030`)
+
+#### 🔧 Manutenção / Refatoração
+- remove binários de teste/dev do rastreamento git (build/bin/*-test, *-prodtest, *-signed, *-tagtest) — ~52MB de artefatos não versionáveis (`8d70a8c`)
+
+
+---
+
+
 ## Release - v2.3.83
 ### 📣 Apresentação da Atualização
 
