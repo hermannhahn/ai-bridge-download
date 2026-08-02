@@ -3,6 +3,25 @@
 ---
 
 
+## Release - v2.3.101
+### 📣 Apresentação da Atualização
+
+**Resumo:** As notas de voz de resposta agora chegam de verdade no WhatsApp! A correção final do formato de envio: o aplicativo usava o campo errado no áudio, e o WhatsApp rejeitava silenciosamente. Também corrigido o envio de voz pela ferramenta MCP e a rota local.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.101 (`e54eac3`)
+
+#### 📚 Documentação
+- TESTES_EM_ANDAMENTO.md — contexto contínuo do módulo do Sono (estado da base, histórico de bugs corrigidos, run #9 pendente e teste do WhatsApp v2.3.100 em andamento) para retomar o trabalho na próxima sessão (`6e6ac3a`)
+
+
+---
+
+
 ## Release - v2.3.100
 ### 📣 Apresentação da Atualização
 
