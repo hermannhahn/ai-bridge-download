@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.98
+### 📣 Apresentação da Atualização
+
+**Resumo:** As respostas do AI Bridge pelo WhatsApp voltaram a funcionar! O aplicativo agora entrega corretamente as respostas de texto e as notas de voz geradas pelo servidor — antes elas ficavam presas no caminho de volta.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.98 (`2ae35d0`)
+
+
+---
+
+
 ## Release - v2.3.97
 ### 📣 Apresentação da Atualização
 

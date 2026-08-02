@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.97",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.97.exe",
-    "notes": "**Resumo:** O AI Bridge agora responde às notas de voz do WhatsApp! A correção faz o aplicativo entregar o áudio recebido para o servidor processar corretamente — antes, a nota de voz chegava vazia e não havia resposta."
+    "version": "2.3.98",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.98.exe",
+    "notes": "**Resumo:** As respostas do AI Bridge pelo WhatsApp voltaram a funcionar! O aplicativo agora entrega corretamente as respostas de texto e as notas de voz geradas pelo servidor — antes elas ficavam presas no caminho de volta."
 }
