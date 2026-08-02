@@ -3,6 +3,28 @@
 ---
 
 
+## Release - v2.3.95
+### 📣 Apresentação da Atualização
+
+**Resumo:** O Sono do Modelo ficou mais confiável e visual: o card agora mostra o estado com ícones, e o processamento das memórias ganhou correções importantes — mensagens longas com emojis são indexadas corretamente e as memórias consolidadas ficam mais bem integradas à busca.
+
+### 📋 Changelog da Versão
+
+**Total:** 5 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.95 (`fc263fa`)
+- ícone do card do Sono do Modelo agora reflete o estado — dormindo 😴 quando o pipeline está rodando (Sleeping) e acordado 🧠 quando parado (Waked) (`59075d6`)
+
+#### 🐛 Correções
+- diagnóstico do emocional — o runEmotional agora registra o primeiro erro (chamada LLM ou resposta inválida) no relatório do run, e AGENTS.md ganha a regra de que o Ollama é SEMPRE o do container (ai-bridge-rag), nunca um instalado no PC (`f7d4f0d`)
+- re-embedding das consolidadas — o erro do GenerateEmbedding era ignorado (emb, _ = ...) e gravava vetor nil; agora trata o erro e re-tenta no próximo run (`ff40ef3`)
+- truncamento de embedding por RUNAS (não bytes) — mensagens Telegram com emojis tinham o UTF-8 quebrado no corte de 500 bytes, causando HTTP 500 no Ollama e deixando 23 mensagens sem indexação (`c713e6b`)
+
+
+---
+
+
 ## Release - v2.3.94
 ### 📣 Apresentação da Atualização
 
