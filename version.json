@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.90",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.90.exe",
-    "notes": "**Resumo:** Pequenos ajustes de visual no AI Bridge: o card do Sono do Modelo ficou mais limpo e organizado, e as barras de rolagem do aplicativo ganharam o visual escuro do próprio app."
+    "version": "2.3.91",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.91.exe",
+    "notes": "**Resumo:** O AI Bridge agora fala a língua do mundo: a interface padrão é em inglês, com traduções completas para português, espanhol, francês, alemão, chinês e russo. Ajustes de organização e visual também chegaram."
 }

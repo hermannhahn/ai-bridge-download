@@ -3,6 +3,23 @@
 ---
 
 
+## Release - v2.3.91
+### 📣 Apresentação da Atualização
+
+**Resumo:** O AI Bridge agora fala a língua do mundo: a interface padrão é em inglês, com traduções completas para português, espanhol, francês, alemão, chinês e russo. Ajustes de organização e visual também chegaram.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.91 (`05f044f`)
+- i18n completo do Sono do Modelo (inglês oficial + 8 idiomas), corrige chaves do token/sync que só existiam no pt-BR, default do idioma agora 'en', card do sono na primeira coluna (à esquerda do WhatsApp) sem o item Modelo, fix do switch de Local Tools, skill de i18n e instrução no AGENTS.md (`7eb8762`)
+
+
+---
+
+
 ## Release - v2.3.90
 ### 📣 Apresentação da Atualização
 
