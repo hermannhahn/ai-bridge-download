@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.97
+### 📣 Apresentação da Atualização
+
+**Resumo:** O AI Bridge agora responde às notas de voz do WhatsApp! A correção faz o aplicativo entregar o áudio recebido para o servidor processar corretamente — antes, a nota de voz chegava vazia e não havia resposta.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.97 (`47ff551`)
+
+
+---
+
+
 ## Release - v2.3.96
 ### 📣 Apresentação da Atualização
 
