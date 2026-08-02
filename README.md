@@ -4,11 +4,11 @@ Bem-vindo ao repositório oficial de distribuições e instaladores do **AI Brid
 
 ---
 
-## 📥 Download da Última Versão: `v2.3.87`
+## 📥 Download da Última Versão: `v2.3.88`
 
 - ⚡ **Instalador Automatizado Windows (Recomendado)**: [Baixar install-ai-bridge.bat](https://github.com/hermannhahn/ai-bridge-download/raw/main/install-ai-bridge.bat)
 - 📄 **Script PowerShell**: [Baixar install-ai-bridge.ps1](https://github.com/hermannhahn/ai-bridge-download/raw/main/install-ai-bridge.ps1)
-- 📦 **Instalador Executável Direto**: [Baixar AI-Bridge-Setup-v2.3.87.exe](https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.87.exe)
+- 📦 **Instalador Executável Direto**: [Baixar AI-Bridge-Setup-v2.3.88.exe](https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.88.exe)
 - 🔐 **Script de Certificado**: [Baixar install-cert.bat](https://github.com/hermannhahn/ai-bridge-download/raw/main/install-cert.bat)
 - 📄 **Certificado Digital**: [Baixar AIBridgeDevCert.crt](https://github.com/hermannhahn/ai-bridge-download/raw/main/AIBridgeDevCert.crt)
 
@@ -25,7 +25,7 @@ Bem-vindo ao repositório oficial de distribuições e instaladores do **AI Brid
 ## 💻 Instruções de Instalação e Liberação do Windows SmartScreen
 
 ### Opção 1: Execução Direta (Mais Rápida)
-1. Baixe o instalador [`AI-Bridge-Setup-v2.3.87.exe`](https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.87.exe).
+1. Baixe o instalador [`AI-Bridge-Setup-v2.3.88.exe`](https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.88.exe).
 2. Execute o instalador. Se a tela do **Windows Defender SmartScreen** aparecer:
    - Clique em **"Mais informações"** (*More info*).
    - Clique no botão **"Executar assim mesmo"** (*Run anyway*).
@@ -45,8 +45,8 @@ Para registrar o certificado de código nas duas autoridades confiáveis do Wind
 Para visualizar o histórico completo de notas de release, correções e novas funcionalidades, acesse:
 📄 [Visualizar UPDATES.md (Histórico Completo)](UPDATES.md)
 
-### 🌟 Notas do Release v2.3.87:
-**Resumo:** O painel do AI Bridge agora permite controlar as ferramentas locais (informações do sistema e descoberta de dispositivos IoT) diretamente pela tela, e a aba de dispositivos IoT passou a mostrar os equipamentos reais da sua rede local.\n\n**Destaques:**\n- Nova tela de Ferramentas Locais: ative ou desative as ferramentas do assistente (Sistema e IoT) com um clique\n- Varredura real de dispositivos: a aba Dispositivos IoT agora encontra os equipamentos da sua rede (ESP32, brokers MQTT, câmeras etc.) com IP, nome e portas abertas\n- Informações do sistema mais completas: nome do computador e tempo de atividade (uptime) também são informados ao assistente\n- Removida uma ferramenta duplicada de WhatsApp — o envio de mensagens continua funcionando normalmente
+### 🌟 Notas do Release v2.3.88:
+**Resumo:** O AI Bridge agora organiza suas memórias de longo prazo sozinho, durante a madrugada, enquanto a máquina está ociosa: junta conversas que dizem a mesma coisa, remove registros corrompidos e melhora o contexto e o tom emocional de cada memória.
 
 ---
 

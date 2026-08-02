@@ -3,6 +3,26 @@
 ---
 
 
+## Release - v2.3.88
+### 📣 Apresentação da Atualização
+
+**Resumo:** O AI Bridge agora organiza suas memórias de longo prazo sozinho, durante a madrugada, enquanto a máquina está ociosa: junta conversas que dizem a mesma coisa, remove registros corrompidos e melhora o contexto e o tom emocional de cada memória.
+
+### 📋 Changelog da Versão
+
+**Total:** 3 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.88 (`8890441`)
+- módulo de consolidação noturna de memórias (Fase 2) — pipeline de eliminação/dedup/fusão/re-embedding com carga emocional, API local, actions WebSocket e agendador diário com gate de ociosidade (`b3f0af7`)
+
+#### 📚 Documentação
+- design do módulo de consolidação noturna de memórias (Fase 1) (`51bf3ca`)
+
+
+---
+
+
 ## Release - v2.3.87
 ### 📣 Apresentação da Atualização
 
