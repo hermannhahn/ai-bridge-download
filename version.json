@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.88",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.88.exe",
-    "notes": "**Resumo:** O AI Bridge agora organiza suas memórias de longo prazo sozinho, durante a madrugada, enquanto a máquina está ociosa: junta conversas que dizem a mesma coisa, remove registros corrompidos e melhora o contexto e o tom emocional de cada memória."
+    "version": "2.3.89",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.89.exe",
+    "notes": "**Resumo:** O AI Bridge agora mostra o Sono do Modelo na tela de status: quando o modelo dorme (de madrugada, com a máquina parada), ele organiza as memórias sozinho — e você acompanha tudo pelo card, com botões para reiniciar ou reinstalar."
 }

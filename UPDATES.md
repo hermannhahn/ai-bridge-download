@@ -3,6 +3,26 @@
 ---
 
 
+## Release - v2.3.89
+### 📣 Apresentação da Atualização
+
+**Resumo:** O AI Bridge agora mostra o Sono do Modelo na tela de status: quando o modelo dorme (de madrugada, com a máquina parada), ele organiza as memórias sozinho — e você acompanha tudo pelo card, com botões para reiniciar ou reinstalar.
+
+### 📋 Changelog da Versão
+
+**Total:** 3 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.89 (`e1e88ae`)
+- card 'Sono do Modelo' na tela Services Status (Sleeping/Waked, memórias trabalhadas, botões reinstall/restart) e Install de serviços passa a baixar o modelo LLM de processamento (`a6f3ed3`)
+
+#### 🐛 Correções
+- robustez da consolidação noturna — aborta runs órfãos de processos interrompidos, scheduler com janela de horário + idle (window/always/never), seletor de modelo 3B/7B e faixa de horário na tela Settings (`f4467b4`)
+
+
+---
+
+
 ## Release - v2.3.88
 ### 📣 Apresentação da Atualização
 
