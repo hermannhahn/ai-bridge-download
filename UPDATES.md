@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.99
+### 📣 Apresentação da Atualização
+
+**Resumo:** Limpeza interna do AI Bridge: removida a rota e a ação antigas de envio de mídia do WhatsApp (send-media), que foram substituídas há tempo pela nota de voz (send-voice).
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.99 (`745430e`)
+
+
+---
+
+
 ## Release - v2.3.98
 ### 📣 Apresentação da Atualização
 
