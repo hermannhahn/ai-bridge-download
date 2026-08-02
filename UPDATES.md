@@ -3,6 +3,26 @@
 ---
 
 
+## Release - v2.3.93
+### 📣 Apresentação da Atualização
+
+**Resumo:** A instalação dos serviços ficou muito mais tranquila para quem está começando: o AI Bridge agora instala o Docker Desktop sozinho (quando necessário), com mensagens claras e amigáveis. E o botão de atualizar passou a verificar novas versões do aplicativo.
+
+### 📋 Changelog da Versão
+
+**Total:** 3 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.93 (`c190a9e`)
+- experiência de instalação mais amigável — mensagem clara com link de download do Docker Desktop quando a instalação automática (winget) falha (e abre o navegador), botão Refresh agora verifica novas versões com trava anti-flood (60s) sem recarregar a tela (`072214b`)
+
+#### 🐛 Correções
+- instalação do Docker Desktop confiável no Windows 11 — instalação assíncrona em segundo plano (sem travar a UI), detecção robusta do winget (PATH + caminhos padrão), janela visível para aceitar o UAC e acompanhar, timeout de 15 min para o download e evento de resultado que atualiza a UI ao terminar (`96ec484`)
+
+
+---
+
+
 ## Release - v2.3.92
 ### 📣 Apresentação da Atualização
 

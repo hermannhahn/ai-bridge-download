@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.92",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.92.exe",
-    "notes": "**Resumo:** O Sono do Modelo ficou mais confiável e completo: o modo de simulação não altera mais as memórias, e o sistema agora recupera automaticamente as memórias que ficaram sem processamento — deixando a busca por lembranças muito mais completa."
+    "version": "2.3.93",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.93.exe",
+    "notes": "**Resumo:** A instalação dos serviços ficou muito mais tranquila para quem está começando: o AI Bridge agora instala o Docker Desktop sozinho (quando necessário), com mensagens claras e amigáveis. E o botão de atualizar passou a verificar novas versões do aplicativo."
 }
