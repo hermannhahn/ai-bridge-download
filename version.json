@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.99",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.99.exe",
-    "notes": "**Resumo:** Limpeza interna do AI Bridge: removida a rota e a ação antigas de envio de mídia do WhatsApp (send-media), que foram substituídas há tempo pela nota de voz (send-voice)."
+    "version": "2.3.100",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.100.exe",
+    "notes": "**Resumo:** As notas de voz de resposta agora chegam de verdade no WhatsApp! Duas correções no caminho: o download da mídia usava a porta interna do WhatsApp (inacessível) e o envio da nota usava o formato errado — ambos corrigidos."
 }

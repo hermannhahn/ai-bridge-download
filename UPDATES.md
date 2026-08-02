@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.100
+### 📣 Apresentação da Atualização
+
+**Resumo:** As notas de voz de resposta agora chegam de verdade no WhatsApp! Duas correções no caminho: o download da mídia usava a porta interna do WhatsApp (inacessível) e o envio da nota usava o formato errado — ambos corrigidos.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.100 (`77f3d9b`)
+
+
+---
+
+
 ## Release - v2.3.99
 ### 📣 Apresentação da Atualização
 
