@@ -3,6 +3,29 @@
 ---
 
 
+## Release - v2.3.85
+### 📣 Apresentação da Atualização
+
+**Resumo:** O assistente agora também usa ferramentas que rodam no seu computador (via AI Bridge), como consultar informações do sistema e descobrir dispositivos IoT na sua rede local.\n\n**Destaques:**\n- Ferramentas locais do AI Bridge somadas às do servidor na resposta do modelo\n- Nova ferramenta de informações do sistema do usuário (CPU, memória RAM e disco)\n- Nova ferramenta de varredura de dispositivos IoT na rede local\n- Integração 100% via WebSocket, sem abrir portas
+
+### 📋 Changelog da Versão
+
+**Total:** 4 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.85 (`cccb558`)
+- servidor MCP local do AI Bridge via WebSocket — actions mcp_list_tools/mcp_call_tool com ferramentas ai_bridge_system_info e ai_bridge_iot_scan (`a85d572`)
+
+#### 🔧 Manutenção / Refatoração
+- remove servidor FastMCP legado (internal/mcp/server.go) e referência mcpURL no monitor — comunicação com servidor é somente via WebSocket (`080d466`)
+
+#### 🐛 Correções
+- get_note_by_id não incrementava access_count — leitura por ID agora registra o acesso via UPDATE ... RETURNING (`4cc526e`)
+
+
+---
+
+
 ## Release - v2.3.84
 ### 📣 Apresentação da Atualização
 

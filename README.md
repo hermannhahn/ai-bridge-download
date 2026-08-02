@@ -4,11 +4,11 @@ Bem-vindo ao repositório oficial de distribuições e instaladores do **AI Brid
 
 ---
 
-## 📥 Download da Última Versão: `v2.3.84`
+## 📥 Download da Última Versão: `v2.3.85`
 
 - ⚡ **Instalador Automatizado Windows (Recomendado)**: [Baixar install-ai-bridge.bat](https://github.com/hermannhahn/ai-bridge-download/raw/main/install-ai-bridge.bat)
 - 📄 **Script PowerShell**: [Baixar install-ai-bridge.ps1](https://github.com/hermannhahn/ai-bridge-download/raw/main/install-ai-bridge.ps1)
-- 📦 **Instalador Executável Direto**: [Baixar AI-Bridge-Setup-v2.3.84.exe](https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.84.exe)
+- 📦 **Instalador Executável Direto**: [Baixar AI-Bridge-Setup-v2.3.85.exe](https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.85.exe)
 - 🔐 **Script de Certificado**: [Baixar install-cert.bat](https://github.com/hermannhahn/ai-bridge-download/raw/main/install-cert.bat)
 - 📄 **Certificado Digital**: [Baixar AIBridgeDevCert.crt](https://github.com/hermannhahn/ai-bridge-download/raw/main/AIBridgeDevCert.crt)
 
@@ -25,7 +25,7 @@ Bem-vindo ao repositório oficial de distribuições e instaladores do **AI Brid
 ## 💻 Instruções de Instalação e Liberação do Windows SmartScreen
 
 ### Opção 1: Execução Direta (Mais Rápida)
-1. Baixe o instalador [`AI-Bridge-Setup-v2.3.84.exe`](https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.84.exe).
+1. Baixe o instalador [`AI-Bridge-Setup-v2.3.85.exe`](https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.85.exe).
 2. Execute o instalador. Se a tela do **Windows Defender SmartScreen** aparecer:
    - Clique em **"Mais informações"** (*More info*).
    - Clique no botão **"Executar assim mesmo"** (*Run anyway*).
@@ -45,8 +45,8 @@ Para registrar o certificado de código nas duas autoridades confiáveis do Wind
 Para visualizar o histórico completo de notas de release, correções e novas funcionalidades, acesse:
 📄 [Visualizar UPDATES.md (Histórico Completo)](UPDATES.md)
 
-### 🌟 Notas do Release v2.3.84:
-**Resumo:** Esta versão ajusta o processo de atualização automática: depois que a instalação é concluída, o aplicativo não é mais reaberto sozinho — o atualizador aguarda você confirmar o fim da atualização para abrir o AI Bridge.
+### 🌟 Notas do Release v2.3.85:
+**Resumo:** O assistente agora também usa ferramentas que rodam no seu computador (via AI Bridge), como consultar informações do sistema e descobrir dispositivos IoT na sua rede local.\n\n**Destaques:**\n- Ferramentas locais do AI Bridge somadas às do servidor na resposta do modelo\n- Nova ferramenta de informações do sistema do usuário (CPU, memória RAM e disco)\n- Nova ferramenta de varredura de dispositivos IoT na rede local\n- Integração 100% via WebSocket, sem abrir portas
 
 ---
 
