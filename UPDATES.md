@@ -3,6 +3,26 @@
 ---
 
 
+## Release - v2.3.94
+### 📣 Apresentação da Atualização
+
+**Resumo:** O Sono do Modelo ficou mais completo e preciso: memórias longas agora são indexadas corretamente, e a junção de memórias parecidas não deixa mais registros duplicados.
+
+### 📋 Changelog da Versão
+
+**Total:** 3 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.94 (`f644bd7`)
+
+#### 🐛 Correções
+- deduplicação na fusão de memórias — prompt reforçado (1 memória por sub-assunto, sem variações) e dedup defensivo por similaridade de bigramas (≥0.80) que impede o LLM de criar consolidadas quase-idênticas no mesmo cluster (`9fde636`)
+- embeddings de mensagens longas — o all-minilm aceita ~512 tokens (600 chars) e retorna HTTP 500 acima disso, deixando mensagens longas sem indexação e sem re-embedding das consolidadas; agora o GenerateEmbedding trunca para 500 chars com margem segura (`5825a89`)
+
+
+---
+
+
 ## Release - v2.3.93
 ### 📣 Apresentação da Atualização
 
