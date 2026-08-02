@@ -3,6 +3,25 @@
 ---
 
 
+## Release - v2.3.92
+### 📣 Apresentação da Atualização
+
+**Resumo:** O Sono do Modelo ficou mais confiável e completo: o modo de simulação não altera mais as memórias, e o sistema agora recupera automaticamente as memórias que ficaram sem processamento — deixando a busca por lembranças muito mais completa.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.92 (`b1abc6a`)
+
+#### 🐛 Correções
+- card do Sono do Modelo sem o item Status (o badge do card já exibe Sleeping/Waked) (`8f9d8d4`)
+
+
+---
+
+
 ## Release - v2.3.91
 ### 📣 Apresentação da Atualização
 
