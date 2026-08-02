@@ -3,6 +3,28 @@
 ---
 
 
+## Release - v2.3.87
+### 📣 Apresentação da Atualização
+
+**Resumo:** O painel do AI Bridge agora permite controlar as ferramentas locais (informações do sistema e descoberta de dispositivos IoT) diretamente pela tela, e a aba de dispositivos IoT passou a mostrar os equipamentos reais da sua rede local.\n\n**Destaques:**\n- Nova tela de Ferramentas Locais: ative ou desative as ferramentas do assistente (Sistema e IoT) com um clique\n- Varredura real de dispositivos: a aba Dispositivos IoT agora encontra os equipamentos da sua rede (ESP32, brokers MQTT, câmeras etc.) com IP, nome e portas abertas\n- Informações do sistema mais completas: nome do computador e tempo de atividade (uptime) também são informados ao assistente\n- Removida uma ferramenta duplicada de WhatsApp — o envio de mensagens continua funcionando normalmente
+
+### 📋 Changelog da Versão
+
+**Total:** 5 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.87 (`2fbdf20`)
+- UI dinâmica das Ferramentas Locais e Dispositivos IoT — toggles reais via GetMCPTools/ToggleMCPTool e varredura via ScanIoTDevices, i18n em 7 idiomas (`fe552d5`)
+- refina ferramentas locais MCP — system_info com hostname/uptime, iot_scan com hostname real via reverse DNS e remove whatsapp-notifier do registro (`5774638`)
+
+#### 🐛 Correções
+- cli.js localiza signtool automaticamente (Windows SDK) e aborta build/publish se a assinatura falhar — evita publicar binários sem assinatura silenciosamente (`642fa6a`)
+- assina digitalmente os binários do release v2.3.86 (signtool + certificado AI-BRAIN Solutions) (`2c7a350`)
+
+
+---
+
+
 ## Release - v2.3.86
 ### 📣 Apresentação da Atualização
 
