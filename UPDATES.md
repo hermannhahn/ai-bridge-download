@@ -3,6 +3,31 @@
 ---
 
 
+## Release - v2.3.90
+### 📣 Apresentação da Atualização
+
+**Resumo:** Pequenos ajustes de visual no AI Bridge: o card do Sono do Modelo ficou mais limpo e organizado, e as barras de rolagem do aplicativo ganharam o visual escuro do próprio app.
+
+### 📋 Changelog da Versão
+
+**Total:** 4 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.90 (`9ad6a12`)
+
+#### 🔧 Manutenção / Refatoração
+- scrollbar global estilizada (dark glass, gradiente azul/ciano) — combina com o tema do app (`04412b5`)
+
+#### 🐛 Correções
+- card do Sono do Modelo enxuto — remove 'Memórias no banco' e 'Horário do sono' e empilha as informações em linhas (sem overflow) (`d309dd6`)
+
+#### 📚 Documentação
+- documentação completa do Sono do Modelo — estado implementado no NIGHTLY_MEMORY_CONSOLIDATION.md, skill nightly-consolidation para agentes e lição das aspas no publish patch no AGENTS.md (`740c417`)
+
+
+---
+
+
 ## Release - v2.3.89
 ### 📣 Apresentação da Atualização
 
