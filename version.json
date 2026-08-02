@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.95",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.95.exe",
-    "notes": "**Resumo:** O Sono do Modelo ficou mais confiável e visual: o card agora mostra o estado com ícones, e o processamento das memórias ganhou correções importantes — mensagens longas com emojis são indexadas corretamente e as memórias consolidadas ficam mais bem integradas à busca."
+    "version": "2.3.96",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.96.exe",
+    "notes": "**Resumo:** O Sono do Modelo recebeu uma correção importante: as memórias consolidadas (juntas pelo próprio sono) agora são processadas corretamente — antes elas eram ignoradas por um detalhe interno, ficando sem classificação emocional e sem a indexação avançada."
 }

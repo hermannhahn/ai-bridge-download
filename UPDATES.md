@@ -3,6 +3,25 @@
 ---
 
 
+## Release - v2.3.96
+### 📣 Apresentação da Atualização
+
+**Resumo:** O Sono do Modelo recebeu uma correção importante: as memórias consolidadas (juntas pelo próprio sono) agora são processadas corretamente — antes elas eram ignoradas por um detalhe interno, ficando sem classificação emocional e sem a indexação avançada.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.96 (`11dd208`)
+
+#### 🐛 Correções
+- scanChatMessageFull — o lib/pq não suporta scanar []int de arrays não vazios (merged_from_ids das consolidadas), o que fazia o ListPendingEmotionalLoad/re-embedding descartarem as mensagens consolidadas silenciosamente (emotional=0); agora escaneia via []int64 e converte (`2e5bf95`)
+
+
+---
+
+
 ## Release - v2.3.95
 ### 📣 Apresentação da Atualização
 
