@@ -3,6 +3,28 @@
 ---
 
 
+## Release - v2.3.86
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta atualização deixa o processo de atualização automática do AI Bridge muito mais discreto: as janelas escuras de comando que apareciam e fechavam rapidamente na tela durante a atualização foram eliminadas.\n\n**Destaques:**\n- Atualização automática sem janelas de comando piscando na tela\n- Certificado digital renovado para melhor reconhecimento do editor nas novas instalações
+
+### 📋 Changelog da Versão
+
+**Total:** 3 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.86 (`e5b4848`)
+
+#### 🔧 Manutenção / Refatoração
+- regenera certificado de desenvolvimento com O=AI-BRAIN Solutions — UAC exibe editor confiável quando o .crt é instalado (Trusted Root + Trusted Publishers) (`6eece61`)
+
+#### 🐛 Correções
+- updater não abre mais janelas de console durante a atualização — HideWindow em taskkill, tasklist, cmd /c start e instalador (`f0d117b`)
+
+
+---
+
+
 ## Release - v2.3.85
 ### 📣 Apresentação da Atualização
 

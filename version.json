@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.85",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.85.exe",
-    "notes": "**Resumo:** O assistente agora também usa ferramentas que rodam no seu computador (via AI Bridge), como consultar informações do sistema e descobrir dispositivos IoT na sua rede local.\\n\\n**Destaques:**\\n- Ferramentas locais do AI Bridge somadas às do servidor na resposta do modelo\\n- Nova ferramenta de informações do sistema do usuário (CPU, memória RAM e disco)\\n- Nova ferramenta de varredura de dispositivos IoT na rede local\\n- Integração 100% via WebSocket, sem abrir portas"
+    "version": "2.3.86",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.86.exe",
+    "notes": "**Resumo:** Esta atualização deixa o processo de atualização automática do AI Bridge muito mais discreto: as janelas escuras de comando que apareciam e fechavam rapidamente na tela durante a atualização foram eliminadas.\\n\\n**Destaques:**\\n- Atualização automática sem janelas de comando piscando na tela\\n- Certificado digital renovado para melhor reconhecimento do editor nas novas instalações"
 }
