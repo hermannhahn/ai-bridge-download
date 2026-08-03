@@ -3,6 +3,26 @@
 ---
 
 
+## Release - v2.3.104
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta vers?o corrige um problema no menu da bandeja do Windows (tray icon), garantindo que as op??es de exibir a janela ou encerrar o aplicativo apare?am e funcionem normalmente ao clicar com o bot?o direito no ?cone.
+
+### 📋 Changelog da Versão
+
+**Total:** 3 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.104 (`3c741d2`)
+
+#### 🐛 Correções
+- correcao do menu de contexto do tray icon no Windows (`fe16a8b`)
+- corregir o registro do menu de contexto do tray icon no Windows (`5971afd`)
+
+
+---
+
+
 ## Release - v2.3.103
 ### 📣 Apresentação da Atualização
 
