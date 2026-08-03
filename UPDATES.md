@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.109
+### 📣 Apresentação da Atualização
+
+**Resumo:** Correção na exibição do contador de memórias trabalhadas no card do Sono do Modelo.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.109 (`b7f4716`)
+
+
+---
+
+
 ## Release - v2.3.108
 ### 📣 Apresentação da Atualização
 

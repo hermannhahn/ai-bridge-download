@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.108",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.108.exe",
-    "notes": "**Resumo:** Ajuste no status dos serviços internos e inclusão de métricas do Sono do Modelo no envio de informações do sistema."
+    "version": "2.3.109",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.109.exe",
+    "notes": "**Resumo:** Correção na exibição do contador de memórias trabalhadas no card do Sono do Modelo."
 }
