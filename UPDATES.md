@@ -3,6 +3,23 @@
 ---
 
 
+## Release - v2.3.112
+### 📣 Apresentação da Atualização
+
+**Resumo:** Correcao de execucao silenciosa de comandos Docker sem abrir janelas CMD no Windows e eliminacao de falso positivo no retorno do docker_create_project.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.112 (`247b560`)
+- updates in fix/silent-docker-exec-cmd (`81be8e2`)
+
+
+---
+
+
 ## Release - v2.3.111
 ### 📣 Apresentação da Atualização
 
