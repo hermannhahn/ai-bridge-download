@@ -3,6 +3,25 @@
 ---
 
 
+## Release - v2.3.103
+### 📣 Apresentação da Atualização
+
+**Resumo:** O Sono do Modelo recebeu três correções importantes de qualidade: memórias parecidas não viram mais duas versões duplicadas (mesmo assunto resumido em idiomas diferentes era consolidado duas vezes), o resumo agora preserva corretamente quem disse o quê, e as memórias consolidadas aparecem com prioridade nas buscas do assistente.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.103 (`edd0577`)
+
+#### 🐛 Correções
+- qualidade da consolidação — duplicatas cross-idioma, fidelidade factual e busca RAG (`622c3c3`)
+
+
+---
+
+
 ## Release - v2.3.102
 ### 📣 Apresentação da Atualização
 

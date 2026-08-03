@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.102",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.102.exe",
-    "notes": "**Resumo:** O Sono do Modelo agora é guiado pela atividade do próprio assistente: ele dorme e organiza as memórias quando não há conversas há 30 minutos (dentro da janela noturna) e acorda imediatamente quando você interage. A interface ganhou botões de minimizar e maximizar, e as lembranças recuperadas agora trazem a carga emocional de cada memória para respostas mais sensíveis ao contexto."
+    "version": "2.3.103",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.103.exe",
+    "notes": "**Resumo:** O Sono do Modelo recebeu três correções importantes de qualidade: memórias parecidas não viram mais duas versões duplicadas (mesmo assunto resumido em idiomas diferentes era consolidado duas vezes), o resumo agora preserva corretamente quem disse o quê, e as memórias consolidadas aparecem com prioridade nas buscas do assistente."
 }
