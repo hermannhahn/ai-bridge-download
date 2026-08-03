@@ -3,6 +3,26 @@
 ---
 
 
+## Release - v2.3.102
+### 📣 Apresentação da Atualização
+
+**Resumo:** O Sono do Modelo agora é guiado pela atividade do próprio assistente: ele dorme e organiza as memórias quando não há conversas há 30 minutos (dentro da janela noturna) e acorda imediatamente quando você interage. A interface ganhou botões de minimizar e maximizar, e as lembranças recuperadas agora trazem a carga emocional de cada memória para respostas mais sensíveis ao contexto.
+
+### 📋 Changelog da Versão
+
+**Total:** 3 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.102 (`be60e6e`)
+- sono do modelo por atividade + RAG enriquecido + botões de janela (`b8b2eed`)
+
+#### 📚 Documentação
+- skill nightly-consolidation e TESTES_EM_ANDAMENTO atualizados com a nova lógica do sono, RAG enriquecido e lições aprendidas (scan pq.Array, diagnóstico por linha do tempo de versões) (`78c07cc`)
+
+
+---
+
+
 ## Release - v2.3.101
 ### 📣 Apresentação da Atualização
 
