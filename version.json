@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.107",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.107.exe",
-    "notes": "**Resumo:** Adicionada verificacao de saude dos servicos locais (PostgreSQL e Ollama) na sincronizacao do WebSocket."
+    "version": "2.3.108",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.108.exe",
+    "notes": "**Resumo:** Ajuste no status dos serviços internos e inclusão de métricas do Sono do Modelo no envio de informações do sistema."
 }

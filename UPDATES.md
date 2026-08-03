@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.108
+### 📣 Apresentação da Atualização
+
+**Resumo:** Ajuste no status dos serviços internos e inclusão de métricas do Sono do Modelo no envio de informações do sistema.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.108 (`b69f0e3`)
+
+
+---
+
+
 ## Release - v2.3.107
 ### 📣 Apresentação da Atualização
 
