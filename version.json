@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.106",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.106.exe",
-    "notes": "**Resumo:** Correção do ícone da bandeja do Windows: o menu não congela mais ao sair, a opção Exibir AI Bridge agora traz a janela para a frente com foco e abrir o aplicativo novamente não cria um segundo ícone na bandeja."
+    "version": "2.3.107",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.107.exe",
+    "notes": "**Resumo:** Adicionada verificacao de saude dos servicos locais (PostgreSQL e Ollama) na sincronizacao do WebSocket."
 }

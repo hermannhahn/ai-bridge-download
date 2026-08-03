@@ -3,6 +3,23 @@
 ---
 
 
+## Release - v2.3.107
+### 📣 Apresentação da Atualização
+
+**Resumo:** Adicionada verificacao de saude dos servicos locais (PostgreSQL e Ollama) na sincronizacao do WebSocket.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.107 (`79e1a97`)
+- update development branch (`7138ef5`)
+
+
+---
+
+
 ## Release - v2.3.106
 ### 📣 Apresentação da Atualização
 
