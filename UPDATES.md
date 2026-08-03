@@ -3,6 +3,29 @@
 ---
 
 
+## Release - v2.3.111
+### 📣 Apresentação da Atualização
+
+**Resumo:** Adicionada suite completa de MCP Tools de desenvolvimento em container Docker com controle de limites configuravel e gestao na interface.
+
+### 📋 Changelog da Versão
+
+**Total:** 6 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.111 (`9954dd7`)
+- updates in feature/ui-local-tools-docker-list (`6129104`)
+- updates in feature/short-mcp-docker-dev-tools (`d8c72c7`)
+- updates in feature/mcp-docker-containers (`526651e`)
+- update development branch (`e01d43f`)
+
+#### 📚 Documentação
+- add mcp docker containers task definition to TODO and tasks/ (`b2f99c2`)
+
+
+---
+
+
 ## Release - v2.3.110
 ### 📣 Apresentação da Atualização
 

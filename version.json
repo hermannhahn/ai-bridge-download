@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.110",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.110.exe",
-    "notes": "**Resumo:** Adicionado o mostrador de tempo de sono (Time spent sleeping) ao card do Sono do Modelo."
+    "version": "2.3.111",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.111.exe",
+    "notes": "**Resumo:** Adicionada suite completa de MCP Tools de desenvolvimento em container Docker com controle de limites configuravel e gestao na interface."
 }
