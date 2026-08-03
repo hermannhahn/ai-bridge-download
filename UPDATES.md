@@ -3,6 +3,25 @@
 ---
 
 
+## Release - v2.3.106
+### 📣 Apresentação da Atualização
+
+**Resumo:** Correção do ícone da bandeja do Windows: o menu não congela mais ao sair, a opção Exibir AI Bridge agora traz a janela para a frente com foco e abrir o aplicativo novamente não cria um segundo ícone na bandeja.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.106 (`502143c`)
+
+#### 🐛 Correções
+- tray icon da bandeja - menu nao congela ao sair, janela abre com foco e sem icone duplicado (`c8f5951`)
+
+
+---
+
+
 ## Release - v2.3.105
 ### 📣 Apresentação da Atualização
 
