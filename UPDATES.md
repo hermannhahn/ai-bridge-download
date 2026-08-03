@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.110
+### 📣 Apresentação da Atualização
+
+**Resumo:** Adicionado o mostrador de tempo de sono (Time spent sleeping) ao card do Sono do Modelo.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.110 (`61cc974`)
+
+
+---
+
+
 ## Release - v2.3.109
 ### 📣 Apresentação da Atualização
 

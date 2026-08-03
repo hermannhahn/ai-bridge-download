@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.109",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.109.exe",
-    "notes": "**Resumo:** Correção na exibição do contador de memórias trabalhadas no card do Sono do Modelo."
+    "version": "2.3.110",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.110.exe",
+    "notes": "**Resumo:** Adicionado o mostrador de tempo de sono (Time spent sleeping) ao card do Sono do Modelo."
 }
