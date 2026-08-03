@@ -3,6 +3,25 @@
 ---
 
 
+## Release - v2.3.105
+### 📣 Apresentação da Atualização
+
+**Resumo:** O bot?o de notifica??o de novas atualiza??es e o seu modal de confirma??o agora respeitam o idioma ativo selecionado na interface (suporte completo nos 8 idiomas).
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.105 (`5596e3d`)
+
+#### 🐛 Correções
+- suporte a i18n para o botao e modal de verificacao de atualizacao (`ca5a38f`)
+
+
+---
+
+
 ## Release - v2.3.104
 ### 📣 Apresentação da Atualização
 

@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.104",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.104.exe",
-    "notes": "**Resumo:** Esta vers?o corrige um problema no menu da bandeja do Windows (tray icon), garantindo que as op??es de exibir a janela ou encerrar o aplicativo apare?am e funcionem normalmente ao clicar com o bot?o direito no ?cone."
+    "version": "2.3.105",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.105.exe",
+    "notes": "**Resumo:** O bot?o de notifica??o de novas atualiza??es e o seu modal de confirma??o agora respeitam o idioma ativo selecionado na interface (suporte completo nos 8 idiomas)."
 }
