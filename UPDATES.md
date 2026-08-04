@@ -3,6 +3,26 @@
 ---
 
 
+## Release - v2.3.115
+### 📣 Apresentação da Atualização
+
+**Resumo:** Corre??o no sistema de consolida??o de mem?rias e sincroniza??o da API.
+
+### 📋 Changelog da Versão
+
+**Total:** 3 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.115 (`e1a226c`)
+
+#### 🐛 Correções
+- reconexao com o banco tambem atualiza o Server da API (MCP/REST voltam a enxergar as memorias) (`d5fb073`)
+- advisory lock entre processos na consolidacao (impede runs duplicados com 2+ instancias do AI Bridge) (`76e93f4`)
+
+
+---
+
+
 ## Release - v2.3.114
 ### 📣 Apresentação da Atualização
 
