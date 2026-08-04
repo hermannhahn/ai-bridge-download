@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.113",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.113.exe",
-    "notes": "**Resumo:** Sincronizacao de atualizacoes na branch de desenvolvimento para alinhamento com a versao principal."
+    "version": "2.3.114",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.114.exe",
+    "notes": "**Resumo:** Adicionado controle de delay na execu??o de ferramentas MCP locais em segundos nas configura??es do sistema."
 }

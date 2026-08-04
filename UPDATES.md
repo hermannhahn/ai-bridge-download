@@ -3,6 +3,23 @@
 ---
 
 
+## Release - v2.3.114
+### 📣 Apresentação da Atualização
+
+**Resumo:** Adicionado controle de delay na execu??o de ferramentas MCP locais em segundos nas configura??es do sistema.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.114 (`77762cf`)
+- update development branch (`02ac278`)
+
+
+---
+
+
 ## Release - v2.3.113
 ### 📣 Apresentação da Atualização
 
