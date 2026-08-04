@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.112",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.112.exe",
-    "notes": "**Resumo:** Correcao de execucao silenciosa de comandos Docker sem abrir janelas CMD no Windows e eliminacao de falso positivo no retorno do docker_create_project."
+    "version": "2.3.113",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.113.exe",
+    "notes": "**Resumo:** Sincronizacao de atualizacoes na branch de desenvolvimento para alinhamento com a versao principal."
 }

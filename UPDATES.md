@@ -3,6 +3,23 @@
 ---
 
 
+## Release - v2.3.113
+### 📣 Apresentação da Atualização
+
+**Resumo:** Sincronizacao de atualizacoes na branch de desenvolvimento para alinhamento com a versao principal.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.113 (`abe5130`)
+- update development branch (`88e7bf0`)
+
+
+---
+
+
 ## Release - v2.3.112
 ### 📣 Apresentação da Atualização
 
