@@ -3,6 +3,23 @@
 ---
 
 
+## Release - v2.3.135
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta vers?o traz o ajuste de inicializa??o do Chrome pelo Shell do Windows, garantindo exibi??o maximizada na tela no modo vis?vel e mantendo o modo silencioso oculto.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.135 (`359ac44`)
+- update development branch (`8ac9854`)
+
+
+---
+
+
 ## Release - v2.3.134
 ### 📣 Apresentação da Atualização
 
