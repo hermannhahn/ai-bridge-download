@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.122",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.122.exe",
-    "notes": "**Resumo:** Captura de pensamentos (Chain of Thought), percepção espacial e de canal, e registro automático de ferramentas MCP no LTM."
+    "version": "2.3.123",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.123.exe",
+    "notes": "**Resumo:** Ajustes de refinamento no retorno de ferramentas MCP com cabeçalho de intenção e sincronização dos metadados de contexto."
 }

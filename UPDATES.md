@@ -3,6 +3,23 @@
 ---
 
 
+## Release - v2.3.123
+### 📣 Apresentação da Atualização
+
+**Resumo:** Ajustes de refinamento no retorno de ferramentas MCP com cabeçalho de intenção e sincronização dos metadados de contexto.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.123 (`5f8f475`)
+- updates in feature/ltm-refinements-and-security (`8d0b035`)
+
+
+---
+
+
 ## Release - v2.3.122
 ### 📣 Apresentação da Atualização
 
