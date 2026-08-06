@@ -3,6 +3,23 @@
 ---
 
 
+## Release - v2.3.131
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta vers?o resolve o aviso de restaura??o de abas do Chrome e estabelece conex?es WebSocket persistentes para execu??o ultra-r?pida do assistente no navegador.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.131 (`30dbe9f`)
+- update development branch (`e7b35ed`)
+
+
+---
+
+
 ## Release - v2.3.130
 ### 📣 Apresentação da Atualização
 
