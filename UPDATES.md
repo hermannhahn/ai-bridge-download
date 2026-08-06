@@ -3,6 +3,24 @@
 ---
 
 
+## Release - v2.3.119
+### 📣 Apresentação da Atualização
+
+**Resumo:** Correção na persistência do estado de ferramentas locais em Local Tools.
+
+### 📋 Changelog da Versão
+
+**Total:** 3 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.119 (`5961923`)
+- update development branch (`8e6c7d1`)
+- update development branch (`cd7a52c`)
+
+
+---
+
+
 ## Release - v2.3.118
 ### 📣 Apresentação da Atualização
 

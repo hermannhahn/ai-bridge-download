@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.118",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.118.exe",
-    "notes": "**Resumo:** Otimização da estabilidade e da concorrência de memória no AI Bridge."
+    "version": "2.3.119",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.119.exe",
+    "notes": "**Resumo:** Correção na persistência do estado de ferramentas locais em Local Tools."
 }
