@@ -3,6 +3,23 @@
 ---
 
 
+## Release - v2.3.134
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta vers?o ajusta a exibi??o visual da janela do Chrome para alternar com precis?o entre exibi??o maximizada na tela e modo silencioso em segundo plano.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.134 (`14c2e71`)
+- update development branch (`242246e`)
+
+
+---
+
+
 ## Release - v2.3.133
 ### 📣 Apresentação da Atualização
 
