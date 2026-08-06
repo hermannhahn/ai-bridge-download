@@ -3,6 +3,23 @@
 ---
 
 
+## Release - v2.3.136
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta vers?o garante o relan?amento vis?vel do Chrome no modo Maximizado, eliminando a reutiliza??o de processos ocultos antigos em segundo plano.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.136 (`f9ef9e8`)
+- update development branch (`2fa0d2c`)
+
+
+---
+
+
 ## Release - v2.3.135
 ### 📣 Apresentação da Atualização
 
