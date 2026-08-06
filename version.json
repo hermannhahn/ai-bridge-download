@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.131",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.131.exe",
-    "notes": "**Resumo:** Esta vers?o resolve o aviso de restaura??o de abas do Chrome e estabelece conex?es WebSocket persistentes para execu??o ultra-r?pida do assistente no navegador."
+    "version": "2.3.132",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.132.exe",
+    "notes": "**Resumo:** Esta vers?o garante a inicializa??o da janela do Chrome 100% maximizada na tela para acompanhamento visual completo do usu?rio."
 }

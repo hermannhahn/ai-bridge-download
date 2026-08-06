@@ -3,6 +3,24 @@
 ---
 
 
+## Release - v2.3.132
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta vers?o garante a inicializa??o da janela do Chrome 100% maximizada na tela para acompanhamento visual completo do usu?rio.
+
+### 📋 Changelog da Versão
+
+**Total:** 3 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.132 (`a90e275`)
+- update development branch (`64030ec`)
+- update development branch (`cb5614d`)
+
+
+---
+
+
 ## Release - v2.3.131
 ### 📣 Apresentação da Atualização
 
