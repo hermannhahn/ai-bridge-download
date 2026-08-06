@@ -3,6 +3,23 @@
 ---
 
 
+## Release - v2.3.122
+### 📣 Apresentação da Atualização
+
+**Resumo:** Captura de pensamentos (Chain of Thought), percepção espacial e de canal, e registro automático de ferramentas MCP no LTM.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.122 (`a719b3b`)
+- updates in feature/ltm-thought-spatial (`342cab3`)
+
+
+---
+
+
 ## Release - v2.3.121
 ### 📣 Apresentação da Atualização
 
