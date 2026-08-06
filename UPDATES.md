@@ -3,6 +3,25 @@
 ---
 
 
+## Release - v2.3.124
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta versao corrige como o agente processa e armazena seus proprios pensamentos, alem de melhorar o isolamento de privacidade entre diferentes agentes.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.124 (`64f458d`)
+
+#### 🐛 Correções
+- isolamento de containers por agente; agent_id vazio trata como admin (`68e7e04`)
+
+
+---
+
+
 ## Release - v2.3.123
 ### 📣 Apresentação da Atualização
 
