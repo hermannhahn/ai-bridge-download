@@ -3,6 +3,23 @@
 ---
 
 
+## Release - v2.3.130
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta vers?o estabiliza o processo em segundo plano do Chrome no Windows e garante a conclus?o perfeita da navega??o via protocolo DevTools.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.130 (`8876aed`)
+- update development branch (`4544f88`)
+
+
+---
+
+
 ## Release - v2.3.129
 ### 📣 Apresentação da Atualização
 

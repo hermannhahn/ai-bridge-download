@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.129",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.129.exe",
-    "notes": "**Resumo:** Esta vers?o corrige a abertura de novas abas e a execu??o de comandos interativos no Chrome DevTools, garantindo controle fluido pelo agente."
+    "version": "2.3.130",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.130.exe",
+    "notes": "**Resumo:** Esta vers?o estabiliza o processo em segundo plano do Chrome no Windows e garante a conclus?o perfeita da navega??o via protocolo DevTools."
 }
