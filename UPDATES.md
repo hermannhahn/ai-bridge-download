@@ -3,6 +3,23 @@
 ---
 
 
+## Release - v2.3.128
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta vers?o simplifica o uso das ferramentas Docker pelos agentes, permitindo listar e interagir com containers sem a necessidade de par?metros manuais.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.128 (`a0b4500`)
+- update development branch (`7ca4606`)
+
+
+---
+
+
 ## Release - v2.3.127
 ### 📣 Apresentação da Atualização
 

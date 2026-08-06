@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.127",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.127.exe",
-    "notes": "**Resumo:** Esta atualiza??o inclui o pensamento e a motiva??o do modelo no topo do retorno das ferramentas MCP locais, facilitando o acompanhamento do racioc?nio da IA."
+    "version": "2.3.128",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.128.exe",
+    "notes": "**Resumo:** Esta vers?o simplifica o uso das ferramentas Docker pelos agentes, permitindo listar e interagir com containers sem a necessidade de par?metros manuais."
 }
