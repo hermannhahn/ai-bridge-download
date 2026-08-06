@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.125",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.125.exe",
-    "notes": "**Resumo:** Esta vers?o adiciona suporte completo a ferramentas do Chrome DevTools no AI Bridge, permitindo automa??o, inspe??o e controle de navegadores web diretamente pelos agentes."
+    "version": "2.3.126",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.126.exe",
+    "notes": "**Resumo:** Esta atualiza??o ativa o modo de automa??o por IA no navegador e corrige o suporte a comandos interativos no Chrome DevTools."
 }

@@ -3,6 +3,23 @@
 ---
 
 
+## Release - v2.3.126
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta atualiza??o ativa o modo de automa??o por IA no navegador e corrige o suporte a comandos interativos no Chrome DevTools.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.126 (`9f7f664`)
+- update development branch (`e88299f`)
+
+
+---
+
+
 ## Release - v2.3.125
 ### 📣 Apresentação da Atualização
 
