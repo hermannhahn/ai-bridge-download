@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.137
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta vers?o restaura a mec?nica exata da vers?o v2.3.133 para a execu??o e controle das ferramentas do Chrome DevTools.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.137 (`595be61`)
+
+
+---
+
+
 ## Release - v2.3.136
 ### 📣 Apresentação da Atualização
 

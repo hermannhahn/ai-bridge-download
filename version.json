@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.136",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.136.exe",
-    "notes": "**Resumo:** Esta vers?o garante o relan?amento vis?vel do Chrome no modo Maximizado, eliminando a reutiliza??o de processos ocultos antigos em segundo plano."
+    "version": "2.3.137",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.137.exe",
+    "notes": "**Resumo:** Esta vers?o restaura a mec?nica exata da vers?o v2.3.133 para a execu??o e controle das ferramentas do Chrome DevTools."
 }
