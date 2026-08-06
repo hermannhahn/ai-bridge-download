@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.115",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.115.exe",
-    "notes": "**Resumo:** Corre??o no sistema de consolida??o de mem?rias e sincroniza??o da API."
+    "version": "2.3.116",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.116.exe",
+    "notes": "**Resumo:** Correcao na exibicao do status do servico RAG no painel central AI-Brain."
 }

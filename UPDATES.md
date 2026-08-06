@@ -3,6 +3,33 @@
 ---
 
 
+## Release - v2.3.116
+### 📣 Apresentação da Atualização
+
+**Resumo:** Correcao na exibicao do status do servico RAG no painel central AI-Brain.
+
+### 📋 Changelog da Versão
+
+**Total:** 6 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.116 (`79225a4`)
+
+#### 🐛 Correções
+- corrigir mapeamento invertido dos status de RAG e LTM (`ad76ce7`)
+- contador 'Memories worked' do card Model Sleep agora reflete o último ciclo com trabalho real (`9142b55`)
+- remove botões Reinstall/Restart do card Model Sleep na tela Services Status (`b106d9d`)
+
+#### 🔧 Manutenção / Refatoração
+- remove arquivo de teste de assinatura SSH (`123b395`)
+
+#### ✅ Testes
+- verificar assinatura SSH do vetorstark (`c4361fa`)
+
+
+---
+
+
 ## Release - v2.3.115
 ### 📣 Apresentação da Atualização
 
