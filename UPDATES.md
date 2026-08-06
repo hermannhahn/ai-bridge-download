@@ -3,6 +3,23 @@
 ---
 
 
+## Release - v2.3.125
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta vers?o adiciona suporte completo a ferramentas do Chrome DevTools no AI Bridge, permitindo automa??o, inspe??o e controle de navegadores web diretamente pelos agentes.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.125 (`b81469f`)
+- update development branch (`eff9432`)
+
+
+---
+
+
 ## Release - v2.3.124
 ### 📣 Apresentação da Atualização
 
