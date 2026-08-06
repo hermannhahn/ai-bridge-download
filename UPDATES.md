@@ -3,6 +3,26 @@
 ---
 
 
+## Release - v2.3.121
+### 📣 Apresentação da Atualização
+
+**Resumo:** Controle de concorrência e isolamento de ferramentas MCP dos agentes, suporte ao modo Ping-Pong Síncrono e persistência global da aba Settings.
+
+### 📋 Changelog da Versão
+
+**Total:** 5 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.121 (`0bee7d6`)
+- update development branch (`c992511`)
+- update development branch (`5172e0e`)
+- update development branch (`1e45328`)
+- update development branch (`229cd87`)
+
+
+---
+
+
 ## Release - v2.3.119
 ### 📣 Apresentação da Atualização
 
