@@ -3,6 +3,25 @@
 ---
 
 
+## Release - v2.3.117
+### 📣 Apresentação da Atualização
+
+**Resumo:** Melhora na checagem de saude do servico de memoria LTM (PostgreSQL/pgvector).
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.117 (`a8bcdd4`)
+
+#### 🐛 Correções
+- utilizar PingContext ultra-rapido para health check de LTM (`3d5e783`)
+
+
+---
+
+
 ## Release - v2.3.116
 ### 📣 Apresentação da Atualização
 
