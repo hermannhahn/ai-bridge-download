@@ -3,6 +3,23 @@
 ---
 
 
+## Release - v2.3.127
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta atualiza??o inclui o pensamento e a motiva??o do modelo no topo do retorno das ferramentas MCP locais, facilitando o acompanhamento do racioc?nio da IA.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.127 (`bed1f63`)
+- update development branch (`445f30a`)
+
+
+---
+
+
 ## Release - v2.3.126
 ### 📣 Apresentação da Atualização
 
