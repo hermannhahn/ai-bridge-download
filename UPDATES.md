@@ -3,6 +3,23 @@
 ---
 
 
+## Release - v2.3.133
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta vers?o adiciona a op??o de sele??o do modo do Chrome na aba de Configura??es, permitindo escolher entre navega??o vis?vel maximizada ou silenciosa em segundo plano.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.133 (`d6e5f43`)
+- update development branch (`f5b8bb6`)
+
+
+---
+
+
 ## Release - v2.3.132
 ### 📣 Apresentação da Atualização
 

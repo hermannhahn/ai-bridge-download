@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.132",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.132.exe",
-    "notes": "**Resumo:** Esta vers?o garante a inicializa??o da janela do Chrome 100% maximizada na tela para acompanhamento visual completo do usu?rio."
+    "version": "2.3.133",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.133.exe",
+    "notes": "**Resumo:** Esta vers?o adiciona a op??o de sele??o do modo do Chrome na aba de Configura??es, permitindo escolher entre navega??o vis?vel maximizada ou silenciosa em segundo plano."
 }
