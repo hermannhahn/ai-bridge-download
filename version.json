@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.117",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.117.exe",
-    "notes": "**Resumo:** Melhora na checagem de saude do servico de memoria LTM (PostgreSQL/pgvector)."
+    "version": "2.3.118",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.118.exe",
+    "notes": "**Resumo:** Otimização da estabilidade e da concorrência de memória no AI Bridge."
 }

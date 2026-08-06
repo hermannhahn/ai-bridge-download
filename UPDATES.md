@@ -3,6 +3,26 @@
 ---
 
 
+## Release - v2.3.118
+### 📣 Apresentação da Atualização
+
+**Resumo:** Otimização da estabilidade e da concorrência de memória no AI Bridge.
+
+### 📋 Changelog da Versão
+
+**Total:** 3 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.118 (`497aecb`)
+- update development branch (`0c8fa3c`)
+
+#### 🐛 Correções
+- otimiza timeout de busca de memorias RAG para evitar oscilacao no websocket (`f2141c1`)
+
+
+---
+
+
 ## Release - v2.3.117
 ### 📣 Apresentação da Atualização
 
