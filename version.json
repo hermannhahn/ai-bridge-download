@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.128",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.128.exe",
-    "notes": "**Resumo:** Esta vers?o simplifica o uso das ferramentas Docker pelos agentes, permitindo listar e interagir com containers sem a necessidade de par?metros manuais."
+    "version": "2.3.129",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.129.exe",
+    "notes": "**Resumo:** Esta vers?o corrige a abertura de novas abas e a execu??o de comandos interativos no Chrome DevTools, garantindo controle fluido pelo agente."
 }

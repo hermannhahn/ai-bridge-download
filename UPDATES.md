@@ -3,6 +3,23 @@
 ---
 
 
+## Release - v2.3.129
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta vers?o corrige a abertura de novas abas e a execu??o de comandos interativos no Chrome DevTools, garantindo controle fluido pelo agente.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.129 (`02a77b5`)
+- update development branch (`a1609f8`)
+
+
+---
+
+
 ## Release - v2.3.128
 ### 📣 Apresentação da Atualização
 
