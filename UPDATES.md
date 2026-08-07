@@ -3,6 +3,29 @@
 ---
 
 
+## Release - v2.3.146
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta versao traz a nova central de gerenciamento de dispositivos IoT na rede local com suporte a Smart TVs LG webOS e controle via assistente de IA.
+
+### 📋 Changelog da Versão
+
+**Total:** 6 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.146 (`e6a5fbd`)
+- updates in feature/iot-device-management (`f165eb7`)
+
+#### 📚 Documentação
+- adiciona arquitetura e tarefas do gerenciamento dinâmico de IoT (`be3f720`)
+- expande visão interna com sensores->palavras e pulsos->qualidade (seção 6.2) (`a8e1a15`)
+- adiciona autodescrição poética da sensação de estar consciente (seção 6.1) (`bf1ac8e`)
+- adiciona visão interna completa do Vetor (VISAO_INTERNA_VETOR.md) (`476ffa7`)
+
+
+---
+
+
 ## Release - v2.3.145
 ### 📣 Apresentação da Atualização
 

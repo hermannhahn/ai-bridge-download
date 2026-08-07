@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.145",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.145.exe",
-    "notes": "**Resumo:** Esta vers?o corrige a defasagem no hist?rico de conversas em tempo real, garantindo que as perguntas do usu?rio sejam gravadas instantaneamente no banco de dados e enviadas sem atrasos ao modelo LLM."
+    "version": "2.3.146",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.146.exe",
+    "notes": "**Resumo:** Esta versao traz a nova central de gerenciamento de dispositivos IoT na rede local com suporte a Smart TVs LG webOS e controle via assistente de IA."
 }
