@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.141
+### 📣 Apresentação da Atualização
+
+**Resumo:** Correcao na resiliencia da conexao do banco de dados local LTM.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.141 (`0e99dd6`)
+
+
+---
+
+
 ## Release - v2.3.140
 ### 📣 Apresentação da Atualização
 
