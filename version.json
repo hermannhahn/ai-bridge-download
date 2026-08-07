@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.141",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.141.exe",
-    "notes": "**Resumo:** Correcao na resiliencia da conexao do banco de dados local LTM."
+    "version": "2.3.142",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.142.exe",
+    "notes": "**Resumo:** Atualiza??o no Sono do Modelo com verifica??o e download autom?tico do modelo LLM no Ollama."
 }

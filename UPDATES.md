@@ -3,6 +3,23 @@
 ---
 
 
+## Release - v2.3.142
+### 📣 Apresentação da Atualização
+
+**Resumo:** Atualiza??o no Sono do Modelo com verifica??o e download autom?tico do modelo LLM no Ollama.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.142 (`dd017b8`)
+- updates in fix/consolidation-sleep-model (`6b31aee`)
+
+
+---
+
+
 ## Release - v2.3.141
 ### 📣 Apresentação da Atualização
 
