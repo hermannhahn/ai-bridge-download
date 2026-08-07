@@ -3,6 +3,23 @@
 ---
 
 
+## Release - v2.3.144
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta vers?o padroniza em ingl?s a base das ferramentas locais e expande o suporte de tradu??o em tempo real para os 8 idiomas da interface.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.144 (`5a09d66`)
+- translate Local Tools names and descriptions to English base version and improve i18n rendering (`76c292e`)
+
+
+---
+
+
 ## Release - v2.3.143
 ### 📣 Apresentação da Atualização
 
