@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.144",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.144.exe",
-    "notes": "**Resumo:** Esta vers?o padroniza em ingl?s a base das ferramentas locais e expande o suporte de tradu??o em tempo real para os 8 idiomas da interface."
+    "version": "2.3.145",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.145.exe",
+    "notes": "**Resumo:** Esta vers?o corrige a defasagem no hist?rico de conversas em tempo real, garantindo que as perguntas do usu?rio sejam gravadas instantaneamente no banco de dados e enviadas sem atrasos ao modelo LLM."
 }

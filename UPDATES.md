@@ -3,6 +3,25 @@
 ---
 
 
+## Release - v2.3.145
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta vers?o corrige a defasagem no hist?rico de conversas em tempo real, garantindo que as perguntas do usu?rio sejam gravadas instantaneamente no banco de dados e enviadas sem atrasos ao modelo LLM.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.145 (`511af4b`)
+
+#### 🐛 Correções
+- instant postgresql insertion to prevent LLM history race condition and off-by-one chat lag (`e99e616`)
+
+
+---
+
+
 ## Release - v2.3.144
 ### 📣 Apresentação da Atualização
 
