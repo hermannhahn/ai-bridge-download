@@ -1,0 +1,6 @@
+﻿{
+    "service_name":  "ai-bridge",
+    "version":  "2.3.140",
+    "download_url":  "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.140.exe",
+    "notes":  "Correcao na resiliencia da conexao do banco de dados local LTM."
+}
