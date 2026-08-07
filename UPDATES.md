@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.147
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta versao simplifica os identificadores das ferramentas MCP de Smart TVs LG webOS, otimizando os nomes de chamadas do assistente de IA.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.147 (`1b4c0be`)
+
+
+---
+
+
 ## Release - v2.3.146
 ### 📣 Apresentação da Atualização
 

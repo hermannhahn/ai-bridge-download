@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.146",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.146.exe",
-    "notes": "**Resumo:** Esta versao traz a nova central de gerenciamento de dispositivos IoT na rede local com suporte a Smart TVs LG webOS e controle via assistente de IA."
+    "version": "2.3.147",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.147.exe",
+    "notes": "**Resumo:** Esta versao simplifica os identificadores das ferramentas MCP de Smart TVs LG webOS, otimizando os nomes de chamadas do assistente de IA."
 }
