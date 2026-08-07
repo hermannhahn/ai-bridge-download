@@ -3,6 +3,24 @@
 ---
 
 
+## Release - v2.3.143
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta vers?o traz suporte ? API do DeepSeek para o processamento do Sono do Modelo e introduz o modo de consolida??o Always com an?lise de carga emocional em tempo real.
+
+### 📋 Changelog da Versão
+
+**Total:** 3 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.143 (`5394583`)
+- updates in feature/consolidation-mode-always-idle (`08800d4`)
+- updates in feature/deepseek-consolidation (`7658904`)
+
+
+---
+
+
 ## Release - v2.3.142
 ### 📣 Apresentação da Atualização
 

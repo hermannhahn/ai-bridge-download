@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.142",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.142.exe",
-    "notes": "**Resumo:** Atualiza??o no Sono do Modelo com verifica??o e download autom?tico do modelo LLM no Ollama."
+    "version": "2.3.143",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.143.exe",
+    "notes": "**Resumo:** Esta vers?o traz suporte ? API do DeepSeek para o processamento do Sono do Modelo e introduz o modo de consolida??o Always com an?lise de carga emocional em tempo real."
 }
