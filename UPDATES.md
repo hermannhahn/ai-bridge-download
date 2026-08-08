@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.152
+### 📣 Apresentação da Atualização
+
+**Resumo:** Centralizacao das ferramentas MCP de controle IoT nas ferramentas iot_control e iot_list_devices, remocao de codigo legado/morto e suporte a apelidos/renomeacao de dispositivos.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.152 (`74ff13d`)
+
+
+---
+
+
 ## Release - v2.3.151
 ### 📣 Apresentação da Atualização
 

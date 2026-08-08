@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.151",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.151.exe",
-    "notes": "**Resumo:** Otimizacao do varredor de rede IoT para execucao 100% silenciosa sem abertura de janelas CMD e limitacao inteligente de concorrencia."
+    "version": "2.3.152",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.152.exe",
+    "notes": "**Resumo:** Centralizacao das ferramentas MCP de controle IoT nas ferramentas iot_control e iot_list_devices, remocao de codigo legado/morto e suporte a apelidos/renomeacao de dispositivos."
 }
