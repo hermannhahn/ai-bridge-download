@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.162
+### 📣 Apresentação da Atualização
+
+**Resumo:** Adicionada a documentação arquitetural do Modelo de Importância Relacional e Epistêmica de Memória (REMW Model) na pasta de documentação do projeto.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.162 (`c1c8b01`)
+
+
+---
+
+
 ## Release - v2.3.161
 ### 📣 Apresentação da Atualização
 

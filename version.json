@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.161",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.161.exe",
-    "notes": "**Resumo:** Esta atualização adiciona o suporte completo às ações de verificação anti-bot (desafios Reverse CAPTCHA) e à visão geral da conta na ferramenta MCP do Moltbook."
+    "version": "2.3.162",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.162.exe",
+    "notes": "**Resumo:** Adicionada a documentação arquitetural do Modelo de Importância Relacional e Epistêmica de Memória (REMW Model) na pasta de documentação do projeto."
 }
