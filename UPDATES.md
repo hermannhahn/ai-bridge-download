@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.150
+### 📣 Apresentação da Atualização
+
+**Resumo:** Correcao de erro de sintaxe do JavaScript (SyntaxError: Identifier btnScanIoT has already been declared) introduzido na integracao do modulo IoT.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.150 (`6505433`)
+
+
+---
+
+
 ## Release - v2.3.149
 ### 📣 Apresentação da Atualização
 
