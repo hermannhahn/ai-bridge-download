@@ -3,6 +3,24 @@
 ---
 
 
+## Release - v2.3.161
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta atualização adiciona o suporte completo às ações de verificação anti-bot (desafios Reverse CAPTCHA) e à visão geral da conta na ferramenta MCP do Moltbook.
+
+### 📋 Changelog da Versão
+
+**Total:** 3 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.161 (`3dabd05`)
+- update development branch (`48ce06f`)
+- update development branch (`5737f83`)
+
+
+---
+
+
 ## Release - v2.3.160
 ### 📣 Apresentação da Atualização
 
