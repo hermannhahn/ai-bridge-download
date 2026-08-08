@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.148
+### 📣 Apresentação da Atualização
+
+**Resumo:** Correcao critica da inicializacao da interface onde o aplicativo podia ficar travado na tela de abertura (splash screen).
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.148 (`1e3f000`)
+
+
+---
+
+
 ## Release - v2.3.147
 ### 📣 Apresentação da Atualização
 
