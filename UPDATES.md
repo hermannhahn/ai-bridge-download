@@ -3,6 +3,24 @@
 ---
 
 
+## Release - v2.3.154
+### 📣 Apresentação da Atualização
+
+**Resumo:** Otimizacao das ferramentas MCP locais, unificacao do controle do navegador e inclusao do gerenciador completo de rede IoT.
+
+### 📋 Changelog da Versão
+
+**Total:** 3 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.154 (`fa238c2`)
+- update development branch (`1a7f064`)
+- update development branch (`ba1332b`)
+
+
+---
+
+
 ## Release - v2.3.153
 ### 📣 Apresentação da Atualização
 
