@@ -3,6 +3,27 @@
 ---
 
 
+## Release - v2.3.165
+### 📣 Apresentação da Atualização
+
+**Resumo:** Automatiza??es e prote??es no fluxo do Git e inje??o autom?tica de contexto de projeto na ferramenta MCP Docker.
+
+### 📋 Changelog da Versão
+
+**Total:** 6 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.165 (`766629f`)
+- update development branch (`1c4b655`)
+- update development branch (`d2a99fc`)
+- update development branch (`0b5402c`)
+- update development branch (`88ba632`)
+- update development branch (`d056306`)
+
+
+---
+
+
 ## Release - v2.3.164
 ### 📣 Apresentação da Atualização
 
