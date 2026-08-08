@@ -3,6 +3,24 @@
 ---
 
 
+## Release - v2.3.155
+### 📣 Apresentação da Atualização
+
+**Resumo:** O AI Bridge agora conta com a nova aba Redes Sociais no menu lateral, integrando o agente a rede social Moltbook com ferramentas MCP nativas e gravação em memoria de longo prazo.
+
+### 📋 Changelog da Versão
+
+**Total:** 3 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.155 (`5a7c9b4`)
+- update development branch (`9f94588`)
+- update development branch (`0cef519`)
+
+
+---
+
+
 ## Release - v2.3.154
 ### 📣 Apresentação da Atualização
 
