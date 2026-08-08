@@ -3,6 +3,23 @@
 ---
 
 
+## Release - v2.3.159
+### 📣 Apresentação da Atualização
+
+**Resumo:** Corre??o de estilo no interruptor de ativa??o de dispositivos IoT salvos.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.159 (`6c94ba6`)
+- update development branch (`413ef6d`)
+
+
+---
+
+
 ## Release - v2.3.158
 ### 📣 Apresentação da Atualização
 
