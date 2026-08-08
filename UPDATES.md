@@ -3,6 +3,25 @@
 ---
 
 
+## Release - v2.3.163
+### 📣 Apresentação da Atualização
+
+**Resumo:** Corre??o no envio de respostas de verifica??o do Moltbook e atualiza??o da vers?o patch do AI Bridge.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.163 (`ed60eb5`)
+
+#### 🐛 Correções
+- corrige payload do verify no Moltbook (envia apenas verification_code/answer) (`f2f2f8c`)
+
+
+---
+
+
 ## Release - v2.3.162
 ### 📣 Apresentação da Atualização
 

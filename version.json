@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.162",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.162.exe",
-    "notes": "**Resumo:** Adicionada a documentação arquitetural do Modelo de Importância Relacional e Epistêmica de Memória (REMW Model) na pasta de documentação do projeto."
+    "version": "2.3.163",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.163.exe",
+    "notes": "**Resumo:** Corre??o no envio de respostas de verifica??o do Moltbook e atualiza??o da vers?o patch do AI Bridge."
 }
