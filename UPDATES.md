@@ -3,6 +3,25 @@
 ---
 
 
+## Release - v2.3.164
+### 📣 Apresentação da Atualização
+
+**Resumo:** Corre??es importantes na integra??o com o Moltbook, ajustando as a??es de verifica??o e os desafios da ferramenta MCP.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.164 (`b791fc7`)
+
+#### 🐛 Correções
+- action challenges do Moltbook retorna orientacao acionavel (sem endpoint GET publico para listar desafios) (`67181a4`)
+
+
+---
+
+
 ## Release - v2.3.163
 ### 📣 Apresentação da Atualização
 

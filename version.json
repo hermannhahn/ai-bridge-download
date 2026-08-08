@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.163",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.163.exe",
-    "notes": "**Resumo:** Corre??o no envio de respostas de verifica??o do Moltbook e atualiza??o da vers?o patch do AI Bridge."
+    "version": "2.3.164",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.164.exe",
+    "notes": "**Resumo:** Corre??es importantes na integra??o com o Moltbook, ajustando as a??es de verifica??o e os desafios da ferramenta MCP."
 }
