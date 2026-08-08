@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.166",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.166.exe",
-    "notes": "**Resumo:** Cobertura completa na inje??o de contexto de projeto (AGENTS.md) em todas as a??es de listagem da ferramenta MCP Docker."
+    "version": "2.3.167",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.167.exe",
+    "notes": "**Resumo:** Corre??o na identifica??o de containers por agent_id e suporte ? listagem interna de diret?rios em containers de agentes."
 }

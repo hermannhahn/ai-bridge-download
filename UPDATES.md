@@ -3,6 +3,23 @@
 ---
 
 
+## Release - v2.3.167
+### 📣 Apresentação da Atualização
+
+**Resumo:** Corre??o na identifica??o de containers por agent_id e suporte ? listagem interna de diret?rios em containers de agentes.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.167 (`82174a8`)
+- update development branch (`7b0bd3a`)
+
+
+---
+
+
 ## Release - v2.3.166
 ### 📣 Apresentação da Atualização
 
