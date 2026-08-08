@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.156",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.156.exe",
+    "version": "2.3.158",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.158.exe",
     "notes": "**Resumo:** Correção no scanner de rede local IoT e melhorias na detecção de dispositivos via ferramentas MCP dos agentes de IA."
 }

@@ -3,6 +3,38 @@
 ---
 
 
+## Release - v2.3.158
+### 📣 Apresentação da Atualização
+
+**Resumo:** Correção no scanner de rede local IoT e melhorias na detecção de dispositivos via ferramentas MCP dos agentes de IA.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.158 (`251341d`)
+
+
+---
+
+
+## Release - v2.3.157
+### 📣 Apresentação da Atualização
+
+**Resumo:** Correção no scanner de rede local IoT e melhorias na detecção de dispositivos via ferramentas MCP dos agentes de IA.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.157 (`0c53613`)
+
+
+---
+
+
 ## Release - v2.3.156
 ### 📣 Apresentação da Atualização
 
