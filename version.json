@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.150",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.150.exe",
-    "notes": "**Resumo:** Correcao de erro de sintaxe do JavaScript (SyntaxError: Identifier btnScanIoT has already been declared) introduzido na integracao do modulo IoT."
+    "version": "2.3.151",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.151.exe",
+    "notes": "**Resumo:** Otimizacao do varredor de rede IoT para execucao 100% silenciosa sem abertura de janelas CMD e limitacao inteligente de concorrencia."
 }

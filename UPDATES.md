@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.151
+### 📣 Apresentação da Atualização
+
+**Resumo:** Otimizacao do varredor de rede IoT para execucao 100% silenciosa sem abertura de janelas CMD e limitacao inteligente de concorrencia.
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.151 (`5ff499d`)
+
+
+---
+
+
 ## Release - v2.3.150
 ### 📣 Apresentação da Atualização
 
