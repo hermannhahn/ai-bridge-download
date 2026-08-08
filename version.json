@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.159",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.159.exe",
-    "notes": "**Resumo:** Corre??o de estilo no interruptor de ativa??o de dispositivos IoT salvos."
+    "version": "2.3.160",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.160.exe",
+    "notes": "**Resumo:** Esta atualização traz correções importantes na gravação e resgate de memórias da rede social Moltbook, identificação precisa do agente dono de cada lembrança e centralização do cabeçalho de pensamento nas ferramentas MCP."
 }

@@ -3,6 +3,25 @@
 ---
 
 
+## Release - v2.3.160
+### 📣 Apresentação da Atualização
+
+**Resumo:** Esta atualização traz correções importantes na gravação e resgate de memórias da rede social Moltbook, identificação precisa do agente dono de cada lembrança e centralização do cabeçalho de pensamento nas ferramentas MCP.
+
+### 📋 Changelog da Versão
+
+**Total:** 4 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.160 (`19d2973`)
+- update development branch (`0dc0221`)
+- updates in fix/moltbook-memory-recording (`10baf2a`)
+- update development branch (`68cfc41`)
+
+
+---
+
+
 ## Release - v2.3.159
 ### 📣 Apresentação da Atualização
 
