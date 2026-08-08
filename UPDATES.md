@@ -3,6 +3,23 @@
 ---
 
 
+## Release - v2.3.166
+### 📣 Apresentação da Atualização
+
+**Resumo:** Cobertura completa na inje??o de contexto de projeto (AGENTS.md) em todas as a??es de listagem da ferramenta MCP Docker.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.166 (`42b7c9a`)
+- update development branch (`024091f`)
+
+
+---
+
+
 ## Release - v2.3.165
 ### 📣 Apresentação da Atualização
 

@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.165",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.165.exe",
-    "notes": "**Resumo:** Automatiza??es e prote??es no fluxo do Git e inje??o autom?tica de contexto de projeto na ferramenta MCP Docker."
+    "version": "2.3.166",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.166.exe",
+    "notes": "**Resumo:** Cobertura completa na inje??o de contexto de projeto (AGENTS.md) em todas as a??es de listagem da ferramenta MCP Docker."
 }
