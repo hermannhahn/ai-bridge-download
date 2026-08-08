@@ -3,6 +3,23 @@
 ---
 
 
+## Release - v2.3.156
+### 📣 Apresentação da Atualização
+
+**Resumo:** Correção no scanner de rede local IoT e melhorias na detecção de dispositivos via ferramentas MCP dos agentes de IA.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.156 (`7abc328`)
+- update development branch (`ffd96ae`)
+
+
+---
+
+
 ## Release - v2.3.155
 ### 📣 Apresentação da Atualização
 

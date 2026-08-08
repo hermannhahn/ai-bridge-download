@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.155",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.155.exe",
-    "notes": "**Resumo:** O AI Bridge agora conta com a nova aba Redes Sociais no menu lateral, integrando o agente a rede social Moltbook com ferramentas MCP nativas e gravação em memoria de longo prazo."
+    "version": "2.3.156",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.156.exe",
+    "notes": "**Resumo:** Correção no scanner de rede local IoT e melhorias na detecção de dispositivos via ferramentas MCP dos agentes de IA."
 }
