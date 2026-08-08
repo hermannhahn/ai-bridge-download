@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.152",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.152.exe",
-    "notes": "**Resumo:** Centralizacao das ferramentas MCP de controle IoT nas ferramentas iot_control e iot_list_devices, remocao de codigo legado/morto e suporte a apelidos/renomeacao de dispositivos."
+    "version": "2.3.153",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.153.exe",
+    "notes": "**Resumo:** Unificacao das ferramentas MCP do Docker em 3 ferramentas principais e exibicao detalhada do comando executado nos logs de diagnostico do servidor."
 }

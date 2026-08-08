@@ -3,6 +3,24 @@
 ---
 
 
+## Release - v2.3.153
+### 📣 Apresentação da Atualização
+
+**Resumo:** Unificacao das ferramentas MCP do Docker em 3 ferramentas principais e exibicao detalhada do comando executado nos logs de diagnostico do servidor.
+
+### 📋 Changelog da Versão
+
+**Total:** 3 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.153 (`519adf9`)
+- update development branch (`d00488d`)
+- update development branch (`b68d1a9`)
+
+
+---
+
+
 ## Release - v2.3.152
 ### 📣 Apresentação da Atualização
 
