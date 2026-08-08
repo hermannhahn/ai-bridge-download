@@ -3,6 +3,22 @@
 ---
 
 
+## Release - v2.3.149
+### 📣 Apresentação da Atualização
+
+**Resumo:** Correcao definitiva da inicializacao e transicao da tela de abertura (splash screen).
+
+### 📋 Changelog da Versão
+
+**Total:** 1 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.3.149 (`0e19e50`)
+
+
+---
+
+
 ## Release - v2.3.148
 ### 📣 Apresentação da Atualização
 

@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.3.148",
-    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.148.exe",
-    "notes": "**Resumo:** Correcao critica da inicializacao da interface onde o aplicativo podia ficar travado na tela de abertura (splash screen)."
+    "version": "2.3.149",
+    "download_url": "https://github.com/hermannhahn/ai-bridge-download/raw/main/AI-Bridge-Setup-v2.3.149.exe",
+    "notes": "**Resumo:** Correcao definitiva da inicializacao e transicao da tela de abertura (splash screen)."
 }
