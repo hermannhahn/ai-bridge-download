@@ -1,6 +1,6 @@
 {
     "service_name": "ai-bridge",
-    "version": "2.5.104",
-    "download_url": "https://github.com/hermannhahn/ai-brain-desktop/releases/download/v2.5.104/MEMO-Desktop-Setup-v2.5.104.exe",
+    "version": "2.5.105",
+    "download_url": "https://github.com/hermannhahn/ai-brain-desktop/releases/download/v2.5.105/MEMO-Desktop-Setup-v2.5.105.exe",
     "notes": "<!-- lang:en --> **Summary:** RAG notes ranking fix — capped the access-count boost (LN) that was giving the most-read note (playbook, access_count=63) an unbounded ~5x multiplier, drowning semantic similarity and making it dominate unrelated queries. Boost now saturates at ~1.7x. **Highlights:** Notes no longer dominate via pure popularity; real semantic relevance preserved.\n<!-- lang:pt --> **Resumo:** Correção no ranking de notas do RAG — limitado o boost de acesso (LN) que dava à nota mais lida (playbook, access_count=63) um multiplicador ilimitado de ~5x, soterrando a similaridade semântica e fazendo a nota dominar consultas não relacionadas. Boost agora satura em ~1.7x. **Destaques:** Notas deixam de dominar por pura popularidade; relevância semântica real preservada."
 }
