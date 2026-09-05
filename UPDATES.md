@@ -3,6 +3,26 @@
 ---
 
 
+## Release - v2.5.104
+### 📣 Apresentação da Atualização
+
+<!-- lang:en --> **Summary:** RAG notes ranking fix — capped the access-count boost (LN) that was giving the most-read note (playbook, access_count=63) an unbounded ~5x multiplier, drowning semantic similarity and making it dominate unrelated queries. Boost now saturates at ~1.7x. **Highlights:** Notes no longer dominate via pure popularity; real semantic relevance preserved.
+<!-- lang:pt --> **Resumo:** Correção no ranking de notas do RAG — limitado o boost de acesso (LN) que dava à nota mais lida (playbook, access_count=63) um multiplicador ilimitado de ~5x, soterrando a similaridade semântica e fazendo a nota dominar consultas não relacionadas. Boost agora satura em ~1.7x. **Destaques:** Notas deixam de dominar por pura popularidade; relevância semântica real preservada.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.5.104 (`6311f45`)
+
+#### 🐛 Correções
+- cap access-count boost em notas para quebrar ciclo de dominância (playbook ID 97) (`3d1943a`)
+
+
+---
+
+
 ## Release - v2.5.103
 ### 📣 Apresentação da Atualização
 
