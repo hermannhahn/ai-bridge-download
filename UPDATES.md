@@ -3,6 +3,23 @@
 ---
 
 
+## Release - v2.5.111
+### 📣 Apresentação da Atualização
+
+feat: ranking RAG fixado no codigo via JSON embutido (emotional 0.15, consolidated_boost 1.15, top_k 6)
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.5.111 (`733a221`)
+- fixar ranking RAG no código via JSON embutido (`89a9a93`)
+
+
+---
+
+
 ## Release - v2.5.110
 ### 📣 Apresentação da Atualização
 
