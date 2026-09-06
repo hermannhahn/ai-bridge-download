@@ -3,6 +3,73 @@
 ---
 
 
+## Release - v2.5.112
+### 📣 Apresentação da Atualização
+
+<!-- lang:en -->
+**Summary:** This update fixes a critical bug where the AI memory system was failing to recall long-term memories (such as people's names and past events) during conversations, even when over 70 relevant records existed. The command execution tool also no longer opens visible windows on your desktop.
+
+**Highlights:**
+- Long-term memories are now correctly recalled during conversations - names, events and past context work as expected
+- Memory ranking now properly boosts consolidated and merged memories, giving them priority in context injection
+- The MCP command tool (cmd/powershell) no longer opens a visible console window when the agent runs commands
+- The search_long_term_memories tool now uses the same vector search pipeline as the automatic RAG
+
+<!-- lang:pt -->
+**Resumo:** Esta atualizacao corrige um bug critico onde o sistema de memoria nao resgatava lembrancas de longo prazo (como nomes de pessoas e eventos passados) durante conversas, mesmo com mais de 70 registros relevantes. A ferramenta de execucao de comandos tambem nao abre mais janelas visiveis no seu desktop.
+
+**Destaques:**
+- Memorias de longo prazo agora sao corretamente resgatadas durante conversas - nomes, eventos e contexto passado funcionam como esperado
+- O ranking de memoria agora prioriza corretamente memorias consolidadas e fundidas (merged), dando-lhes prioridade na injecao de contexto
+- A ferramenta MCP de comandos (cmd/powershell) nao abre mais janela de console visivel quando o agente executa comandos
+- A ferramenta search_long_term_memories agora usa o mesmo pipeline de busca vetorial que o RAG automatico
+
+### 📋 Changelog da Versão
+
+**Total:** 5 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.5.112 (`cc361e0`)
+
+#### 🐛 Correções
+- CMD MCP silencioso no Windows + docs (`72a3288`)
+- corrigir pipeline RAG e adicionar busca vetorial ao search_long_term_memories (`d538fb5`)
+- corrigir query SQL do RAG para threshold permissivo e boost de merged (`d6f78e5`)
+- expandir ranking_defaults.json e ranking.go com todos os parametros RAG (`e3b17fd`)
+
+
+---
+
+## Em desenvolvimento — fix/rag-ltm-injection-and-cmd-silent (06/09/2026)
+
+### Correções Críticas do RAG de Memória de Longo Prazo
+
+**Bug #1 corrigido — Threshold SQL bloqueava memórias antes do boost:**
+O WHERE da query vetorial usava `coseno >= 0.30` (cru), eliminando memórias antes que o boost de `consolidated/merged` pudesse agir. Corrigido com threshold SQL permissivo (`MinSimilaritySQL = 0.20`) e corte real no score composto pós-ranking (`MinSimilarity = 0.25`).
+
+**Bug #2 corrigido — Memórias `merged` sem boost:**
+O boost de `1.15` só aplicava a `status = 'consolidated'`. As ~70 memórias merged (resultado do Sono do Modelo) recebiam boost `1.0`. Corrigido: boost `1.30` para `status IN ('consolidated', 'merged')`.
+
+**Bug #3 corrigido — Parâmetros RAG hardcoded fora do controle do JSON:**
+`ImportanceWeight`, `RecencyDecay`, `MinSimilarity` estavam hardcoded no pacote `db`. Migrados para `ranking_defaults.json` com `applyEmbeddedRankingDefaults()` cobrindo todos os campos.
+
+**Melhoria — `search_long_term_memories` com busca vetorial:**
+A ferramenta MCP agora usa o mesmo pipeline do RAG automático (embedding + `SearchChatMessagesVector`), retornando campo `memories` com resultados rankeados por score composto. Elimina o gap de comportamento entre a ferramenta e o RAG.
+
+**Fix — CMD MCP silencioso:**
+Ferramenta MCP `cmd` agora executa `cmd.exe` e `powershell.exe` com `CREATE_NO_WINDOW` via `hideWindow()`, eliminando a janela de console visível no desktop do usuário.
+
+### Arquivos modificados:
+- `internal/config/ranking_defaults.json` — novos campos: `rag_min_similarity_sql`, `rag_min_similarity`, `rag_importance_weight`, `rag_recency_decay`; boost elevado de 1.15→1.30
+- `internal/config/ranking.go` — struct expandida, `applyEmbeddedRankingDefaults` cobre todos os campos, nova `EmbeddedRankingDefaults()`
+- `internal/config/config.go` — campo `RagMinSimilaritySQL` adicionado
+- `internal/db/postgres.go` — query SQL corrigida (threshold, boost merged, fetchLimit, DefaultRankingParams)
+- `internal/services/brain_sync.go` — RankingParams completo, filtro pós-busca no score composto, busca vetorial no `search_long_term_memories`
+- `internal/mcp/executors_cmd.go` — `hideWindow()` para modo silencioso
+
+---
+
+
 ## Release - v2.5.111
 ### 📣 Apresentação da Atualização
 
