@@ -3,6 +3,35 @@
 ---
 
 
+## Release - v2.5.110
+### 📣 Apresentação da Atualização
+
+<!-- lang:en -->
+**Summary:** Fixes RAG note retrieval so relevant notes (including nicknames like Fran for Franciele) return correctly in the prompt instead of being replaced by unrelated popular notes.
+
+**Highlights:**
+- Note search now also matches word roots (first 4 letters), catching nicknames and prefixes the semantic search misses.
+- Cleaner and more reliable memory recall in conversations.
+
+<!-- lang:pt -->
+**Resumo:** Corrige a recuperação de notas no RAG para que notas relevantes (incluindo apelidos como Fran para Franciele) voltem corretamente no contexto, em vez de serem substituídas por notas populares sem relação.
+
+**Destaques:**
+- A busca de notas agora também casa radicais de palavras (4 primeiras letras), capturando apelidos e prefixos que a busca semântica não alcança.
+- Lembranças mais precisas e confiáveis nas conversas.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.5.110 (`20a2918`)
+- update development branch (`93f0343`)
+
+
+---
+
+
 ## Release - v2.5.109
 ### 📣 Apresentação da Atualização
 
