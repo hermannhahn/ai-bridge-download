@@ -3,6 +3,39 @@
 ---
 
 
+## Release - v2.5.109
+### 📣 Apresentação da Atualização
+
+<!-- lang:en -->
+**Summary:** Fixes a critical RAG memory ranking and retrieval bug, implements Portuguese stop-words filtering for search, introduces a calibrated memory decay lifecycle based on importance, and enables automated permanent physical deletion (hard delete) for operational tool call noise.
+
+**Highlights:**
+- Fixed critical parameter order mismatch in SQL ranking formula that heavily penalized memories older than 4 days.
+- Added Portuguese and English stop-words filtering to prevent common connective words from polluting the RAG limits.
+- Established a memory decay lifecycle for merged memories (90 days for casual interactions up to 2 years for critical decisions).
+- Implemented automated physical hard delete during nightly consolidation for purged tool execution noise and eliminated memories.
+
+<!-- lang:pt -->
+**Resumo:** Corrige uma falha crítica na fórmula de ranking e recuperação de memórias do RAG, adiciona filtro de stop-words em português, estabelece o ciclo de vida e decaimento calibrado por importância para memórias consolidadas e ativa a exclusão física definitiva (hard delete) para ruídos operacionais de ferramentas.
+
+**Destaques:**
+- Corrigida a inversão de parâmetros na fórmula SQL de ranking que descartava indevidamente memórias com mais de 4 dias.
+- Adicionado filtro de palavras de parada (stop-words) em português e inglês para evitar que conectivos encham o limite de recuperação do RAG.
+- Implementado ciclo de vida calibrado por importância para memórias unificadas (de 90 dias para saudações casuais até 2 anos para decisões críticas).
+- Ativada a purga física definitiva (hard delete) no banco de dados durante a consolidação noturna para ruídos de ferramentas e registros eliminados.
+
+### 📋 Changelog da Versão
+
+**Total:** 2 alteração(ões) acumulada(s) desde a última release.
+
+#### ✨ Novidades
+- updates for release v2.5.109 (`741c325`)
+- update development branch (`1253b07`)
+
+
+---
+
+
 ## Release - v2.5.108
 ### 📣 Apresentação da Atualização
 
